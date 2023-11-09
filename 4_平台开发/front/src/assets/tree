@@ -1,0 +1,20 @@
+// Tree
+digraph {
+	node [color=seagreen4 fontname=Consolas fontsize=24 shape=note]
+	edge [color=royalblue4]
+	compound=True fontname=Consolas fontsize=36 nodesep=0.25 rankdir=LR ranksep=2.5 splines=polyline
+	"vapor - deposited Cr films" -> Property [label=predicate color=black]
+	subgraph cluster_a {
+		label=Basis labeljust=l labelloc=t pencolor=lightsalmon style=rounded
+		Property
+	}
+	Property -> "non - uniformities" [label="Cause-Effect(e1,e2)" color=red]
+	Property -> "uniform growth" [label="Cause-Effect(e1,e2)" color=red]
+	Property -> "chemo - mechanical stability" [label="Cause-Effect(e1,e2)" color=red]
+	subgraph cluster_b {
+		label=Fine_grained labeljust=l labelloc=t pencolor=lightsalmon style=rounded
+		"non - uniformities"
+		"uniform growth"
+		"chemo - mechanical stability"
+	}
+}

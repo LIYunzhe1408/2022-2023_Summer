@@ -1,0 +1,1 @@
+{"content": "ANN is an appropriate method to estimate battery SOH because it is not essential to understand electrochemical reactions occurring inside the battery.", "records": [{"span": "ANN", "offset": [0, 2], "tag": "Characterization"}, {"span": "SOH", "offset": [49, 51], "tag": "Property_Behavior"}]}

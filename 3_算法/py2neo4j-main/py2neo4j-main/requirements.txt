@@ -1,0 +1,6 @@
+py2neo~=2020.0.0
+xlrd2~=1.3.4
+neo4jupyter~=0.2.0
+pymysql~=1.0.2
+ipython~=7.22.0
+json

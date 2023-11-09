@@ -1,0 +1,1 @@
+{"content": "Aver-age power of a single Li-S cell, which is used in this study, is about 5 W. Assuming a maximum power demand of 60 kW in a typical EV to move based on UDDS drive cycle, 12 000 of these prototype Li-S cells are needed.", "records": [{"span": "power", "offset": [100, 104], "tag": "Condition"}, {"span": "60 kW", "offset": [116, 120], "tag": "Condition"}]}

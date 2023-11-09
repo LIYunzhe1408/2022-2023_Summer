@@ -1,0 +1,1 @@
+{"content": "The results from Figure 14 show that the IndRNN model make its best eﬀort to track and predict near true SOH values for all time step sizes.", "records": [{"span": "IndRNN model", "offset": [41, 52], "tag": "Characterization"}, {"span": "SOH", "offset": [105, 107], "tag": "Property_Behavior"}]}

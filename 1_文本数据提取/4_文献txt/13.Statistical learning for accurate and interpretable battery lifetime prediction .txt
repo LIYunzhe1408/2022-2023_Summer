@@ -1,0 +1,51 @@
+Since publication of the Severson et al. dataset, others have applied advanced machine learning and deep learning methods, including relevance vector machines, gradient boosted regression trees, Gaussian process regression, recurrent neural networks (including long short-term memory networks), and convolutional neural networks. Many of these works have explored creative approaches, including data augmentation and the use of differential capacity analysis.
+In this work, we explore statistical learning approaches for developing accurate and interpretable battery lifetime prediction models. 
+We use the same datasets and objectives in Severson et al. for consistency and for comparison. 
+We first present the "capacity matrix"concept for compactly representing the changes in cell capacity with respect to voltage and cycle number. 
+Cells were cycled with one of 72 different fast charging protocols (~9– 13 minutes from 0–80% state-of-charge), but all cells were identically discharged   at 4C (here, C rate refers to the rate required to (dis)charge a cell in 1 hour).
+In addition to standard electrochemical data like voltage vs. capacity and capacity vs. cycle number, internal resistance was recorded every cycle number, and a thermocouple mounted to the cell can continuously recorded the can surface temperature of each cell. 
+The log transformation was applied to cycle life to reduce the positive skew of the cycle life distribution (Severson et al., Supplementary Figure 28). 
+Regression models were developed using the elastic net, a regularized linear regression method that simultaneously selects a subset of features and determines the feature coefficients. 
+This voltage response is also influenced by kinetic effects such as heterogeneous aging.
+In Severson et al., a model with a single feature extracted from the voltage vs. discharge capacity curves,  provided comparable accuracy to multivariate models with features from additional data sources such as internal resistance and can temperature.
+Clearly, the voltage vs. capacity curves contain important information for data-driven lifetime modeling in this application. 
+While this model has not been extensively validated for other battery lifetime prediction tasks, Sulzer et al. demonstrated that variance from C/20 discharges is correlated with cycle life for NMC/graphite cells, which suggests that the variance feature generalizes to other datasets with more complex cell chemistries than LFP/graphite (note that this work uses the untransformed variance as opposed to the lg-transformed variance). 
+In this work, we ignore the less predictive datastreams like internal resistance and temperature and focus on developing new representations of these voltage-capacity data. 
+Another advantage of focusing on voltage-capacity data is that this data "comes for free" in a typical battery cycling experiment. 
+In principle, the relationship between voltage and capacity is continuous; in practice, this relationship is sampled at a finite rate during data acquisition. 
+In fact, voltage as a function of capacity has been proposed and applied in previous work. 
+Note that linear interpolation is an alternative approach that also avoids the small additional error from the spline fit, but here we use the spline fits for consistency with Severson et al. 
+We start by introducing a visualization of these 100,000 features, subsequently termed a "capacity matrix", that we found useful for model development. 
+A similar approach has been developed by at least two previous works. Figure 1 presents graphical representations of a capacity matrix.  
+Given the high discharge rates (4C), the voltage response is smoothed due to heterogeneity, and diagnostic differential capacity and/or differential voltage analysis would not reveal individual peaks that could be assigned to specific electrodes and failure modes. 
+This approach may be especially interesting for lithium plating detection during voltage relaxation.
+Given the high performance of simple models in Severson et al., we begin by exploring classical statistical learning methods here and considerdeep learning approaches at a later point.
+Identically to Severson et al., our objective is to predict the log10-transformed cycle life.
+Additionally, we use elastic net regression instead of ordinary least squares regression, even for these univariate models, so that the model coefficients can be regularized (i.e., given lower magnitude) in the interest of building more robust and generalizable models. 
+Cycle life transforming and cycle averaging.—Next, we consider two additional variations of Figure 3: using the observed cycle life instead of the lg-transformed cycle life (Figure 4) and local cycle averaging (Figure 5). 
+First, we study the importance of transforming the prediction objective. 
+Figure 4 is equivalent to Figure 3 but uses the observed cycle life instead of the lg-transformed cycle life as the prediction objective.
+The errors using observed cycle life are consistently higher than those using the lg-transformed cycle life, demonstrating the benefits of log transforming the prediction objective for this long-tailed (i.e., right-skewed) dataset. 
+These slopes (i.e., the coefficient of the linear model trained at a specific voltage) are dimensionless since they use dimensionless input data (due to standardization) to predict the dimensionless lg-transformed cycle life. 
+We consider four statistical learning methods and two nonlinear methods for this task, many of which are recommended for applications with many highly correlated features.
+We briefly review them here. Ridge regression combines ordinary least squares (OLS) regression with a penalty on the sum of the square of the magnitude of the coefficients, which reduces the tendency to overfit to noise in the features.
+Elastic net regression is similar to ridge regression but adds an additional penalty on the sum of the absolute value of the coefficients, which can cause the weights of some predictor values to be zero (i.e., not used in the final model).
+Principal components regression (PCR) first performs principal components analysis on the features, the principal components of which maximize the explained variance of the features, and then performs linear regression on these principal components.
+Similarly, partial least squares regression (PLSR), also known as projection to latent structures regression, uses transformations that maximize the variance of the features, but in this case the variance of the target variable (i.e., cycle life) is also used in building the components.
+In other words, PLSR attempts to identify dimensions of the data with both high variance and a strong correlation with the response. 
+Random forest regression aggregates the predictions of multiple decision trees training on a subset of the available observations and features in the training set.
+Although random forest regression does not result in a linear model, this method has "feature importance"metrics that can aid in interpretability; Gini importance is used in this work. 
+Finally, multi-layer perceptrons (MLP) are feed-forward neural networks. The specific architectures of such models vary; here we use fully connected layers and rectified linear unit (ReLU) nonlinearities. 
+Interpreting the MLP predictions is not necessarily straightforward; while various tools have been proposed to interpret otherwise black box models, we use SHapley Additive exPlanations (SHAP) here. 
+These high-rate discharge capacity-voltage curves are inherently challenging to interpret due to practical complications such as peak overlap, heterogeneous aging34, and other effects that convolute the voltage response. 
+We speculate that these peaks correspond to shifts in the phase transformation plateaus of graphite, which follow a similar trend (e.g., the capacity of each of the three plateaus roughly doubles with increasing voltage). 
+The voltage response of the graphite electrode is observable in the voltage curves if loss of active graphite material is a dominant degradation mode, as previously established by Severson et al.
+This hypothesis is further supported by the fact that the voltage response of these LFP/graphite cells is dominated by graphite.
+Finally, we trained a convolutional neural network (CNN) model on the capacity matrix. 
+The deep learning models (MLP and CNN) both have the best performance on the training set; this trend is expected as, generally, the training error decreases with model complexity. 
+The univariate interquartile range (IQR) model outperformed the univariate variance model from Severson et al.
+Additionally, the log transformation was consistently found to be an effective transformation for both the features and the cycle life. 
+We also report some approaches that are not effective, including models using multi-cycle averaging and horizontal slices of the capacity matrices. 
+We generally find that the performance of statistical learning methods is comparable more complex deep learning approaches, particularly for generalization, although tailored neural architectures may improve the performance of deep learning models. 
+Statistical learning approaches can also be applied to other objective functions, such as energy-based cycle life, knee point5, and multipoint prediction. 
+We also recommend applying a similar suite of statistical learning models to benchmark future work that uses new datasets and/or more advanced machine learning methods for battery lifetime prediction, as these approaches provide a reasonable starting point for building high-performing models with minimal human input. 

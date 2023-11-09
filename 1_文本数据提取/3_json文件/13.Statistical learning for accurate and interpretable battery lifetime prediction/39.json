@@ -1,0 +1,1 @@
+{"content": "Clearly, the voltage vs. capacity curves contain important information for data-driven lifetime modeling in this application.", "records": [{"span": "voltage", "offset": [13, 19], "tag": "Property_Behavior"}, {"span": "capacity", "offset": [25, 32], "tag": "Property_Behavior"}]}

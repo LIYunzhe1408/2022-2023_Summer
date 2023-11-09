@@ -1,0 +1,1 @@
+{"content": "Once activated at 75 degree C, a wider window (−0.5 V to 0.7 V) was used due to higher polarization.", "records": [{"span": "75 degree C", "offset": [18, 28], "tag": "Condition"}, {"span": "window", "offset": [39, 44], "tag": "Feature"}, {"span": "−0.5 V to 0.7 V", "offset": [47, 61], "tag": "Condition"}]}

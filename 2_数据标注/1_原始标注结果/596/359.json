@@ -1,0 +1,1 @@
+{"content": "Unfortunately, it still showed continuous capacity fading at high current densities due to limited total Li+ conductivity.", "records": [{"span": "current densities", "offset": [66, 82], "tag": "Feature"}, {"span": "Li+", "offset": [105, 107], "tag": "Composition"}, {"span": "conductivity", "offset": [109, 120], "tag": "Feature"}]}

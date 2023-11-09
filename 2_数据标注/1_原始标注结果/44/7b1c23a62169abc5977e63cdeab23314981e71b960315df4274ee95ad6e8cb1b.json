@@ -1,0 +1,1 @@
+{"content": "In the actor-critic approach, the actor improves the policy based on the value function that is estimated by the critic as depicted in Fig. 2.", "records": [{"span": "actor-critic approach", "offset": [7, 27], "tag": "Characterization"}]}

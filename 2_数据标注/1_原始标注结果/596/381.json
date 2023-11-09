@@ -1,0 +1,1 @@
+{"content": "The initial charge capacity was 90 mAh g−1, which matched the last discharge capacity at 75 degree C.", "records": [{"span": "charge capacity", "offset": [12, 26], "tag": "Feature"}, {"span": "discharge capacity", "offset": [67, 84], "tag": "Feature"}, {"span": "75 degree C", "offset": [89, 99], "tag": "Condition"}]}

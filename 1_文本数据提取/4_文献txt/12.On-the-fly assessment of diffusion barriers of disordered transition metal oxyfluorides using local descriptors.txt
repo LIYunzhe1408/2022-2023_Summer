@@ -1,0 +1,33 @@
+Kinetic properties like ionic diffusion within locally resolved atomic structures is needed to perform longer time and length scale simulations like kinetic Monte Carlo in order to accurately estimate kinetic properties like power densities in battery electrodes
+Here, we present and demonstrate a fast, on-the-fly, approach to calculate local diffusion barrier as a function of only the local atomic structure using machine learning and cluster expansion, particularly for Li-ions in lithium-rich transition metal oxyfluorides and the disordered rock salt (DRS) Li2 –xVO2F electrodes.
+Lithium-rich transition metal oxyfluorides have garnered significant interest in recent years for their application as high energy density cathode materials for lithium-ion batteries 
+These materials are typically synthesized using a high-energy ball-milling approach, which introduces a high degree of site disorder [1, 2]. 
+Lithium-rich transition metal oxyfluorides have a disordered rock salt (DRS) structure where lithium and transition metal occupy cationic sublattice, while oxygen and fluorine occupy the anionic sublattice.
+Many studies of DRS oxyfluorides have followed the original experimental report on the promising performance of Li2VO2F in 2015 [3]. 
+The impact of substituting vanadium with different transition metals (e.g., Co, Fe, Mn, Mo, Nb, Ti, W), the extent of over-lithiation and oxygen and fluorine ratio have been investigated [2, 4, 5, 6, 7, 8]. 
+The thermodynamic properties of the DRS transition metal oxyfluorides can be probed computationally
+A commonly used approach is to use Cluster Expansion (CE) in conjunction with first-principles simulations such as density functional theory (DFT) calculations [9]
+The computational investigations based on CE were successful in predicting crucial aspects of DRS materials such as order-disorder phase transition and open-circuit voltage profile [10, 11]. 
+Two adjacent octahedral sites are joined by two tetrahedrons. 
+Lithium diffusion in DRS occurs either in a straight line between two anions or through one of the two tetrahedrons. 
+The transport in a straight line is referred to as an oxygen dumbbell hop (ODH) as the term was originally coined for oxides, and the transport through the tetrahedron is referred to as tetrahedron site hop (TSH) [12, 13].
+One of the key characteristics that favor macroscopic lithium diffusion is the existence of a percolation path formed by consecutive TSH with no transition metals in its surrounding octahedra (so-called 0-TM path). 
+By contrast, a low degree of fluorination does not allow the formation of the 0-TM path, and its impact is largely dominated by its local chemical compositions of TSH. 
+This condition can be achieved by having a high degree of fluorination (above 15 %) [7], as the amount of fluorination should be matched by the over-lithiation to keep the charge neutrality of the system.
+The diffusion mechanism description is simple for layered oxides; i.e., the ODH mechanism prevails for mono-vacancy diffusion, while the HSP mechanism prevails for di-vacancy diffusion
+Nevertheless, the thorough study of Euchner et al. [14] revealed that  (1) substituting gate-cation sites occupied by a transition metal with a lithium atom lowers the diffusion barrier,  (2) substituting oxygen atoms in dumbbell sites (two anions in the middle of the straight diffusion path) with fluorine increases the diffusion barrier,  (3) substituting other ligand oxygen atoms could increase or decrease the barrier depending on their sites
+In this work, we report our work on estimating the diffusion path(up, down or straight) and the diffusion barrier using regression model fitted to the results obtained using the nudged elastic band (NEB) method based on DFT calculations.
+All of the diffusion barriers used for fitting our models are calculated using DFT performed with the Vienna Ab initio Simulation Package (VASP)
+The projector augmented-wave (PAW) method was used to describe electron-ion interaction
+A total of 11 features are devised and investigated to fit the lithium diffusion characteristics calculated using the NEB method
+The first crucial step for estimating the diffusion characteristics is to determine which diffusion path it takes: TSH through the top tetrahedron, TSH through the bottom tetrahedron or ODH.
+Instead of targeting the forwards (from the initial configuration to final configuration) and backwards (from the final configuration to the initial configuration) energy barriers, a common practice is to aim for the so-called kinetically resolved activation (KRA [13]) barrier, which corresponds to the energy difference between the transition state energy and the average energy of the initial and final configurations
+In this work, we follow both approaches, building first a model that aims to calculate the forward barrier, and later on a second model that targets KRA.
+We now move on to the fitting results using the KRA model and determine which features are most relevant for describing the energy barriers.
+The features are standardized before fitting the KRA model, i.e., rescaled and shifted to zero mean and unit variance.
+The KRA model is implemented using the LassoCV class in scikit-learn. 
+Therefore, the model can be used in conjunction with the CE approach to develop an on-the-fly kinetic Monte Carlo model to assess the formation of percolating network and to evaluating the accessible energy and power density of the DRS transition metal oxyfluorides.
+We show, that a combination of, e.g., cluster expansion (CE) for energy evaluation and our ML-based kinetic barrier prediction model would allow access to long time/length scale simulations towards quickly assessing the power density of the materials taken disorder in to account.
+The most relevant features are identified using LASSO regression and used in a simplified model.
+We found that the presence of vanadium as a gate cation has a negative impact on lithium diffusivity, which aligns well with the 0-TM percolation network model.
+The nature of uncertainties from both the ML models and the CE method are such that those are larger when the barriers themselves are larger.

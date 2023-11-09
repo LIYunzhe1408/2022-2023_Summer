@@ -1,0 +1,59 @@
+This paper is concerned with Li-ion battery terminal voltage and State-of-Charge (SoC) prediction for two types of dynamic loads. 
+Attention is focused on the investigation of the applicability of direct multi-step forecasting strategy in combination with Machine Learning. 
+Beside that, a feature bank is composed of discharge profiles obtained at different C-rates. 
+Hence, a battery cell model is built for simulating intensive dynamic load scenarios demonstrated, that in case of WLTP-type discharge load of 0.3C-rate the forecasting performance is highly efficient on measurement data. 
+Under dynamic loads of 1C-rate, or when small historical data is available, the application of feature bank improves the performance.
+We have obtained comprehensive results proving that the application of direct multi-step forecasting strategy using XGBoost represents a viable alternative to capture real-time the cell dynamics and predict the terminal voltage and SoC of Li-ion batteries exposed to dynamic loads.
+The prediction of terminal voltage and State-of-Charge (SoC) of Li-ion battery cells is recognized as being the most important issue for able to timely assess the state of the battery cells/ pack have become ensuring safe operation. 
+Equivalent Electrical Circuit (EEC) approach is widely accepted as fast and effective empirical alternative of complex modelling for battery performance prediction, that is capable for reducing the amount of physical measurement needs and computationdemand. 
+For instance, the Li-ion battery EEC elements and corresponding processes are discussed in [7]. 
+In practice, EEC is commonly parametrized with PPC (Pulse Power Current) signals. 
+However, R-C branches the EEC model is applicable for diagnostic tasks and paper [9] highlights, that it may demand complicated nonstandard test
+procedures for the parametrization due to a large number of breakpoints. 
+Electrochemical Impedance Spectroscopy (EIS) shows the impedance of a cell as a function of frequency and tem-determining cell impedance, as well as the most complex and costly perature. 
+The inductive effect is caused by the geometry of the cell and the porosity of the electrode plates of the cell [12,13]. 
+In addition, in [14] a new resistor-inductor network approach is proposed where the inductive modelling has no direct physical background. 
+In case of batteries, current and temperature are most often considered as input signals and battery voltage and temperature, and also SoC and State-of-Health (SoH). 
+According to [19] which presents pulsed discharge of NiMH battery, the internal and external parameters that affect the dynamic behaviour of the battery includes SoC, SoH, AC and DC resistance, design parameters as inner, and temperature, long-term and short-term history as outer parameters or factors. 
+The most common and popular techniques are Neural Networks (NN).
+The published data is obtained by repeated cycles of (LSTM) NNs and Multi Layer Perceptrons (MLPs) in SoC prediction is charging and discharging with C-rates of C/2 and C/4. 
+Recent papers demonstrate the efficiency of prediction of various further methods, such as Kalman Filter, however most of them still rely on constant, PPC or standardized tests, usually with lower, e.g. C/10 discharge current [23]. 
+Similarly, most of the presented results using Machine Learning (ML) approaches are built on training data obtained by standardized test procedures
+Here, Extra Gradient Boosting (XGBoost) method is applied [26] to solve the terminal voltage prediction issue, since this method has already be proven to outperform common ML techniques [27]. 
+Therefore, the main objectives of this paper include; recording specific operation conditions via cell measurements under WLTP-type loads; 
+We summarize the basic mathematical background of the XGBoost model and we discuss the performance metrics. 
+Measurements. The battery used in the experiment is a LiNiMnCoO2 cell with 3.7V and 2600mAh capacity (Samsung ICR18650 26F).
+Since in the present investigation the thermal effects are neglected, the experiments are carried out at room temperature (23 degree C).
+The temperature deviation has a significant effect on several parameters of a Li-ion battery such as terminal voltage and available capacity which were the key factors in our present approach. 
+Increasing temperature causes faster electrochemical reactions and smaller internal resistances. 
+The temperature effect becomes important if the temperature difference is at least 10 degree C from room temperature [28].
+Voltage, current, and temperature data are saved for 100 ms to detect transient phenomena.
+First, a dataset is composed from measurement data containing various terminal voltage [V] - Time [s] discharge profiles. 
+The measurements are carried out at constant current of 1C, 0.8C, 0.65C, 0.5C, 0.3C and 0.1C rates. 
+After, measurement with WLTP (Worldwide Harmonized Light-Duty Vehicles Test Procedure) [30] type load is conducted of average 0.3C-rate, as mild dynamic load. 
+The WLTP is the state-of-the-art driving scenario which is in agreement with the new European Union (EU) directive published in 2017 [31].
+From the measurement data the SoC is calculated by using Coulomb Counting method (see, Fig. 4) WLTP is chosen because this standard covers typical driving scenarios that can be learned as the most common driving features. 
+The experiment covers at first investigating the performance of direct multi-step forecasting method combined with XGBoost in terminal voltage prediction in order to investigate how the adopted method is able to capture the cell dynamics under two distinguished classes of loads. 
+The first is the above described WLTP-type load condition. 
+Second, simulated intensive stochastic load profile is applied via simulation on the electrochemical cell model for obtaining data for the investigation of the intensive load class. 
+A common and reliable electro-chemical model used in finite element analysis is based on the work of Doyle et al. [33] that is called Doyle-Fuller-Newman (DFN) model.
+It consist of charge and mass balance equations for both the solid (electrode) and liquid (electrolyte) materials which describe the main operating characteristics of the cell. 
+Even though the DFN model is suitable for battery modelling in 1D, 2D and 3D, the best compromise between computation effort and model resolution can be achieved by implementing the model in pseudo 2D environment. 
+The DFN model implements the battery dynamics through concentrations and potentials and it gives a good approximation of cell behaviour up to 1C analysis (FEA) due to its low computational costs and good perfor-mance under moderate load conditions [35]. 
+In pseudo-2D models, the DFN model is well-favoured in finite element electrodes are modelled by the framework of porous electrode theory which treats the electrodes as homogeneous multiphase system [36].
+On Fig. 6, a typical pseudo-2D structure of a Li-ion cell can be seen.
+In this point-of-view, all the particles are spherical and the volumes of electrodes are averaged. 
+The partial differential equations (PDEs) can be grouped according to the following structures: charge conservation in solid electrodes; charge conservation in the electrolyte, in the bulk and inside the electrode pores; mass conservation in the solid active material; mass conservation in the electrolyte; electrochemical kinetics at the electrode-electrolyte interface.
+Furthermore, the mass conservation in homogeneous electrolyte inside the electrode pores is based on both the Li migration and diffusion in the electrolyte while the convection is negligible in case of commercial batteries. 
+Finally, the kinetics between the electrode surface and the electrolyte can be written according to the Butler-Volmer equation (16):
+Furthermore, the pseudo-2D DFN model should be specified to the cell inspected by a set of identical electrochemical and geometrical parameters.
+Even though these parameters depend on the cell SOC, temperature, aging in reality, only their function of concentration𝑙 has been considered in this work in order to reduce computational complexity of the system.
+Although the exact electrolyte composition is usually unknown in case of a specific commercial cell, a commonly used electrolyte is LiPF6 in an organic solvent.
+In this paper we propose to adopt a direct forecasting [40] approach using XGBoost method. 
+The XGboost method is a decision-tree-based ensemble Machine Learning algorithm which applies a gradient boosting framework. 
+The XGboost algorithm provides several benefits, since it was developed in order to enhance the computational properties of other boosting methods (such as AdaBoost). The general framework of the gradient boosting is depicted in Fig. 14.
+Altogether, these attractive properties make this method suitable for applying in onboard BMS systems. 
+prediction performance is evaluated on the removed instances by applying most-commonly used metrics, such as Root Mean Square Error(RMSE), Mean Absolute Error (MAE) and Mean Absolute Percentage Error (MAPE). The formulae of the metrics are given by Eqs. (28)–(30).
+The multi-step forecaster model then applied to predict unseen intervals of 10–225s from each dynamic phase.
+In comparison to the standard ML-based and EEC models, the discussed prediction approach does not require to learn all the possible performance conditions and scenarios, thus more appropriate for real-time application in BMSs. 
+Moreover, it may give a sufficient basis for BMS applications.

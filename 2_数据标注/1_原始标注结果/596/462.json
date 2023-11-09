@@ -1,0 +1,1 @@
+{"content": "Despite this improved performance, Cr-protected symmetric cells cycled at higher currents were observed to exhibit shorter cycle life.", "records": [{"span": "Cr-protected", "offset": [35, 46], "tag": "Feature"}, {"span": "current", "offset": [81, 87], "tag": "Condition"}, {"span": "cycle life", "offset": [123, 132], "tag": "Property_Behavior"}]}

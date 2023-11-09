@@ -1,0 +1,1 @@
+{"content": "The small lattice parameter changes demonstrated that the crystal structure is relatively stable, even under a high current of 2 mA·cm−2.", "records": [{"span": "lattice", "offset": [10, 16], "tag": "Structure"}, {"span": "crystal", "offset": [58, 64], "tag": "Structure"}, {"span": "2 mA·cm−2", "offset": [127, 135], "tag": "Condition"}]}

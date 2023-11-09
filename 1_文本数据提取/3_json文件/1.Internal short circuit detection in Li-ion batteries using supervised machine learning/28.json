@@ -1,0 +1,1 @@
+{"content": "In the case of ISC, SOC at the end of charging will be more than the normal case because of the leakage current (Isc).", "records": [{"span": "ISC", "offset": [15, 17], "tag": "Property_Behavior"}, {"span": "leakage current", "offset": [96, 110], "tag": "Property_Behavior"}, {"span": "Isc", "offset": [113, 115], "tag": "Property_Behavior"}]}

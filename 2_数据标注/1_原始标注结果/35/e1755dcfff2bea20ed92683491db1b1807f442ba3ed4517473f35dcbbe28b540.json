@@ -1,0 +1,1 @@
+{"content": "DKL () is the KLD function; N (0, I) is the Gaussian dis-tribution with zero mean and unit variance; Pi,s (m) is the probability density of N ( ˜ui,s , Σi,s ) for the mth sample; Q(m) is the probability density of N (0, I) for the mth sample.", "records": [{"span": "KLD", "offset": [14, 16], "tag": "Characterization"}]}

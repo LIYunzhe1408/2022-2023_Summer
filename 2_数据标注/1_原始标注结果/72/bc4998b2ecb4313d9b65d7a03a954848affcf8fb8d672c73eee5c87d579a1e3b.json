@@ -1,0 +1,1 @@
+{"content": "All 18 input features extracted from three battery sets are provided as an input to the IndRNN network to establish the relationship with battery capacity.", "records": [{"span": "IndRNN network", "offset": [88, 101], "tag": "Characterization"}]}

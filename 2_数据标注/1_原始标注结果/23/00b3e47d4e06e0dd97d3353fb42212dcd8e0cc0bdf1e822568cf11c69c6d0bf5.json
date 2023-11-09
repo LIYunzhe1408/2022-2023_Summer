@@ -1,0 +1,1 @@
+{"content": "ANN modeling and Bayesian optimization have been performed using Scikit-learn [25] and GPyopt [26] of Python Machine Learning library.", "records": [{"span": "ANN modeling", "offset": [0, 11], "tag": "Characterization"}, {"span": "Bayesian optimization", "offset": [17, 37], "tag": "Characterization"}]}

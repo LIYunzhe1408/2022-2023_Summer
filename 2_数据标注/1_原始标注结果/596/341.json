@@ -1,0 +1,1 @@
+{"content": "Deposition was performed under 5 mTorr argon, an output power of 200 W, and no intentional substrate heating.", "records": [{"span": "Deposition", "offset": [0, 9], "tag": "Processing"}, {"span": "5 mTorr argon", "offset": [31, 43], "tag": "Condition"}, {"span": "200 W", "offset": [65, 69], "tag": "Condition"}]}

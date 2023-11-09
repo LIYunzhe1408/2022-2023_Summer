@@ -1,0 +1,1 @@
+{"content": "An RL framework consists of an agent (the battery management system) which interacts with the environment (the battery) by taking speciﬁc actions (the applied current) according to the environment conﬁguration(a.k.a. the state).", "records": [{"span": "battery management system", "offset": [42, 66], "tag": "Application"}]}

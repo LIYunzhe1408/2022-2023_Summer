@@ -1,0 +1,1 @@
+{"content": "The samples were heated up to the targeted temperature by velocity scaling over 2 ps, and then equilibrated at the desired temperature.", "records": [{"span": "heated up", "offset": [17, 25], "tag": "Processing"}, {"span": "over 2 ps", "offset": [75, 83], "tag": "Condition"}]}

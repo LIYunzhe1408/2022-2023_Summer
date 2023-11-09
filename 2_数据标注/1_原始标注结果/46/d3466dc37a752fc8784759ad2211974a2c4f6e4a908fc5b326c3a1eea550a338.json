@@ -1,0 +1,1 @@
+{"content": "Although random forest regression does not result in a linear model, this method has \"feature importance\"metrics that can aid in interpretability; Gini importance is used in this work.", "records": [{"span": "random forest regression", "offset": [9, 32], "tag": "Characterization"}]}

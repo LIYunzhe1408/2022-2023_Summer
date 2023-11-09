@@ -1,0 +1,1 @@
+{"content": "The temperature effect becomes important if the temperature difference is at least 10 degree C from room temperature [28].", "records": [{"span": "temperature", "offset": [4, 14], "tag": "Condition"}, {"span": "temperature", "offset": [48, 58], "tag": "Condition"}, {"span": "10 degree C ", "offset": [83, 94], "tag": "Condition"}]}

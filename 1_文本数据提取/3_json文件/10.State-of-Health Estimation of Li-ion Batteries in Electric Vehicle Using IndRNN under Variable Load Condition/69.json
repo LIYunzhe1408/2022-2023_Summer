@@ -1,0 +1,1 @@
+{"content": "The main objective of this experiment is to apply and analyze the performance of the IndRNN network for SOH estimation under diﬀerent time-step sizes.", "records": [{"span": "IndRNN network", "offset": [85, 98], "tag": "Characterization"}, {"span": "SOH", "offset": [104, 106], "tag": "Property_Behavior"}]}

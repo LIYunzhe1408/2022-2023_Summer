@@ -1,0 +1,1 @@
+{"content": "Powders pyrolised at 500 degree C are shown to still in amorphous phase and turned into crystalline structure upon heat treatment at 850 degree C.", "records": [{"span": "pyrolised", "offset": [8, 16], "tag": "Processing"}, {"span": "500 degree C", "offset": [21, 32], "tag": "Condition"}, {"span": "850 degree C", "offset": [133, 144], "tag": "Condition"}]}

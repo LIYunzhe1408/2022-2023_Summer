@@ -1,0 +1,1 @@
+{"content": "In fact, Eq. 9b can only be utilized when the data are recorded in similar conditions: temperature or charging power.", "records": [{"span": "temperature", "offset": [87, 97], "tag": "Condition"}, {"span": "charging power", "offset": [102, 115], "tag": "Condition"}]}

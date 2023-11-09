@@ -1,0 +1,1 @@
+{"content": "We observe that with the increase of Na+ concentration and temperature, the jump frequency increases.", "records": [{"span": "Na+", "offset": [37, 39], "tag": "Composition"}, {"span": "temperature", "offset": [59, 69], "tag": "Condition"}, {"span": "frequency", "offset": [81, 89], "tag": "Condition"}]}

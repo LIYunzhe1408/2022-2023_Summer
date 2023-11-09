@@ -1,0 +1,61 @@
+Reliable state-of-health (SoH) assessment is essential to ensure cautious and suitable use of LIBs. 
+In this paper, two new aging indicators are developed to enrich the existing diagnosis-based (DB-SoH) solutions. 
+These indicators are based on collected data during charging (CDB-SoH) and driving (DDB-SoH) events overtime. 
+The data are comprised of variables such as distance, speed, temperature, charging power, and more. 
+Both solutions produce reliable state-of-health SoH assessment with signiﬁcantly good accuracy. 
+Additionally, a data-driven battery aging prediction using the random forest (RF) algorithm is introduced with respect to actual users' behavior and ambient conditions. 
+The control of such a complex system is mandatory and is achieved by the battery management system (BMS) to safely and fully exploit these batteries.
+Nevertheless, lately, deep researches are animated on battery technologies to enhance their global cell electrochemical performances compared to today NMC lithium-ion like recent studies on solid-state battery [4, 5, 6].
+Efficient and cautious use of Li-ion batteries typically requires the monitoring of numerous variables like the state of charge (SoC), the state of health (SoH), the acceptable/available power when charging/discharging, the charge capacity and the internal resistance [7, 8, 9]. 
+The BMS has to estimate each of them, thanks to measured data such as current, voltages, temperatures, and state observers [10]. 
+It is widely believed that the major aging phenomena happen at the anode, such as solid electrolyte interface (SEI)
+formation and growth, lithium plating, loss of lithium, loss of active material, impedance rise, etc. 
+SEI formation is said to be the most relevant phenomenon and is broadly studied, especially in the case of carbon type negative electrodes made [16, 17, 13]. 
+In [18], Safari proposed a SEI model based on electrochemical equations operating a LCO type of LIB. 
+He conﬁrmed that huge SoC variations and high currents increase SEI growth. Prada used this approach in [19] on an LFP type of LIB to identify a capacity loss law. 
+There are two major aging categories: cycling and calendar aging. The latter consists of all aging processes that lead to degradation when the battery is at rest. 
+Lithium plating is a signiﬁcant aging phenomenon during battery cycling. 
+Lithium platting occurs at high cycling rates. 
+In fact, fast charging implies a high charging current rate.
+Consequently, all these phenomena lead to two substantial macroscopic consequences: capacity loss and power fade. 
+Several approaches exist to access LIBs aging, such as ampere-hour counting (AhC), remaining useful life (RUL) estimation, diﬀerential voltage analysis (DVA) or incremental capacity analysis (ICA), electrochemical impedance spectroscopy (EIS) analysis. 
+Latterly, numerous machine learning techniques have been devised for battery SoH estimation, such as artiﬁcial neural network (ANN) [27, 28, 29, 30], support vector machine (SVM) [31, 32], regressive vector machine (RVM)[33, 34], particle ﬁlter (PF) [35, 36], Random Forests (RF) and Gaussian process regression (GPR) [37, 9]. 
+Utilizing extracted features from the terminal voltage response of the Li-ion battery under current pulse tests, a novel method is proposed in [31] together with an SVM model to estimate the SoH of an LFP type LIB. 
+However, only one cell was considered, and the ﬁndings are clearly not applicable to actual EVs.In [33], an RVM model is utilized to predict the remaining capacity of a set of ﬁve LIBs. 
+Fourteen health features were extracted from charge current, voltage, and temperature proﬁles to ensure accurate remaining capacity prediction. 
+In [38], a random forest regression for online capacity estimation of lithium-ion batteries was presented. 
+The author developed an RF model to approximate the relationship between characteristic features extracted from the charging voltage-capacity curve and the capacity of an NMC battery. ]
+As an online solution, this approach does not process a large amount of data due to the limited computational capability of the present BMSs. 
+This brings additional computation burden to the BMS and therefore renders these solutions less attractive. 
+Because of the limited computational capability of BMSs, an oﬀ-line data-driven SoH prediction solution is highly desired. 
+A data-driven battery aging prediction using the random forest (RF) algorithm is proposed together with users’ behavior and ambient conditions in Section 4. 
+The RF regression is a popular supervised machine learning algorithm utilized in various ﬁelds. 
+Three global approaches could be used in order to evaluate the battery degradation and estimate its state of health.
+The ﬁrst one is the durability model :calibrated using an expensive experimental design plan, this semi-empirical approach uses the history of the battery usage in calendar and cycling to integrate SOC, temperature, and proﬁle impact on battery aging.
+The second is the diagnosis-based approach called here DB-SOH, which is based on the evolution with the aging of the time-domain screenshot of some selected battery variables. 
+The third one is the black box based perdition approach that uses a tremendous amount of battery history data to approximate its future behavior. 
+Actually, because of the implementation constraints, such a method is not used in real-time BMS applications. 
+In most, if not all, BMSs LIBs aging indicator assessment is done using ampere-hour counting. 
+Further capacity loss assessment can be conducted using diﬀerential voltage analysis (DVA) or incremental current analysis (ICA). These solutions are achieved during charging events using Eq.3:
+Ideally, aging performances are measured using well-calibrated protocols and steady ambient conditions. 
+Data ﬁltering using robust LOWESS algorithm. 
+In fact, Eq. 9b can only be utilized when the data are recorded in similar conditions: temperature or charging power. 
+Additionally, an RF approach for SoH prediction is presented. 
+The obtained results are ﬁnally compared to a more classical SVR approach.
+The SoC and temperature are taken into account via a ”driving matrix” and a ”driving matrix”. 
+The total number of charging events is also considered as well as the charging power, temperature, and the SoC variation. 
+Decision trees, also called Classiﬁcation and Regression Tree (CART), are statistical model ﬁrstly introduced in[46]. 
+The random forest regression model is an extension of the CART technique and can oﬀer better prediction performance. 
+Random forests algorithm ﬁts well our situations as the main advantages are : Good results when using large dataset. Easily implemented, and very few parameters are needed. The produced RF model can be quickly ran for new inputs. Missing and heterogeneous data are well handled.
+As a matter of comparison, a support vector regression (SVR) algorithm [47] is also utilized for the SoH-prediction using the learning data-table. 
+Machine learning using decision trees(DT) is more understandable by humans than other classical approaches such ass SVR, neural network or even deep learning solutions. 
+It measures of variable signiﬁcance by observing the ”model accuracy decrease” (MDA) when randomly shuﬄing each predictor variable [49]. 
+ELI5(one Python library) provides a way to compute feature importances for black-box estimators by measuring how the MDA when a feature is not available. 
+Using the RF model previously obtained in Section 4.2, a permutation feature importance is computed using ELI5(one Python library). 
+This clearly conﬁrms that calendar aging is dominant as most EVs spend up to 90% of their lifetime on parking lots. 
+Unfortunately, parking conditions are highly correlated with seasonal temperatures. 
+A full LIBs aging assessment is completed in three parts, including new diagnosis based state-of-health (DB-SOH) estimators, data-driven aging prediction, and relevant aging factors ranking.
+Furthermore, a data-driving aging predictor was developed using the collected data and the Random Forest machine learning solution. 
+We argue that using decision trees is helpful for aging mechanism investigation and is easily interpreted, unlike the existing methods such as neural networks or deep learning approaches. 
+The RF algorithm is used as it produces excellent results when using extensive data, easily implemented, and handles properly heterogeneous and missing data.
+Finally, using permutation-based variable importance computation, an approach for aging factors ranking is presented and found to be in total agreement with the classical aging root causes in the literature. 

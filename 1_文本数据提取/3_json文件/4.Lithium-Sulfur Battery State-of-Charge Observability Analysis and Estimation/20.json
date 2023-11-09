@@ -1,0 +1,1 @@
+{"content": "Even for one cell, the break point’s location and total capacity can change due to variation in temperature, discharge rate, etc., which make Li-S battery SOC estimation a challenging task.", "records": [{"span": "temperature", "offset": [96, 106], "tag": "Condition"}, {"span": "discharge rate", "offset": [109, 122], "tag": "Condition"}]}

@@ -1,0 +1,1 @@
+{"content": "For the Ca(ClO4)2-based electrolytes, the window was −0.1 V to 0.7 V at 25 degree C.", "records": [{"span": "Ca(ClO4)2-based", "offset": [8, 22], "tag": "Feature"}, {"span": "window", "offset": [42, 47], "tag": "Feature"}, {"span": "−0.1 V to 0.7 V", "offset": [53, 67], "tag": "Condition"}, {"span": "25 degree C", "offset": [72, 82], "tag": "Condition"}]}

@@ -1,0 +1,1 @@
+{"content": "Then, we drop this assumption and consider the more realistic scenario in which only temperature and SOC can be measured/computed.", "records": [{"span": "temperature", "offset": [85, 95], "tag": "Condition"}, {"span": "SOC ", "offset": [101, 104], "tag": "Condition"}]}

@@ -1,0 +1,1 @@
+{"content": "After optimizing machine learning models in each pipeline, it is found that KRR predicts the redox potential with the highest accuracy.", "records": [{"span": "KRR", "offset": [76, 78], "tag": "Characterization"}, {"span": "redox potential", "offset": [93, 107], "tag": "Property_Behavior"}]}

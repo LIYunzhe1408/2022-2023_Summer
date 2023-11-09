@@ -1,0 +1,1 @@
+{"content": "Interpreting the MLP predictions is not necessarily straightforward; while various tools have been proposed to interpret otherwise black box models, we use SHapley Additive exPlanations (SHAP) here.", "records": [{"span": "MLP", "offset": [17, 19], "tag": "Characterization"}, {"span": "SHapley Additive exPlanation", "offset": [156, 183], "tag": "Characterization"}]}

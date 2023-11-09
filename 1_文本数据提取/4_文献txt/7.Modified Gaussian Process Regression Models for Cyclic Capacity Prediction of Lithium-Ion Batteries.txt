@@ -1,0 +1,59 @@
+This paper presents the development of machine learning-enabled data-driven models for effective capacity predictions for lithium-ion batteries under different cyclic conditions. 
+To achieve this, a model structure is first proposed with the considerations of battery ageing tendency and the corresponding operational temperature and depth-of-discharge.
+Then based on a systematic understanding of covariance functions within the Gaussian process regression, two related data-driven models are developed.
+Through coupling the Arrhenius law and a polynomial equation into a compositional kernel, ‘Model B’ is capable of considering the electrochemical and empirical know ledge of battery degradation. 
+The developed models are validated and compared on the Nickel Manganese Cobalt Oxide (NMC) lithium-ion batteries with various cycling patterns. 
+Experimental results demonstrate that the modified Gaussian process regression model considering the battery electrochemical and empirical ageing signature outperforms other counterparts and is able to achieve satisfactory results for both one-step and multi-step predictions.
+These cyclic capacity prediction techniques can be roughly classified into two categories, namely the model-based and data-driven methods. 
+For the model-based methods, a proper model with some prior information of a battery, such as the electrochemical models (EMs) [7,8], equivalent circuit models (ECMs) [9,10], together with some recursive observers such as the Kalman filter [11,12] and particle filter [13], are applied to capture and update the battery capacity related parameters based on the data obtained during charging/discharging conditions. 
+Although these model-observer based approaches are able to estimate the cyclic capacity under certain conditions.
+Besides, the involved partial differential equations and large matrix manipulations inevitably increase the computational effort, further restraining their applications in real-time embedded systems for long-term predictions.
+In addition to the EM/ECM-based approaches, cyclic capacity prediction methods based on the semi-empirical models have also been developed. 
+However, semi-empirical models are inherently open-loop approaches, compromising their generalization and adaptability particularly in long-term predictions.    
+Data-driven methods, which generally rely on advanced machine learning techniques to capture the underlying mapping among predefined input-output pairs, have also gained increasing attention in the field of battery cyclic capacity prediction. 
+In the literature, various intelligent techniques were successfully devised for cyclic capacity prediction, such as support vector machine (SVM) [ 19 , 20 ] and artificial neural network (ANN) [21,22].
+For these state-of-the-art applications, despite the good performance of SVM and ANN on battery capacity prediction, they can only provide deterministic point prediction and failed to provide the corresponding uncertainty quantification. 
+Deriving from the Bayesian framework, Gaussian process regression (GPR) models have been widely applied to prognostic problems due to their advantages of being nonparametric and probabilistic [24]. 
+The Bayesian approach allows GPR to directly incorporate estimates of uncertainty into predictions, enabling a model to acknowledge the varying probabilities of a range of possible future health values, rather than just giving a single predicted value [25].
+Additionally, the structure of GPR is quite simple, as its performance is decided by a mean function and a covariance function. 
+For instance, in [26], a mixture of GPR model is first presented to study the statistical properties of battery degradation process, followed by using a particle filtering to estimate battery capacities. 
+Through combining the wavelet de-noising approach and GPR, Peng et al. [27] derives a hybrid data-driven approach to predict battery capacities. 
+Based upon the Galvanostatic voltage curve and historical capacity data, Richardson et al. [28,29] propose the conventional covariance function-based GPR models to predict battery cyclic capacities and remaining useful life, respectively. 
+Via constructing four input features from the constant-current constant voltage charging curves, Yang et al. [30] applies the GPR technique to estimate the battery SOH. 
+These publications strongly support the effectiveness of GPR techniques in battery cyclic capacity predictions. 
+However, most studies fit the GPR-based models to the ageing data obtained under similar cyclic conditions, ignoring different cases of stress factors such as temperature and depth-of-discharge (DOD) levels. 
+Such GPR models may not be enough for battery capacity predictions under various cyclic conditions. 
+Additionally, the existing GPR-based models still fail to exploit many potentials of GPR. For all of the aforementioned GPR technologies, just the conventional kernel functions were studied in battery cyclic capacity predictions. 
+The assumptions of a simple isotropic kernel for the underlying battery degradation behaviours are overly simplified, especially for various cycling cases. 
+To the best of our knowledge, there is still a lack of investigations on combining the capacity-ageing electrochemical or empirical elements with the GPR-based data-driven model to further enhance the accuracy and generalization ability for battery capacity prediction. 
+Hence, benefits of modified covariance functions are insufficiently harnessed in the field of battery cyclic capacity prediction. 
+First, to involve the input features of cyclic temperature and DOD, a novel GPR model structure is proposed for predicting battery capacities under various cyclic conditions, where the information of capacity ageing tendency can be also leveraged. 
+In real applications, the cycling ageing behaviours of Li-ion batteries are affected by many operational stress factors. 
+In our study, three elements including the operating temperature (degree C), DOD (%), and the number of full equivalent cycles (FECs) are considered as the studied stress factors in GPR models to predict capacity degradation dynamics. 
+On the basis of the above mentioned test matrix, the capacity dataset under six cyclic conditions with different DOD levels (50%, 80% and 100%) and operational temperatures (35 degree C and 45 degree C) is obtained.
+Specifically, for the cyclic conditions of deep cycling DOD levels and high operational temperatures such as Case 4 and Case 6, cells generally present faster degradation trends.
+All the cells were cycled with the same middle-SOC of 50%, help the model learn the underlying mapping mechanism. 
+The but under the different cycling DODs (50%, 80% and 100%) other two cases (Case 5 and Case 6) are used to verify the and temperatures (35 degree C and 45 degree C).
+In this manner, all DODs effectiveness and robustness of the proposed GPR-based model for battery cyclic capacity predictions.  
+At high temperature cases, the side-reactions such as transition metal dissolution are accelerated, and the cyclable lithium loss is augmented, further inducing the available capacity loss. 
+Under the low temperature conditions, the dominant capacity degradation mechanism becomes lithium plating, further resulting in the cyclable lithium loss [32].
+In light of these, the cyclic temperature is considered as one key input feature of our model.  
+Deriving from the Bayesian theory, GPR can be seen as a random process to undertake the nonparametric regression with the Gaussian processes [ 34 ].
+As described in Subsection III.B, we formulate a competitive GPR model (Model A) by using the ARD-SE kernel. 
+Specifically, the related components within a kernel function are modified separately to reflect all input terms including the temperature, DOD, and battery capacities. 
+In battery cyclic ageing prediction, it is obvious that there exists the strong underlying correlations among cyclic temperature, DOD and battery capacities. 
+Mean absolute error (MAE): by defining as (15), the MAE indicator is generally used to reflect the actual situations of predicted errors. 
+Maximum absolute error (ME): by defining as (16), ME is used to reflect the maximum difference between predicted values and real values. 
+Root mean square error (RMSE): by defining as (17), RMSE is another popular indicator to reflect the deviation between the predicted values and real values. 
+In this study, battery capacity values for all cyclic cases are between 15 Ah and 21Ah without significant difference. 
+Here we take the multi-step prediction results of ‘Model B’ as illustration because the prediction performance of this electrochemical mechanism-involved GPR model is of the utmost concern in this study. 
+All three indicators (ME, MAE and RMSE) for the prediction results by using ‘Model B’ with various input capacity terms are plotted in Fig. 9. 
+Quantitatively, the ME, MAE and RMSE for total training dataset by using SEGM are 0.6481Ah, 0.2290Ah and 0.2712Ah, respectively. 
+Furthermore, in comparison with the ME, MAE and RMSE values of 0.4053Ah, 0.1061Ah and 0.1313Ah for the ‘Model A’, ‘Model B’ has the ME, MAE and RMSE values of 0.1689Ah (58.3% decrease), 0.0428Ah (59.7% decrease) and 0.0589Ah (55.1% decrease) for the total training dataset. 
+From Fig. 11, the ME and RMSE for these two GPR models are within 0.71Ah and 0.31Ah, which are 32.6% and 13.6% less than those from SEGM. Moreover, comparing to the ‘Model A’ with ARD-SE kernel, ‘Model B’ also achieves the significant improvements for multi-step cyclic capacity prediction cases. 
+This article focuses on the development of modified kernel functions of GPR to achieve reliable battery cyclic capacity predictions under various temperature and DOD conditions. 
+Based on the above solutions, our future work includes the improvement of GPRs to consider more stress factors such as charging/discharging current rate, lower temperatures and even factors changing cases. 
+The modified GPR models are employed to study the underlying relationship among degraded battery capacity, cyclic temperatures and DODs. 
+In particular, on the basis of electrochemical and empirical knowledge of battery degradation, an attempt has been made to construct a mechanism-conscious GPR model in cyclic capacity prediction domain. 
+Here the ME, MAE, RMSE of ‘Model B’ are less than 0.26Ah (1.2%), 0.07Ah (0.3%) and 0.09Ah (0.4%) for all multi-step prediction cases. 
+After collecting suitable battery ageing data, battery manufacturers are able to use our proposed GPR models to their operational conditions and achieve satisfactory predictions as well as reliable uncertainty management regarding the future cyclic capacities  and battery SOH.  

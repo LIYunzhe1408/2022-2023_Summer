@@ -1,0 +1,1 @@
+{"content": "Finally, we trained a convolutional neural network (CNN) model on the capacity matrix.", "records": [{"span": "convolutional neural network", "offset": [22, 49], "tag": "Characterization"}, {"span": "CNN", "offset": [52, 54], "tag": "Characterization"}, {"span": "capacity matrix", "offset": [70, 84], "tag": "Feature"}]}

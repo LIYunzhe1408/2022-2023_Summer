@@ -1,0 +1,1 @@
+{"content": "The cell has Initially 5 h rest time for wetting the carbon cathode current collector before tests.", "records": [{"span": "5 h rest time", "offset": [23, 35], "tag": "Condition"}, {"span": "wetting", "offset": [41, 47], "tag": "Processing"}, {"span": "carbon cathode current collector", "offset": [53, 84], "tag": "Application"}]}

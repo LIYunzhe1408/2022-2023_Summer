@@ -1,0 +1,1 @@
+{"content": "Optimized process parameters have been inferred from the total resistance using Bayesian optimization with the constructed ANN model.", "records": [{"span": "Bayesian optimization", "offset": [80, 100], "tag": "Characterization"}, {"span": "ANN model", "offset": [123, 131], "tag": "Characterization"}]}

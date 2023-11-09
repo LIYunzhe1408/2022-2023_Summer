@@ -1,0 +1,1 @@
+{"content": "The c parameter decreases with cycling: it is 20.632 Å before cycling, then decreases to 20.627 Å and 20.6265 Å for LAGP at 25 and 80 degree C.", "records": [{"span": "cycling", "offset": [31, 37], "tag": "Processing"}, {"span": "before cycling", "offset": [55, 68], "tag": "Condition"}, {"span": "25 and 80 degree C", "offset": [124, 141], "tag": "Condition"}]}

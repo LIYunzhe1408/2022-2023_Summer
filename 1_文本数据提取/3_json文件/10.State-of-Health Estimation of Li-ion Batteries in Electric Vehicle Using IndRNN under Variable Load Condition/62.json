@@ -1,0 +1,1 @@
+{"content": "The simulation result in [43] exhibits the ability of IndRNN under a long sequence of time steps, IndRNN provides better performance compared with LSTM.", "records": [{"span": "IndRNN", "offset": [54, 59], "tag": "Characterization"}, {"span": "IndRNN", "offset": [98, 103], "tag": "Characterization"}, {"span": "LSTM", "offset": [147, 150], "tag": "Characterization"}]}

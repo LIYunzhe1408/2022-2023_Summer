@@ -1,0 +1,1 @@
+{"content": "The solubility limit of Sn at 110 degree C was calculated to be 6.7 * 10-3 wt% Sn using the FactSage 7.4 FTlite database.", "records": [{"span": "solubility limit", "offset": [4, 19], "tag": "Feature"}, {"span": "Sn", "offset": [24, 25], "tag": "Composition"}, {"span": "110 degree C", "offset": [30, 41], "tag": "Condition"}]}

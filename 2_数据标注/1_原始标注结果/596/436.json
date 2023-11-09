@@ -1,0 +1,1 @@
+{"content": "Due to the inefficiency and safety issues of lead-acid batteries, rechargeable SWBs are perfect alternative to them.", "records": [{"span": "inefficiency", "offset": [11, 22], "tag": "Feature"}, {"span": "lead-acid batteries", "offset": [45, 63], "tag": "Application"}, {"span": "rechargeable SWBs", "offset": [66, 82], "tag": "Application"}]}

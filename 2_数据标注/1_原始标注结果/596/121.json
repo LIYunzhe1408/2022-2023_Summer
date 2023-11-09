@@ -1,0 +1,1 @@
+{"content": "Figure 4 shows the cycling behavior of Li/LAGP/LFP cells tested at 60 degree C using a current density of 0.1 mA−2.", "records": [{"span": "60 degree C", "offset": [67, 77], "tag": "Condition"}, {"span": "current density", "offset": [87, 101], "tag": "Feature"}, {"span": "0.1 mA−2", "offset": [106, 113], "tag": "Condition"}]}

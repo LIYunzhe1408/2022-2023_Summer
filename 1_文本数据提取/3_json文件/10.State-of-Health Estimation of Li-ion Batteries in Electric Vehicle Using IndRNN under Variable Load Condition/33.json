@@ -1,0 +1,1 @@
+{"content": "From the comparison of results, it is clearly evident that IndRNN outperformed other RNN architectures with the highest SOH accuracy rate.", "records": [{"span": "IndRNN", "offset": [59, 64], "tag": "Characterization"}, {"span": "RNN", "offset": [85, 87], "tag": "Characterization"}, {"span": "SOH", "offset": [120, 122], "tag": "Property_Behavior"}]}

@@ -1,0 +1,1 @@
+{"content": "The total number of charging events is also considered as well as the charging power, temperature, and the SoC variation.", "records": [{"span": "charging power", "offset": [70, 83], "tag": "Condition"}, {"span": "temperature", "offset": [86, 96], "tag": "Condition"}, {"span": "SoC", "offset": [107, 109], "tag": "Property_Behavior"}]}

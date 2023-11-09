@@ -1,0 +1,5488 @@
+[
+ {
+  "text": "Due to the specific assignment of sigma = 0 for any Na / Si occupation, only clusters that are fully constituted by Va and / or by P contribute to non-zero ECIs to-wards the overall energy estimation in our CE model .",
+  "relation_list": [
+   {
+    "subject": "CE model",
+    "subj_char_span": [
+     207,
+     214
+    ],
+    "object": "overall energy",
+    "obj_char_span": [
+     174,
+     187
+    ],
+    "predicate1": "Characterization",
+    "predicate2": "Property",
+    "relation": "Used-For"
+   }
+  ]
+ },
+ {
+  "text": "We removed selected structures, primarily at x = 0 and 0 . 25, whose high energies originate from the unfavourable ordering of Na in the structure while making the fitting of the CE extremely challenging .",
+  "relation_list": [
+   {
+    "subject": "high energies",
+    "subj_char_span": [
+     69,
+     81
+    ],
+    "object": "Na",
+    "obj_char_span": [
+     127,
+     129
+    ],
+    "predicate1": "Feature",
+    "predicate2": "Composition",
+    "relation": "Feature-Of"
+   },
+   {
+    "subject": "CE",
+    "subj_char_span": [
+     179,
+     181
+    ],
+    "object": "high energies",
+    "obj_char_span": [
+     69,
+     81
+    ],
+    "predicate1": "Characterization",
+    "predicate2": "Feature",
+    "relation": "Used-For"
+   }
+  ]
+ },
+ {
+  "text": "Importantly, we find specific temperature and Na-concentration domains where the rhombohedral-NaSiCON exhibits a biphasic be-havior ( or phase separation ), which is similar to the behavior observed in NaSiCON-based elec-trodes .",
+  "relation_list": [
+   {
+    "subject": "NaSiCON",
+    "subj_char_span": [
+     94,
+     100
+    ],
+    "object": "rhombohedral",
+    "obj_char_span": [
+     81,
+     92
+    ],
+    "predicate1": "Composition",
+    "predicate2": "Structure",
+    "relation": "Located-Of"
+   },
+   {
+    "subject": "phase separation",
+    "subj_char_span": [
+     137,
+     152
+    ],
+    "object": "NaSiCON",
+    "obj_char_span": [
+     94,
+     100
+    ],
+    "predicate1": "Property",
+    "predicate2": "Composition",
+    "relation": "Property-Of"
+   },
+   {
+    "subject": "biphasic be-havior",
+    "subj_char_span": [
+     113,
+     130
+    ],
+    "object": "NaSiCON",
+    "obj_char_span": [
+     94,
+     100
+    ],
+    "predicate1": "Property",
+    "predicate2": "Composition",
+    "relation": "Property-Of"
+   }
+  ]
+ },
+ {
+  "text": "The CE method has been proved very accu-rate in the prediction of Na chemical potentials ( and voltages ) in electrode materials, which indicates that our methodology is reli-able in predicting the useful ranges of miuNa in Na1 + xZr2SixP3-xO12 .",
+  "relation_list": [
+   {
+    "subject": "CE",
+    "subj_char_span": [
+     4,
+     5
+    ],
+    "object": "Na chemical potentials",
+    "obj_char_span": [
+     66,
+     87
+    ],
+    "predicate1": "Characterization",
+    "predicate2": "Property",
+    "relation": "Used-For"
+   }
+  ]
+ },
+ {
+  "text": "Most of the formation energies predicted by the CE model lie within the ¡À 20 meV / f . u . window, which indicates that the CE can also reproduce the formation energies of several high energy configurations accurately .",
+  "relation_list": [
+   {
+    "subject": "CE model",
+    "subj_char_span": [
+     48,
+     55
+    ],
+    "object": "formation energies",
+    "obj_char_span": [
+     12,
+     29
+    ],
+    "predicate1": "Characterization",
+    "predicate2": "Property",
+    "relation": "Used-For"
+   },
+   {
+    "subject": "¡À 20 meV / f . u .",
+    "subj_char_span": [
+     71,
+     90
+    ],
+    "object": "formation energies",
+    "obj_char_span": [
+     12,
+     29
+    ],
+    "predicate1": "Property",
+    "predicate2": "Property",
+    "relation": "Instance-Of"
+   }
+  ]
+ },
+ {
+  "text": "To illustrate explicitly the similarity between the phase-separation behavior identified in this work in Na1 + xZr2SixP3-xO12 and as observed in NaSiCON electrodes, we schematically super-impose our computed phase diagram ( around 295 K ) onto the experimental voltage curves of the Na3Ti2 ( PO4 ) 3, Na3V2 ( PO4 ) 3, Na3Cr2 ( PO4 ) 3 and Na3Fe2 ( PO4 ) 3 in Fig 7 .",
+  "relation_list": [
+   {
+    "subject": "phase-separation behavior",
+    "subj_char_span": [
+     52,
+     76
+    ],
+    "object": "Na1 + xZr2SixP3-xO12",
+    "obj_char_span": [
+     105,
+     124
+    ],
+    "predicate1": "Property",
+    "predicate2": "Composition",
+    "relation": "Property-Of"
+   },
+   {
+    "subject": "Na3Cr2 ( PO4 ) 3",
+    "subj_char_span": [
+     318,
+     333
+    ],
+    "object": "Na1 + xZr2SixP3-xO12",
+    "obj_char_span": [
+     105,
+     124
+    ],
+    "predicate1": "Composition",
+    "predicate2": "Composition",
+    "relation": "Component-Whole"
+   },
+   {
+    "subject": "computed phase diagram",
+    "subj_char_span": [
+     199,
+     221
+    ],
+    "object": "Na1 + xZr2SixP3-xO12",
+    "obj_char_span": [
+     105,
+     124
+    ],
+    "predicate1": "Characterization",
+    "predicate2": "Composition",
+    "relation": "Used-For"
+   },
+   {
+    "subject": "Na3V2 ( PO4 ) 3",
+    "subj_char_span": [
+     301,
+     315
+    ],
+    "object": "Na1 + xZr2SixP3-xO12",
+    "obj_char_span": [
+     105,
+     124
+    ],
+    "predicate1": "Composition",
+    "predicate2": "Composition",
+    "relation": "Component-Whole"
+   },
+   {
+    "subject": "Na3Fe2 ( PO4 ) 3",
+    "subj_char_span": [
+     339,
+     354
+    ],
+    "object": "Na1 + xZr2SixP3-xO12",
+    "obj_char_span": [
+     105,
+     124
+    ],
+    "predicate1": "Composition",
+    "predicate2": "Composition",
+    "relation": "Component-Whole"
+   },
+   {
+    "subject": "Na3Ti2 ( PO4 ) 3",
+    "subj_char_span": [
+     283,
+     298
+    ],
+    "object": "Na1 + xZr2SixP3-xO12",
+    "obj_char_span": [
+     105,
+     124
+    ],
+    "predicate1": "Composition",
+    "predicate2": "Composition",
+    "relation": "Component-Whole"
+   }
+  ]
+ },
+ {
+  "text": "At lower temperatures ( < 450 K ) and for 1 . 8 ¡Ü x ¡Ü 2 . 2 for x in Na1 + xZr2SixP3-xO12, the NaSiCON undergoes a monoclinic dis-tortion ( space group : C2 / c ) that is often as-sociated with Na + ordering into distinct Na sites and lower Na-conductivities .",
+  "relation_list": [
+   {
+    "subject": "monoclinic dis-tortion",
+    "subj_char_span": [
+     115,
+     136
+    ],
+    "object": "NaSiCON",
+    "obj_char_span": [
+     95,
+     102
+    ],
+    "predicate1": "Property",
+    "predicate2": "Feature",
+    "relation": "Property-Of"
+   },
+   {
+    "subject": "Na-conductivities",
+    "subj_char_span": [
+     241,
+     257
+    ],
+    "object": "monoclinic dis-tortion",
+    "obj_char_span": [
+     115,
+     136
+    ],
+    "predicate1": "Property",
+    "predicate2": "Property",
+    "relation": "Other"
+   },
+   {
+    "subject": "< 450 K",
+    "subj_char_span": [
+     24,
+     30
+    ],
+    "object": "lower temperatures",
+    "obj_char_span": [
+     3,
+     20
+    ],
+    "predicate1": "Condition",
+    "predicate2": "Condition",
+    "relation": "Instance-Of"
+   }
+  ]
+ },
+ {
+  "text": "Recent bench31 and synchrotron40 powder XRD studies demonstrated unequivocally that the low temperature Na1 + xZr2SixP3-xO12 com-positions behave as a single phase, in con-trast to our predictions .",
+  "relation_list": [
+   {
+    "subject": "Na1 + xZr2SixP3-xO12",
+    "subj_char_span": [
+     104,
+     123
+    ],
+    "object": "single phase",
+    "obj_char_span": [
+     150,
+     162
+    ],
+    "predicate1": "Composition",
+    "predicate2": "Structure",
+    "relation": "Located-Of"
+   }
+  ]
+ },
+ {
+  "text": "Although DFT calcula-tions do not capture the effect of temperature, the agreement between theory and experiments on lattice volumes can be attributed to the low thermal expansion ( < 5 %, 11 . 8 ¡Á 10-6 degree C-1 ) with increasing temperature ( over a wide tem-perature range, i . e ., 25 < T < 700 degree C ) of NaSi-CON .",
+  "relation_list": [
+   {
+    "subject": "lattice volumes",
+    "subj_char_span": [
+     117,
+     131
+    ],
+    "object": "low thermal expansion",
+    "obj_char_span": [
+     158,
+     178
+    ],
+    "predicate1": "Property",
+    "predicate2": "Property",
+    "relation": "Cause-Effect"
+   },
+   {
+    "subject": "low thermal expansion",
+    "subj_char_span": [
+     158,
+     178
+    ],
+    "object": "ee C ) o",
+    "obj_char_span": [
+     304,
+     311
+    ],
+    "predicate1": "Property",
+    "predicate2": "Composition",
+    "relation": "Property-Of"
+   },
+   {
+    "subject": "DFT",
+    "subj_char_span": [
+     9,
+     11
+    ],
+    "object": "lattice volumes",
+    "obj_char_span": [
+     117,
+     131
+    ],
+    "predicate1": "Characterization",
+    "predicate2": "Property",
+    "relation": "Used-For"
+   }
+  ]
+ },
+ {
+  "text": "The volume of the polyhedra formed by Na ( 1 ) site is typically larger than that of Na ( 2 ) and is coordinated by oxygens atoms from ZrO6 units in an anti-prismatic arrangement ( Fig 1b and 1c ), while Na ( 2 ) resides in an irregular polyhe-dral, coordinated to seven neighboring oxygen atoms from the ZrO6 and XO4 units .",
+  "relation_list": [
+   {
+    "subject": "volume",
+    "subj_char_span": [
+     4,
+     10
+    ],
+    "object": "polyhedra",
+    "obj_char_span": [
+     18,
+     27
+    ],
+    "predicate1": "Property",
+    "predicate2": "Structure",
+    "relation": "Property-Of"
+   }
+  ]
+ },
+ {
+  "text": "In Na1 + xZr2SixP3-xO12, Na ions migrate between Na ( 1 ) and Na ( 2 ) sites, and the resultant mi-gration barrier is related to the energy differ-ence between the Na ( 1 ) and Na ( 2 ) sites when they are occupied by Na .",
+  "relation_list": [
+   {
+    "subject": "resultant mi-gration barrier",
+    "subj_char_span": [
+     86,
+     113
+    ],
+    "object": "Na1 + xZr2SixP3-xO12",
+    "obj_char_span": [
+     3,
+     22
+    ],
+    "predicate1": "Property",
+    "predicate2": "Composition",
+    "relation": "Property-Of"
+   },
+   {
+    "subject": "energy differ-ence",
+    "subj_char_span": [
+     133,
+     150
+    ],
+    "object": "resultant mi-gration barrier",
+    "obj_char_span": [
+     86,
+     113
+    ],
+    "predicate1": "Property",
+    "predicate2": "Property",
+    "relation": "Cause-Effect"
+   }
+  ]
+ },
+ {
+  "text": "The region of stability of the B-phase also over-laps with the composition ( 1 . 8 ¡Ü x ¡Ü 2 . 2 ) and temperature ( < 415 K ) where the rhom-bohedral structure transforms into the mono-clinic polymorph in experiments .",
+  "relation_list": [
+   {
+    "subject": "rhom-bohedral structure",
+    "subj_char_span": [
+     135,
+     157
+    ],
+    "object": "mono-clinic polymorph",
+    "obj_char_span": [
+     179,
+     199
+    ],
+    "predicate1": "Structure",
+    "predicate2": "Structure",
+    "relation": "Cause-Effect"
+   }
+  ]
+ },
+ {
+  "text": "From our results we propose that the addition of SiO44-moieties The development of green energy technolo-gies, such as photovoltaics, wind turbines and rechargeable batteries, is essential in meeting the sustainable needs of a society to limit its fossil fuel usage .",
+  "relation_list": [
+   {
+    "subject": "SiO44-moieties",
+    "subj_char_span": [
+     49,
+     62
+    ],
+    "object": "wind turbines",
+    "obj_char_span": [
+     134,
+     146
+    ],
+    "predicate1": "Composition",
+    "predicate2": "Application",
+    "relation": "Other"
+   },
+   {
+    "subject": "SiO44-moieties",
+    "subj_char_span": [
+     49,
+     62
+    ],
+    "object": "rechargeable batteries",
+    "obj_char_span": [
+     152,
+     173
+    ],
+    "predicate1": "Composition",
+    "predicate2": "Application",
+    "relation": "Other"
+   },
+   {
+    "subject": "SiO44-moieties",
+    "subj_char_span": [
+     49,
+     62
+    ],
+    "object": "photovoltaics",
+    "obj_char_span": [
+     119,
+     131
+    ],
+    "predicate1": "Composition",
+    "predicate2": "Application",
+    "relation": "Other"
+   }
+  ]
+ },
+ {
+  "text": "All dominant pair, triplet and quadruplet interactions within our CE model are listed in Tables S3, S4 and S5 of the SI .",
+  "relation_list": [
+   {
+    "subject": "CE model",
+    "subj_char_span": [
+     66,
+     73
+    ],
+    "object": "triplet",
+    "obj_char_span": [
+     19,
+     25
+    ],
+    "predicate1": "Characterization",
+    "predicate2": "Structure",
+    "relation": "Used-For"
+   },
+   {
+    "subject": "CE model",
+    "subj_char_span": [
+     66,
+     73
+    ],
+    "object": "quadruplet",
+    "obj_char_span": [
+     31,
+     40
+    ],
+    "predicate1": "Characterization",
+    "predicate2": "Structure",
+    "relation": "Used-For"
+   },
+   {
+    "subject": "CE model",
+    "subj_char_span": [
+     66,
+     73
+    ],
+    "object": "dominant pair",
+    "obj_char_span": [
+     4,
+     16
+    ],
+    "predicate1": "Characterization",
+    "predicate2": "Structure",
+    "relation": "Used-For"
+   }
+  ]
+ },
+ {
+  "text": "A pathway to create a battery with a high energy density as well as safety is to replace the liquid with a non-flammable solid elec-trolyte, 6 leading to all-solid-state batteries, which are the object of a sizeable amount of current research .",
+  "relation_list": [
+   {
+    "subject": "high energy density",
+    "subj_char_span": [
+     37,
+     55
+    ],
+    "object": "battery",
+    "obj_char_span": [
+     22,
+     29
+    ],
+    "predicate1": "Property",
+    "predicate2": "Application",
+    "relation": "Property-Of"
+   }
+  ]
+ },
+ {
+  "text": "The ex-istence of a third Na site between Na ( 1 ) and Na ( 2 ) has been reported and attributed to a metastable state in the Na + migration .",
+  "relation_list": [
+   {
+    "subject": "Na site",
+    "subj_char_span": [
+     26,
+     32
+    ],
+    "object": "metastable state",
+    "obj_char_span": [
+     102,
+     117
+    ],
+    "predicate1": "Composition",
+    "predicate2": "Property",
+    "relation": "Cause-Effect"
+   }
+  ]
+ },
+ {
+  "text": "The stability of the fully occupied Na ( 2 ) plus fully empty Na ( 1 ) configuration might be electrostatically driven ( see Section 4 . 2 ) and requires fur-ther exploration .",
+  "relation_list": [
+   {
+    "subject": "stability",
+    "subj_char_span": [
+     4,
+     13
+    ],
+    "object": "Na ( 1 )",
+    "obj_char_span": [
+     62,
+     69
+    ],
+    "predicate1": "Property",
+    "predicate2": "Structure",
+    "relation": "Property-Of"
+   },
+   {
+    "subject": "stability",
+    "subj_char_span": [
+     4,
+     13
+    ],
+    "object": "Na ( 2 )",
+    "obj_char_span": [
+     36,
+     43
+    ],
+    "predicate1": "Property",
+    "predicate2": "Structure",
+    "relation": "Property-Of"
+   }
+  ]
+ },
+ {
+  "text": "Dashed lines in all panels of Fig 6 indicate thermodynamic properties and Na occupancies within biphasic regions .",
+  "relation_list": [
+   {
+    "subject": "Na occupancies",
+    "subj_char_span": [
+     74,
+     87
+    ],
+    "object": "biphasic regions",
+    "obj_char_span": [
+     96,
+     111
+    ],
+    "predicate1": "Property",
+    "predicate2": "Structure",
+    "relation": "Property-Of"
+   },
+   {
+    "subject": "thermodynamic",
+    "subj_char_span": [
+     45,
+     57
+    ],
+    "object": "biphasic regions",
+    "obj_char_span": [
+     96,
+     111
+    ],
+    "predicate1": "Property",
+    "predicate2": "Structure",
+    "relation": "Property-Of"
+   }
+  ]
+ },
+ {
+  "text": "The CE is typically written as a truncated summation of the effec-tive cluster interactions ( ECIs ) of pair, triplet, quadruplet, and higher order clusters as : where E is the formation energy of a Na / Va and Si / P configuration ( i . e ., a given structure ) .",
+  "relation_list": [
+   {
+    "subject": "CE",
+    "subj_char_span": [
+     4,
+     5
+    ],
+    "object": "effec-tive cluster interactions",
+    "obj_char_span": [
+     60,
+     90
+    ],
+    "predicate1": "Characterization",
+    "predicate2": "Property",
+    "relation": "Used-For"
+   }
+  ]
+ },
+ {
+  "text": "The higher entropy observed for other compositions away from the 0 K ground states is indicative of the higher configurational dis-order within the Na / Va and Si / P sub-lattices .",
+  "relation_list": [
+   {
+    "subject": "higher entropy",
+    "subj_char_span": [
+     4,
+     17
+    ],
+    "object": "higher configurational dis-order",
+    "obj_char_span": [
+     104,
+     135
+    ],
+    "predicate1": "Property",
+    "predicate2": "Property",
+    "relation": "Cause-Effect"
+   }
+  ]
+ },
+ {
+  "text": "The computed phase diagram suggests that Na1 + xZr2SixP3-xO12 would phase separate into three distinct single-phase domains at low tem-perature, in contrast with experimental ob-servations so far .",
+  "relation_list": [
+   {
+    "subject": "phase separate",
+    "subj_char_span": [
+     68,
+     81
+    ],
+    "object": "Na1 + xZr2SixP3-xO12",
+    "obj_char_span": [
+     41,
+     60
+    ],
+    "predicate1": "Property",
+    "predicate2": "Composition",
+    "relation": "Property-Of"
+   },
+   {
+    "subject": "Na1 + xZr2SixP3-xO12",
+    "subj_char_span": [
+     41,
+     60
+    ],
+    "object": "three distinct single-phase",
+    "obj_char_span": [
+     88,
+     114
+    ],
+    "predicate1": "Composition",
+    "predicate2": "Structure",
+    "relation": "Located-Of"
+   },
+   {
+    "subject": "phase separate",
+    "subj_char_span": [
+     68,
+     81
+    ],
+    "object": "low tem-perature",
+    "obj_char_span": [
+     126,
+     142
+    ],
+    "predicate1": "Property",
+    "predicate2": "Condition",
+    "relation": "Condition-On"
+   }
+  ]
+ },
+ {
+  "text": "To coarse grain the Gibbs free-energy with changes in composition and temperature of the rhombohedral Na1 + xZr2SixP3-xO12, the Metropolis-Hasting GCMC51 was performed using a CE Hamiltonian .",
+  "relation_list": [
+   {
+    "subject": "Gibbs free-energy",
+    "subj_char_span": [
+     20,
+     36
+    ],
+    "object": "Na1 + xZr2SixP3-xO12",
+    "obj_char_span": [
+     102,
+     121
+    ],
+    "predicate1": "Property",
+    "predicate2": "Composition",
+    "relation": "Property-Of"
+   },
+   {
+    "subject": "Metropolis-Hasting GCMC",
+    "subj_char_span": [
+     128,
+     150
+    ],
+    "object": "CE",
+    "obj_char_span": [
+     176,
+     177
+    ],
+    "predicate1": "Characterization",
+    "predicate2": "Characterization",
+    "relation": "Used-For"
+   },
+   {
+    "subject": "Na1 + xZr2SixP3-xO12",
+    "subj_char_span": [
+     102,
+     121
+    ],
+    "object": "rhombohedral",
+    "obj_char_span": [
+     89,
+     100
+    ],
+    "predicate1": "Composition",
+    "predicate2": "Structure",
+    "relation": "Located-Of"
+   },
+   {
+    "subject": "CE",
+    "subj_char_span": [
+     176,
+     177
+    ],
+    "object": "Na1 + xZr2SixP3-xO12",
+    "obj_char_span": [
+     102,
+     121
+    ],
+    "predicate1": "Characterization",
+    "predicate2": "Composition",
+    "relation": "Used-For"
+   }
+  ]
+ },
+ {
+  "text": "The CE was pa-rameterized on various Na-vacancy ( Va ) and Si-P configurations, and the CE fit was ob-tained using the cluster assisted statistical mechanics ( CASM ) code .",
+  "relation_list": [
+   {
+    "subject": "Si-P configurations",
+    "subj_char_span": [
+     59,
+     77
+    ],
+    "object": "CE",
+    "obj_char_span": [
+     4,
+     5
+    ],
+    "predicate1": "Property",
+    "predicate2": "Characterization",
+    "relation": "Cause-Effect"
+   },
+   {
+    "subject": "cluster assisted statistical mechanics",
+    "subj_char_span": [
+     119,
+     156
+    ],
+    "object": "CE",
+    "obj_char_span": [
+     4,
+     5
+    ],
+    "predicate1": "Characterization",
+    "predicate2": "Characterization",
+    "relation": "Used-For"
+   },
+   {
+    "subject": "Na-vacancy",
+    "subj_char_span": [
+     37,
+     46
+    ],
+    "object": "CE",
+    "obj_char_span": [
+     4,
+     5
+    ],
+    "predicate1": "Property",
+    "predicate2": "Characterization",
+    "relation": "Cause-Effect"
+   },
+   {
+    "subject": "CASM",
+    "subj_char_span": [
+     160,
+     163
+    ],
+    "object": "CE",
+    "obj_char_span": [
+     4,
+     5
+    ],
+    "predicate1": "Characterization",
+    "predicate2": "Characterization",
+    "relation": "Used-For"
+   }
+  ]
+ },
+ {
+  "text": "Through the phase dia-gram, we identify the concentration domains providing the highest Na +-ion conductivity and previously unreported phase-separation behav-ior across three different single-phase regions .",
+  "relation_list": [
+   {
+    "subject": "phase dia-gram",
+    "subj_char_span": [
+     12,
+     25
+    ],
+    "object": "phase-separation",
+    "obj_char_span": [
+     136,
+     151
+    ],
+    "predicate1": "Characterization",
+    "predicate2": "Property",
+    "relation": "Used-For"
+   },
+   {
+    "subject": "phase dia-gram",
+    "subj_char_span": [
+     12,
+     25
+    ],
+    "object": "Na +-ion conductivity",
+    "obj_char_span": [
+     88,
+     108
+    ],
+    "predicate1": "Characterization",
+    "predicate2": "Property",
+    "relation": "Used-For"
+   }
+  ]
+ },
+ {
+  "text": "The ECI V, and a polynomial func-tion mapping the occupation of the lattice site, with ¦Æi = 0 or 1 representing the occupation of Na or Va and phia = 0 or 1 that of Si or P . 56 Each ECI in the sum includes the multiplicity ( the cluster symmetry ) .",
+  "relation_list": [
+   {
+    "subject": "polynomial func-tion",
+    "subj_char_span": [
+     17,
+     36
+    ],
+    "object": "lattice site",
+    "obj_char_span": [
+     68,
+     79
+    ],
+    "predicate1": "Characterization",
+    "predicate2": "Structure",
+    "relation": "Used-For"
+   },
+   {
+    "subject": "ECI",
+    "subj_char_span": [
+     4,
+     6
+    ],
+    "object": "lattice site",
+    "obj_char_span": [
+     68,
+     79
+    ],
+    "predicate1": "Characterization",
+    "predicate2": "Structure",
+    "relation": "Used-For"
+   }
+  ]
+ },
+ {
+  "text": "Different Na / Va and Si / P configurations were enumerated using the pymatgen package . 59 The primitive cell of the experimental rhombohedral Na4Zr2Si3O12 structure60 ( 2 f . u ., with 42 atoms ) was used to enumerate the configurations in the possible Na concentration range ( 0 ¡Ü x ¡Ü 3 ) at a step-size, delta x = 0 . 5 .",
+  "relation_list": [
+   {
+    "subject": "pymatgen package",
+    "subj_char_span": [
+     70,
+     85
+    ],
+    "object": "Na4Zr2Si3O12",
+    "obj_char_span": [
+     144,
+     155
+    ],
+    "predicate1": "Characterization",
+    "predicate2": "Composition",
+    "relation": "Used-For"
+   },
+   {
+    "subject": "pymatgen package",
+    "subj_char_span": [
+     70,
+     85
+    ],
+    "object": "Na / Va",
+    "obj_char_span": [
+     10,
+     16
+    ],
+    "predicate1": "Characterization",
+    "predicate2": "Composition",
+    "relation": "Used-For"
+   },
+   {
+    "subject": "2 f . u ., with 42 atoms",
+    "subj_char_span": [
+     171,
+     194
+    ],
+    "object": "Na4Zr2Si3O12",
+    "obj_char_span": [
+     144,
+     155
+    ],
+    "predicate1": "Property",
+    "predicate2": "Composition",
+    "relation": "Property-Of"
+   },
+   {
+    "subject": "pymatgen package",
+    "subj_char_span": [
+     70,
+     85
+    ],
+    "object": "Si / P",
+    "obj_char_span": [
+     22,
+     27
+    ],
+    "predicate1": "Characterization",
+    "predicate2": "Composition",
+    "relation": "Used-For"
+   },
+   {
+    "subject": "Na concentration range",
+    "subj_char_span": [
+     255,
+     276
+    ],
+    "object": "Na4Zr2Si3O12",
+    "obj_char_span": [
+     144,
+     155
+    ],
+    "predicate1": "Property",
+    "predicate2": "Composition",
+    "relation": "Property-Of"
+   },
+   {
+    "subject": "Na4Zr2Si3O12",
+    "subj_char_span": [
+     144,
+     155
+    ],
+    "object": "rhombohedral",
+    "obj_char_span": [
+     131,
+     142
+    ],
+    "predicate1": "Composition",
+    "predicate2": "Structure",
+    "relation": "Located-Of"
+   }
+  ]
+ },
+ {
+  "text": "Note that the GS structures are the ground state Na / Si / P configurations at x = 0 and 2 ( see Fig 6 ), while at x = 3, the GS is the DFT ground state with a Na vacancy .",
+  "relation_list": [
+   {
+    "subject": "DFT",
+    "subj_char_span": [
+     136,
+     138
+    ],
+    "object": "GS",
+    "obj_char_span": [
+     126,
+     127
+    ],
+    "predicate1": "Characterization",
+    "predicate2": "Structure",
+    "relation": "Used-For"
+   }
+  ]
+ },
+ {
+  "text": "On the ba-sis of our entropy curves of Fig 6, we believe that the tendency for Na to order at composi-tion x = 2 in Na3V2 ( PO4 ) 3, Na3Cr2 ( PO4 ) 3 and Na3Zr2Si2P1O12 is significant, and eventually drives the rhombohedral to monoclinic ( and their superstructures ) phase transition at room temperature .",
+  "relation_list": [
+   {
+    "subject": "entropy curves",
+    "subj_char_span": [
+     21,
+     34
+    ],
+    "object": "Na3Zr2Si2P1O12",
+    "obj_char_span": [
+     154,
+     167
+    ],
+    "predicate1": "Characterization",
+    "predicate2": "Composition",
+    "relation": "Used-For"
+   },
+   {
+    "subject": "rhombohedral",
+    "subj_char_span": [
+     211,
+     223
+    ],
+    "object": "monoclinic",
+    "obj_char_span": [
+     227,
+     237
+    ],
+    "predicate1": "Structure",
+    "predicate2": "Structure",
+    "relation": "Other"
+   },
+   {
+    "subject": "entropy curves",
+    "subj_char_span": [
+     21,
+     34
+    ],
+    "object": "Na3V2 ( PO4 ) 3",
+    "obj_char_span": [
+     116,
+     130
+    ],
+    "predicate1": "Characterization",
+    "predicate2": "Composition",
+    "relation": "Used-For"
+   },
+   {
+    "subject": "entropy curves",
+    "subj_char_span": [
+     21,
+     34
+    ],
+    "object": "Na3Cr2 ( PO4 ) 3",
+    "obj_char_span": [
+     133,
+     148
+    ],
+    "predicate1": "Characterization",
+    "predicate2": "Composition",
+    "relation": "Used-For"
+   }
+  ]
+ },
+ {
+  "text": "The condition of charge neutrality in-creases substantially the number of GCMC steps required to achieve convergence compared to GCMC simulations without this constraint . GCMC simulations were considered converged when deviations in formation energies reached ¡Ü 0 . 5 meV / f . u .",
+  "relation_list": [
+   {
+    "subject": "¡Ü 0 . 5 meV / f . u",
+    "subj_char_span": [
+     261,
+     279
+    ],
+    "object": "deviations in formation energies",
+    "obj_char_span": [
+     220,
+     251
+    ],
+    "predicate1": "Property",
+    "predicate2": "Property",
+    "relation": "Property-Of"
+   },
+   {
+    "subject": "deviations in formation energies",
+    "subj_char_span": [
+     220,
+     251
+    ],
+    "object": "GCMC",
+    "obj_char_span": [
+     172,
+     176
+    ],
+    "predicate1": "Property",
+    "predicate2": "Characterization",
+    "relation": "Cause-Effect"
+   },
+   {
+    "subject": "charge neutrality",
+    "subj_char_span": [
+     17,
+     33
+    ],
+    "object": "GCMC",
+    "obj_char_span": [
+     74,
+     78
+    ],
+    "predicate1": "Property",
+    "predicate2": "Characterization",
+    "relation": "Cause-Effect"
+   }
+  ]
+ },
+ {
+  "text": "Phase separation appears to be the un-derlying favorable thermodynamic pro-cess in Na1 + xZr2SixP3-xO12, but is inhib-ited by the large energy barrier involved in the rearrangement of the SiO44-and PO43-species .",
+  "relation_list": [
+   {
+    "subject": "Phase separation",
+    "subj_char_span": [
+     0,
+     15
+    ],
+    "object": "Na1 + xZr2SixP3-xO12",
+    "obj_char_span": [
+     83,
+     102
+    ],
+    "predicate1": "Property",
+    "predicate2": "Composition",
+    "relation": "Property-Of"
+   },
+   {
+    "subject": "large energy barrier",
+    "subj_char_span": [
+     129,
+     149
+    ],
+    "object": "SiO44-",
+    "obj_char_span": [
+     188,
+     193
+    ],
+    "predicate1": "Property",
+    "predicate2": "Composition",
+    "relation": "Property-Of"
+   },
+   {
+    "subject": "large energy barrier",
+    "subj_char_span": [
+     129,
+     149
+    ],
+    "object": "PO43-",
+    "obj_char_span": [
+     197,
+     202
+    ],
+    "predicate1": "Property",
+    "predicate2": "Composition",
+    "relation": "Property-Of"
+   }
+  ]
+ },
+ {
+  "text": "In Fig 2b, points near 0 meV / f . u . on the hori-zontal axis represent a perfect fit with the DFT data, whereas points beyond ¡À 20 meV / f . u . can be considered poorly described by the model .",
+  "relation_list": [
+   {
+    "subject": "DFT",
+    "subj_char_span": [
+     96,
+     99
+    ],
+    "object": "meV / f . u .",
+    "obj_char_span": [
+     24,
+     38
+    ],
+    "predicate1": "Characterization",
+    "predicate2": "Property",
+    "relation": "Used-For"
+   }
+  ]
+ },
+ {
+  "text": "Here, we will use the nomenclature rhombohedral-and monoclinic-NaSiCON to distinguish the two Na1 + xZr2SixP3-xO12 phases .",
+  "relation_list": [
+   {
+    "subject": "NaSiCON",
+    "subj_char_span": [
+     63,
+     70
+    ],
+    "object": "monoclinic",
+    "obj_char_span": [
+     52,
+     61
+    ],
+    "predicate1": "Composition",
+    "predicate2": "Structure",
+    "relation": "Located-Of"
+   },
+   {
+    "subject": "Na1 + xZr2SixP3-xO12",
+    "subj_char_span": [
+     94,
+     113
+    ],
+    "object": "phases",
+    "obj_char_span": [
+     115,
+     121
+    ],
+    "predicate1": "Composition",
+    "predicate2": "Structure",
+    "relation": "Located-Of"
+   },
+   {
+    "subject": "NaSiCON",
+    "subj_char_span": [
+     63,
+     70
+    ],
+    "object": "rhombohedral",
+    "obj_char_span": [
+     35,
+     46
+    ],
+    "predicate1": "Composition",
+    "predicate2": "Structure",
+    "relation": "Located-Of"
+   }
+  ]
+ },
+ {
+  "text": "Our work is an important addition in understand-ing the thermodynamics of NaSiCON-based materials and in the development of inexpen-sive Na-ion batteries .",
+  "relation_list": [
+   {
+    "subject": "thermodynamics",
+    "subj_char_span": [
+     56,
+     69
+    ],
+    "object": "NaSiCON",
+    "obj_char_span": [
+     74,
+     80
+    ],
+    "predicate1": "Property",
+    "predicate2": "Structure",
+    "relation": "Property-Of"
+   }
+  ]
+ },
+ {
+  "text": "Thus, the interplay of local charge neutrality, the short and long-range cluster in-teractions among the Na ( 1 ) and Na ( 2 ) sites, and Na + mobility will control the experimen-tally observed population of Na sites at different Na concentrations .",
+  "relation_list": [
+   {
+    "subject": "Na + mobility",
+    "subj_char_span": [
+     138,
+     150
+    ],
+    "object": "population of Na sites",
+    "obj_char_span": [
+     194,
+     215
+    ],
+    "predicate1": "Property",
+    "predicate2": "Property",
+    "relation": "Cause-Effect"
+   },
+   {
+    "subject": "local charge neutrality",
+    "subj_char_span": [
+     23,
+     45
+    ],
+    "object": "population of Na sites",
+    "obj_char_span": [
+     194,
+     215
+    ],
+    "predicate1": "Property",
+    "predicate2": "Property",
+    "relation": "Cause-Effect"
+   }
+  ]
+ },
+ {
+  "text": "We verified this unsurmountable energetic cost for Si4 + and P5 + reorganization by computing the migration bar-rier of P5 + in Na1 + xZr2SixP3-xO12, which results larger than ~ 4 . 02 eV ( Fig S5 in SI ) .",
+  "relation_list": [
+   {
+    "subject": "unsurmountable energetic cost",
+    "subj_char_span": [
+     17,
+     45
+    ],
+    "object": "migration bar-rier",
+    "obj_char_span": [
+     98,
+     115
+    ],
+    "predicate1": "Property",
+    "predicate2": "Property",
+    "relation": "Other"
+   },
+   {
+    "subject": "P5 +",
+    "subj_char_span": [
+     120,
+     123
+    ],
+    "object": "Na1 + xZr2SixP3-xO12",
+    "obj_char_span": [
+     128,
+     147
+    ],
+    "predicate1": "Composition",
+    "predicate2": "Composition",
+    "relation": "Component-Whole"
+   },
+   {
+    "subject": "migration bar-rier",
+    "subj_char_span": [
+     98,
+     115
+    ],
+    "object": "P5 +",
+    "obj_char_span": [
+     120,
+     123
+    ],
+    "predicate1": "Property",
+    "predicate2": "Composition",
+    "relation": "Property-Of"
+   }
+  ]
+ },
+ {
+  "text": "For this purpose, advanced powder X-ray or neutron diffraction experiments are required since they should identify phase separation and reveal all the crystalline phases that would eventually coexist in a given sample .",
+  "relation_list": [
+   {
+    "subject": "advanced powder X-ray",
+    "subj_char_span": [
+     18,
+     38
+    ],
+    "object": "crystalline phases",
+    "obj_char_span": [
+     151,
+     168
+    ],
+    "predicate1": "Characterization",
+    "predicate2": "Structure",
+    "relation": "Used-For"
+   },
+   {
+    "subject": "neutron diffraction experiments",
+    "subj_char_span": [
+     43,
+     73
+    ],
+    "object": "crystalline phases",
+    "obj_char_span": [
+     151,
+     168
+    ],
+    "predicate1": "Characterization",
+    "predicate2": "Structure",
+    "relation": "Used-For"
+   },
+   {
+    "subject": "neutron diffraction experiments",
+    "subj_char_span": [
+     43,
+     73
+    ],
+    "object": "phase separation",
+    "obj_char_span": [
+     114,
+     131
+    ],
+    "predicate1": "Characterization",
+    "predicate2": "Property",
+    "relation": "Used-For"
+   },
+   {
+    "subject": "advanced powder X-ray",
+    "subj_char_span": [
+     18,
+     38
+    ],
+    "object": "phase separation",
+    "obj_char_span": [
+     114,
+     131
+    ],
+    "predicate1": "Characterization",
+    "predicate2": "Property",
+    "relation": "Used-For"
+   }
+  ]
+ },
+ {
+  "text": "Alio-valent doping has been used to increase the Na-ion conductivity by varying the Na content and disorder in NaSiCON .",
+  "relation_list": [
+   {
+    "subject": "Alio-valent doping",
+    "subj_char_span": [
+     0,
+     17
+    ],
+    "object": "Na-ion conductivity",
+    "obj_char_span": [
+     49,
+     67
+    ],
+    "predicate1": "Characterization",
+    "predicate2": "Property",
+    "relation": "Used-For"
+   },
+   {
+    "subject": "Alio-valent doping",
+    "subj_char_span": [
+     0,
+     17
+    ],
+    "object": "NaSiCON",
+    "obj_char_span": [
+     111,
+     118
+    ],
+    "predicate1": "Characterization",
+    "predicate2": "Composition",
+    "relation": "Used-For"
+   }
+  ]
+ },
+ {
+  "text": "For example, at low temperatures ( ~ 300 K ), our predicted phase diagram sug-gests that Na3 . 5Zr2Si1P2O12 ( C ' ) will phase sep-arate into a mixture of Na3Zr2Si2P1O12 ( B ) and Na4Zr2Si3O12 ( C ) .",
+  "relation_list": [
+   {
+    "subject": "Na3 . 5Zr2Si1P2O12",
+    "subj_char_span": [
+     89,
+     106
+    ],
+    "object": "Na3Zr2Si2P1O12",
+    "obj_char_span": [
+     155,
+     169
+    ],
+    "predicate1": "Composition",
+    "predicate2": "Composition",
+    "relation": "Cause-Effect"
+   },
+   {
+    "subject": "phase sep-arate",
+    "subj_char_span": [
+     121,
+     135
+    ],
+    "object": "Na3 . 5Zr2Si1P2O12",
+    "obj_char_span": [
+     89,
+     106
+    ],
+    "predicate1": "Property",
+    "predicate2": "Composition",
+    "relation": "Property-Of"
+   },
+   {
+    "subject": "Na3 . 5Zr2Si1P2O12",
+    "subj_char_span": [
+     89,
+     106
+    ],
+    "object": "Na4Zr2Si3O12",
+    "obj_char_span": [
+     180,
+     191
+    ],
+    "predicate1": "Composition",
+    "predicate2": "Composition",
+    "relation": "Cause-Effect"
+   }
+  ]
+ },
+ {
+  "text": "Fig 7 shows that as Na is inserted / extracted into / from NaM2 ( PO4 ) 3 / Na3M2 ( PO4 ) 3 ( M = Ti, V, Cr and Fe ), the materials always phase separate for Na concentrations in the range 0 < x < 2 . Nax + 1V2 ( PO4 ) 3 also phase sepa-rates between Na concentrations of 2 < x < 3 .",
+  "relation_list": [
+   {
+    "subject": "phase separate",
+    "subj_char_span": [
+     139,
+     152
+    ],
+    "object": "Na concentrations",
+    "obj_char_span": [
+     158,
+     174
+    ],
+    "predicate1": "Property",
+    "predicate2": "Property",
+    "relation": "Cause-Effect"
+   }
+  ]
+ },
+ {
+  "text": "The NaSiCON structure provides a versatile frame-work, incorporating both cationic ( Na + and Zr4 + ) and anionic ( SiO44-and PO43-) moi-eties which enable the number of Na +-ions to vary between 1 and 4 per formula unit with corresponding changes in the P : Si ratio and Na +-ion conductivity .",
+  "relation_list": [
+   {
+    "subject": "cationic",
+    "subj_char_span": [
+     74,
+     82
+    ],
+    "object": "NaSiCON",
+    "obj_char_span": [
+     4,
+     11
+    ],
+    "predicate1": "Composition",
+    "predicate2": "Structure",
+    "relation": "Located-Of"
+   },
+   {
+    "subject": "P : Si ratio",
+    "subj_char_span": [
+     255,
+     266
+    ],
+    "object": "NaSiCON",
+    "obj_char_span": [
+     4,
+     11
+    ],
+    "predicate1": "Property",
+    "predicate2": "Structure",
+    "relation": "Property-Of"
+   },
+   {
+    "subject": "anionic",
+    "subj_char_span": [
+     106,
+     113
+    ],
+    "object": "NaSiCON",
+    "obj_char_span": [
+     4,
+     11
+    ],
+    "predicate1": "Composition",
+    "predicate2": "Structure",
+    "relation": "Located-Of"
+   },
+   {
+    "subject": "Na +-ion conductivity",
+    "subj_char_span": [
+     272,
+     292
+    ],
+    "object": "NaSiCON",
+    "obj_char_span": [
+     4,
+     11
+    ],
+    "predicate1": "Property",
+    "predicate2": "Structure",
+    "relation": "Property-Of"
+   }
+  ]
+ },
+ {
+  "text": "Furthermore, the higher mo-bility of Na enables Na + ions to adopt energy minimizing configurations, given a Si / P ar-rangement .",
+  "relation_list": [
+   {
+    "subject": "energy minimizing configurations",
+    "subj_char_span": [
+     67,
+     98
+    ],
+    "object": "Na + ions",
+    "obj_char_span": [
+     48,
+     56
+    ],
+    "predicate1": "Property",
+    "predicate2": "Composition",
+    "relation": "Property-Of"
+   },
+   {
+    "subject": "higher mo-bility",
+    "subj_char_span": [
+     17,
+     32
+    ],
+    "object": "Na",
+    "obj_char_span": [
+     37,
+     39
+    ],
+    "predicate1": "Property",
+    "predicate2": "Composition",
+    "relation": "Property-Of"
+   }
+  ]
+ },
+ {
+  "text": "In GCMC, either the chemical potential ( miu ) or temperature ( T ) can vary .",
+  "relation_list": [
+   {
+    "subject": "GCMC",
+    "subj_char_span": [
+     3,
+     6
+    ],
+    "object": "r temperatu",
+    "obj_char_span": [
+     48,
+     58
+    ],
+    "predicate1": "Characterization",
+    "predicate2": "Property",
+    "relation": "Used-For"
+   },
+   {
+    "subject": "GCMC",
+    "subj_char_span": [
+     3,
+     6
+    ],
+    "object": "chemical potential",
+    "obj_char_span": [
+     20,
+     37
+    ],
+    "predicate1": "Characterization",
+    "predicate2": "Property",
+    "relation": "Used-For"
+   }
+  ]
+ },
+ {
+  "text": "In this investigation, we therefore analyze the phase behavior of the NaSiCON electrolyte by constructing the Na1 + xZr2SixP3-xO12 phase diagram as a func-tion of composition ( 0 ¡Ü x ¡Ü 3 ) and temperature .",
+  "relation_list": [
+   {
+    "subject": "Na1 + xZr2SixP3-xO12",
+    "subj_char_span": [
+     110,
+     129
+    ],
+    "object": "NaSiCON",
+    "obj_char_span": [
+     70,
+     76
+    ],
+    "predicate1": "Composition",
+    "predicate2": "Structure",
+    "relation": "Component-Whole"
+   },
+   {
+    "subject": "phase diagram",
+    "subj_char_span": [
+     131,
+     143
+    ],
+    "object": "NaSiCON",
+    "obj_char_span": [
+     70,
+     76
+    ],
+    "predicate1": "Property",
+    "predicate2": "Structure",
+    "relation": "Property-Of"
+   }
+  ]
+ },
+ {
+  "text": "In the case of x = 0, the ground-state struc-ture in Fig 2a is ordered and all the Na + ions occupy the Na ( 1 ) position ( Figs S3 and S4 in SI ), in agreement with previous experimen-tal reports .",
+  "relation_list": [
+   {
+    "subject": "Na + ions",
+    "subj_char_span": [
+     83,
+     91
+    ],
+    "object": "Na ( 1 )",
+    "obj_char_span": [
+     104,
+     111
+    ],
+    "predicate1": "Composition",
+    "predicate2": "Structure",
+    "relation": "Located-Of"
+   }
+  ]
+ },
+ {
+  "text": "We have systematically analyzed the phase-diagram of rhombohedral-Na1 + xZr2SixP3-xO12 by com-bining first-principles calculations, the clus-ter expansion formalism, and Monte Carlo simulations .",
+  "relation_list": [
+   {
+    "subject": "Na1 + xZr2SixP3-xO12",
+    "subj_char_span": [
+     66,
+     85
+    ],
+    "object": "rhombohedral",
+    "obj_char_span": [
+     53,
+     64
+    ],
+    "predicate1": "Composition",
+    "predicate2": "Structure",
+    "relation": "Located-Of"
+   },
+   {
+    "subject": "phase-diagram",
+    "subj_char_span": [
+     36,
+     48
+    ],
+    "object": "Na1 + xZr2SixP3-xO12",
+    "obj_char_span": [
+     66,
+     85
+    ],
+    "predicate1": "Characterization",
+    "predicate2": "Composition",
+    "relation": "Used-For"
+   }
+  ]
+ },
+ {
+  "text": "Notably, phase sep-aration of Na2ZrCr ( PO4 ) 3 was not observed even after prolonged annealing treatments at high temperatures .",
+  "relation_list": [
+   {
+    "subject": "high temperatures",
+    "subj_char_span": [
+     110,
+     127
+    ],
+    "object": "phase sep-aration",
+    "obj_char_span": [
+     9,
+     25
+    ],
+    "predicate1": "Condition",
+    "predicate2": "Property",
+    "relation": "Cause-Effect"
+   },
+   {
+    "subject": "phase sep-aration",
+    "subj_char_span": [
+     9,
+     25
+    ],
+    "object": "Na2ZrCr ( PO4 ) 3",
+    "obj_char_span": [
+     30,
+     46
+    ],
+    "predicate1": "Property",
+    "predicate2": "Composition",
+    "relation": "Property-Of"
+   },
+   {
+    "subject": "prolonged annealing treatments",
+    "subj_char_span": [
+     76,
+     105
+    ],
+    "object": "Na2ZrCr ( PO4 ) 3",
+    "obj_char_span": [
+     30,
+     46
+    ],
+    "predicate1": "Processing",
+    "predicate2": "Composition",
+    "relation": "Used-For"
+   }
+  ]
+ },
+ {
+  "text": "The point term in a CE typically sets miu and the presence of a single miu ensures charge neutrality of the under-lying NaSiCON within the CE .",
+  "relation_list": [
+   {
+    "subject": "CE",
+    "subj_char_span": [
+     20,
+     21
+    ],
+    "object": "ing NaS",
+    "obj_char_span": [
+     116,
+     122
+    ],
+    "predicate1": "Characterization",
+    "predicate2": "Structure",
+    "relation": "Used-For"
+   }
+  ]
+ },
+ {
+  "text": "To keep the num-ber of possible configurations to a computa-tionally tractable level, we used an electrostatic ranking scheme based on the Ewald energy, 61 where classical point charges are assigned to each species ( Na = + 1, Zr = + 4, Si = + 4, P = + 5, and O =-2 ) . We selected 500 struc-tures at each x with the lowest Ewald energies . We applied a similar enumeration and ranking procedure to obtain Na / Va and Si / P configura-tions in 2 ¡Á 1 ¡Á 1 supercells ( 4 f . u ., with 84 atoms, equivalent to 1 ¡Á 2",
+  "relation_list": [
+   {
+    "subject": "Ewald energy",
+    "subj_char_span": [
+     139,
+     150
+    ],
+    "object": "electrostatic ranking scheme",
+    "obj_char_span": [
+     97,
+     124
+    ],
+    "predicate1": "Property",
+    "predicate2": "Characterization",
+    "relation": "Property-Of"
+   }
+  ]
+ },
+ {
+  "text": "The formation energy ( Ef ) of each ordering, computed by DFT, is defined with respect to the lowest energy end-member compositions, Na4Zr2Si3O12 and Na1Zr2P3O12, using Eq . 2 where E [ Na1 + xZr2SixP3-xO12 ], E [ Na4Zr2Si3O12 ] and E [ Na1Zr2P3O12 ] are the DFT total ener-gies of each Na / Va + Si / P ordering, and the two end-members .",
+  "relation_list": [
+   {
+    "subject": "DFT",
+    "subj_char_span": [
+     58,
+     60
+    ],
+    "object": "formation energy",
+    "obj_char_span": [
+     4,
+     19
+    ],
+    "predicate1": "Characterization",
+    "predicate2": "Property",
+    "relation": "Used-For"
+   }
+  ]
+ },
+ {
+  "text": "The redistribution of the SiO44-and PO43-, which requires macro-scopic diffusion of multivalent Si4 + and P5 + ions, would involve high activation barriers that are inaccessible at the lower temperatures to ensure full phase separation .",
+  "relation_list": [
+   {
+    "subject": "redistribution",
+    "subj_char_span": [
+     4,
+     18
+    ],
+    "object": "PO43-",
+    "obj_char_span": [
+     36,
+     40
+    ],
+    "predicate1": "Property",
+    "predicate2": "Composition",
+    "relation": "Property-Of"
+   },
+   {
+    "subject": "redistribution",
+    "subj_char_span": [
+     4,
+     18
+    ],
+    "object": "SiO44-",
+    "obj_char_span": [
+     26,
+     31
+    ],
+    "predicate1": "Property",
+    "predicate2": "Composition",
+    "relation": "Property-Of"
+   },
+   {
+    "subject": "high activation barriers",
+    "subj_char_span": [
+     131,
+     154
+    ],
+    "object": "phase separation",
+    "obj_char_span": [
+     219,
+     234
+    ],
+    "predicate1": "Property",
+    "predicate2": "Property",
+    "relation": "Other"
+   }
+  ]
+ },
+ {
+  "text": "The phase boundaries of Fig 4 are identified by analyzing the grand-canonical potential energies, the discontinuities of Na concentration ( vs . miu ), and the variation of the heat capacity ( vs . miu ) .",
+  "relation_list": [
+   {
+    "subject": "d the variation of the heat capaci",
+    "subj_char_span": [
+     154,
+     187
+    ],
+    "object": "phase boundaries",
+    "obj_char_span": [
+     4,
+     19
+    ],
+    "predicate1": "Property",
+    "predicate2": "Structure",
+    "relation": "Other"
+   },
+   {
+    "subject": "grand-canonical potential energies",
+    "subj_char_span": [
+     62,
+     95
+    ],
+    "object": "phase boundaries",
+    "obj_char_span": [
+     4,
+     19
+    ],
+    "predicate1": "Property",
+    "predicate2": "Structure",
+    "relation": "Other"
+   },
+   {
+    "subject": "the discontinuities of Na concentration",
+    "subj_char_span": [
+     98,
+     136
+    ],
+    "object": "phase boundaries",
+    "obj_char_span": [
+     4,
+     19
+    ],
+    "predicate1": "Property",
+    "predicate2": "Structure",
+    "relation": "Other"
+   }
+  ]
+ },
+ {
+  "text": "In other words, the mobile Na + and the accom-panying electrons can be redistributed swiftly even at low temperatures ( ~ 300 K ) to ensure phase separation .",
+  "relation_list": [
+   {
+    "subject": "phase separation",
+    "subj_char_span": [
+     140,
+     155
+    ],
+    "object": "low temperatures",
+    "obj_char_span": [
+     101,
+     116
+    ],
+    "predicate1": "Property",
+    "predicate2": "Condition",
+    "relation": "Condition-On"
+   },
+   {
+    "subject": "phase separation",
+    "subj_char_span": [
+     140,
+     155
+    ],
+    "object": "Na +",
+    "obj_char_span": [
+     27,
+     30
+    ],
+    "predicate1": "Property",
+    "predicate2": "Composition",
+    "relation": "Property-Of"
+   }
+  ]
+ },
+ {
+  "text": "How-ever, it remains to be verified experimentally ( which we will do in the near future ) whether prolonged annealing treatments at intermediate temperatures can promote phase separation in Na1 + xZr2SixP3-xO12 .",
+  "relation_list": [
+   {
+    "subject": "phase separation",
+    "subj_char_span": [
+     171,
+     186
+    ],
+    "object": "intermediate temperatures",
+    "obj_char_span": [
+     133,
+     157
+    ],
+    "predicate1": "Property",
+    "predicate2": "Condition",
+    "relation": "Condition-On"
+   },
+   {
+    "subject": "prolonged annealing treatments",
+    "subj_char_span": [
+     99,
+     128
+    ],
+    "object": "phase separation",
+    "obj_char_span": [
+     171,
+     186
+    ],
+    "predicate1": "Processing",
+    "predicate2": "Property",
+    "relation": "Cause-Effect"
+   },
+   {
+    "subject": "phase separation",
+    "subj_char_span": [
+     171,
+     186
+    ],
+    "object": "Na1 + xZr2SixP3-xO12",
+    "obj_char_span": [
+     191,
+     210
+    ],
+    "predicate1": "Property",
+    "predicate2": "Composition",
+    "relation": "Property-Of"
+   }
+  ]
+ },
+ {
+  "text": "From Figs 6d-f, we note that for x = 0, Na ( 1 ) is fully occupied and Na ( 2 ) is empty at all temperatures, in agreement with previous reports indicating that Na1Zr2P3O12 is a fully ordered phase, with Na occupying only Na ( 1 ) .",
+  "relation_list": [
+   {
+    "subject": "Na1Zr2P3O12",
+    "subj_char_span": [
+     161,
+     172
+    ],
+    "object": "fully ordered phase",
+    "obj_char_span": [
+     178,
+     196
+    ],
+    "predicate1": "Composition",
+    "predicate2": "Structure",
+    "relation": "Located-Of"
+   }
+  ]
+ },
+ {
+  "text": "Moving from x = 0 to x = 2 in Fig 5a, the predicted volume increases monotonically with a maximum at x = 2 ( Na3Zr2Si2P1O12 ), in excellent agreement with experimental reports ( distribution of stars ) .",
+  "relation_list": [
+   {
+    "subject": "volume",
+    "subj_char_span": [
+     52,
+     57
+    ],
+    "object": "Na3Zr2Si2P1O12",
+    "obj_char_span": [
+     109,
+     122
+    ],
+    "predicate1": "Property",
+    "predicate2": "Composition",
+    "relation": "Property-Of"
+   },
+   {
+    "subject": "x = 2",
+    "subj_char_span": [
+     101,
+     105
+    ],
+    "object": "volume",
+    "obj_char_span": [
+     52,
+     57
+    ],
+    "predicate1": "Property",
+    "predicate2": "Property",
+    "relation": "Condition-On"
+   }
+  ]
+ },
+ {
+  "text": "Our work offers important insights on the role of Na-Va and Si-P configurations on the stabil-ity and Na-transport properties of NaSiCON-electrolytes and will be an important addition in the development of safe and sustainable Na-ion batteries .",
+  "relation_list": [
+   {
+    "subject": "Na-transport",
+    "subj_char_span": [
+     102,
+     113
+    ],
+    "object": "NaSiCON-electrolytes",
+    "obj_char_span": [
+     129,
+     148
+    ],
+    "predicate1": "Property",
+    "predicate2": "Composition",
+    "relation": "Property-Of"
+   },
+   {
+    "subject": "NaSiCON-electrolytes",
+    "subj_char_span": [
+     129,
+     148
+    ],
+    "object": "safe and sustainable Na-ion batteries",
+    "obj_char_span": [
+     206,
+     242
+    ],
+    "predicate1": "Composition",
+    "predicate2": "Application",
+    "relation": "Other"
+   },
+   {
+    "subject": "stabil-ity",
+    "subj_char_span": [
+     86,
+     96
+    ],
+    "object": "NaSiCON-electrolytes",
+    "obj_char_span": [
+     129,
+     148
+    ],
+    "predicate1": "Property",
+    "predicate2": "Composition",
+    "relation": "Property-Of"
+   }
+  ]
+ },
+ {
+  "text": "The final number of structures considered in our DFT calculations was further reduced by considering only the symmetry inequivalent orderings .",
+  "relation_list": [
+   {
+    "subject": "symmetry inequivalent orderings",
+    "subj_char_span": [
+     110,
+     140
+    ],
+    "object": "DFT",
+    "obj_char_span": [
+     49,
+     51
+    ],
+    "predicate1": "Property",
+    "predicate2": "Characterization",
+    "relation": "Cause-Effect"
+   }
+  ]
+ },
+ {
+  "text": "The ECIs obtained via fitting the CE to the DFT formation energies are depicted in Fig 3 .",
+  "relation_list": [
+   {
+    "subject": "DFT",
+    "subj_char_span": [
+     44,
+     46
+    ],
+    "object": "ECIs",
+    "obj_char_span": [
+     4,
+     7
+    ],
+    "predicate1": "Characterization",
+    "predicate2": "Characterization",
+    "relation": "Used-For"
+   },
+   {
+    "subject": "CE",
+    "subj_char_span": [
+     34,
+     35
+    ],
+    "object": "DFT",
+    "obj_char_span": [
+     44,
+     46
+    ],
+    "predicate1": "Characterization",
+    "predicate2": "Characterization",
+    "relation": "Used-For"
+   },
+   {
+    "subject": "ECIs",
+    "subj_char_span": [
+     4,
+     7
+    ],
+    "object": "energies",
+    "obj_char_span": [
+     58,
+     65
+    ],
+    "predicate1": "Characterization",
+    "predicate2": "Property",
+    "relation": "Used-For"
+   }
+  ]
+ },
+ {
+  "text": "For exam-ple, in Na2ZrCr ( PO4 ) 3 the phase separation re-action, 2Na2ZrCr ( PO4 ) 3 ¡ú NaZr2 ( PO4 ) 3 + Na3Cr2 ( PO4 ) 3, is inhibited by the slow ki-netics of bond-breaking / reforming Zr O and Cr O bonds and the poor macroscopic diffu-sivity of Zr4 + and Cr3 + .",
+  "relation_list": [
+   {
+    "subject": "phase separation",
+    "subj_char_span": [
+     39,
+     54
+    ],
+    "object": "Na2ZrCr ( PO4 ) 3",
+    "obj_char_span": [
+     17,
+     33
+    ],
+    "predicate1": "Property",
+    "predicate2": "Composition",
+    "relation": "Property-Of"
+   },
+   {
+    "subject": "poor macroscopic diffu-sivity",
+    "subj_char_span": [
+     216,
+     244
+    ],
+    "object": "Zr4 +",
+    "obj_char_span": [
+     249,
+     253
+    ],
+    "predicate1": "Property",
+    "predicate2": "Composition",
+    "relation": "Property-Of"
+   },
+   {
+    "subject": "poor macroscopic diffu-sivity",
+    "subj_char_span": [
+     216,
+     244
+    ],
+    "object": "Cr3 +",
+    "obj_char_span": [
+     259,
+     263
+    ],
+    "predicate1": "Property",
+    "predicate2": "Composition",
+    "relation": "Property-Of"
+   }
+  ]
+ },
+ {
+  "text": "Specifically, we build the phase diagram as a func-tion of temperature and composition ( 0 ¡Ü x ¡Ü 3 ) for the high-temperature rhombohe-dral structure, which has been also observed in several positive electrode materials, such as Na3Ti2 ( PO4 ) 3, Na3V2 ( PO4 ) 3, Na3Cr2 ( PO4 ) 3, and Na3Fe2 ( PO4 ) 3 .",
+  "relation_list": [
+   {
+    "subject": "phase diagram",
+    "subj_char_span": [
+     27,
+     39
+    ],
+    "object": "rhombohe-dral",
+    "obj_char_span": [
+     126,
+     138
+    ],
+    "predicate1": "Characterization",
+    "predicate2": "Structure",
+    "relation": "Used-For"
+   },
+   {
+    "subject": "Na3Fe2 ( PO4 ) 3",
+    "subj_char_span": [
+     286,
+     301
+    ],
+    "object": "positive electrode materials",
+    "obj_char_span": [
+     191,
+     218
+    ],
+    "predicate1": "Composition",
+    "predicate2": "Composition",
+    "relation": "Component-Whole"
+   },
+   {
+    "subject": "Na3Ti2 ( PO4 ) 3",
+    "subj_char_span": [
+     229,
+     244
+    ],
+    "object": "positive electrode materials",
+    "obj_char_span": [
+     191,
+     218
+    ],
+    "predicate1": "Composition",
+    "predicate2": "Composition",
+    "relation": "Component-Whole"
+   },
+   {
+    "subject": "Na3Cr2 ( PO4 ) 3",
+    "subj_char_span": [
+     264,
+     279
+    ],
+    "object": "positive electrode materials",
+    "obj_char_span": [
+     191,
+     218
+    ],
+    "predicate1": "Composition",
+    "predicate2": "Composition",
+    "relation": "Component-Whole"
+   },
+   {
+    "subject": "Na3V2 ( PO4 ) 3",
+    "subj_char_span": [
+     247,
+     261
+    ],
+    "object": "positive electrode materials",
+    "obj_char_span": [
+     191,
+     218
+    ],
+    "predicate1": "Composition",
+    "predicate2": "Composition",
+    "relation": "Component-Whole"
+   }
+  ]
+ },
+ {
+  "text": "Biphasic behavior is typical in NaSiCON-based electrodes .",
+  "relation_list": [
+   {
+    "subject": "Biphasic behavior",
+    "subj_char_span": [
+     0,
+     16
+    ],
+    "object": "NaSiCON",
+    "obj_char_span": [
+     32,
+     38
+    ],
+    "predicate1": "Property",
+    "predicate2": "Structure",
+    "relation": "Property-Of"
+   }
+  ]
+ },
+ {
+  "text": "Fig 1 depicts the structure of the high-temperature ( > 450 K ) rhombohedral ( space group : R c ) phase of Na1 + xZr2SixP3-xO12, where the 3 blue XO4 ( X = P or Si ) tetra-hedra share corners with two grey ZrO6 oc-tahedra forming the so-called ¡° lantern units ¡± ( panels a and b ) .",
+  "relation_list": [
+   {
+    "subject": "tetra-hedra",
+    "subj_char_span": [
+     167,
+     177
+    ],
+    "object": "lantern units",
+    "obj_char_span": [
+     247,
+     259
+    ],
+    "predicate1": "Structure",
+    "predicate2": "Structure",
+    "relation": "Component-Whole"
+   },
+   {
+    "subject": "Na1 + xZr2SixP3-xO12",
+    "subj_char_span": [
+     108,
+     127
+    ],
+    "object": "rhombohedral",
+    "obj_char_span": [
+     64,
+     75
+    ],
+    "predicate1": "Composition",
+    "predicate2": "Structure",
+    "relation": "Located-Of"
+   },
+   {
+    "subject": "oc-tahedra",
+    "subj_char_span": [
+     212,
+     221
+    ],
+    "object": "lantern units",
+    "obj_char_span": [
+     247,
+     259
+    ],
+    "predicate1": "Structure",
+    "predicate2": "Structure",
+    "relation": "Component-Whole"
+   }
+  ]
+ },
+ {
+  "text": "Total energies were integrated on a 3 ¡Á 3 ¡Á 3 Monkhorst-Pack grid70 for the primitive cells ( while the k-point density was maintained for the larger supercells ), and converged within 10-5 eV / cell, without preserving any symmetry .",
+  "relation_list": [
+   {
+    "subject": "Total energies",
+    "subj_char_span": [
+     0,
+     13
+    ],
+    "object": "3 ¡Á 3 ¡Á 3 Monkhorst-Pack grid",
+    "obj_char_span": [
+     36,
+     64
+    ],
+    "predicate1": "Property",
+    "predicate2": "Structure",
+    "relation": "Other"
+   },
+   {
+    "subject": "primitive cells",
+    "subj_char_span": [
+     76,
+     90
+    ],
+    "object": "3 ¡Á 3 ¡Á 3 Monkhorst-Pack grid",
+    "obj_char_span": [
+     36,
+     64
+    ],
+    "predicate1": "Composition",
+    "predicate2": "Structure",
+    "relation": "Located-Of"
+   },
+   {
+    "subject": "k-point density",
+    "subj_char_span": [
+     104,
+     118
+    ],
+    "object": "larger supercells",
+    "obj_char_span": [
+     143,
+     159
+    ],
+    "predicate1": "Property",
+    "predicate2": "Composition",
+    "relation": "Property-Of"
+   }
+  ]
+ },
+ {
+  "text": "The DFT formation energies are shown in orange whereas the formation en-ergies predicted by the CE model are shown in blue ( Fig 2a ) .",
+  "relation_list": [
+   {
+    "subject": "CE",
+    "subj_char_span": [
+     96,
+     97
+    ],
+    "object": "formation energies",
+    "obj_char_span": [
+     8,
+     25
+    ],
+    "predicate1": "Characterization",
+    "predicate2": "Property",
+    "relation": "Used-For"
+   },
+   {
+    "subject": "DFT",
+    "subj_char_span": [
+     4,
+     6
+    ],
+    "object": "formation energies",
+    "obj_char_span": [
+     8,
+     25
+    ],
+    "predicate1": "Characterization",
+    "predicate2": "Property",
+    "relation": "Used-For"
+   }
+  ]
+ },
+ {
+  "text": "Of the 1192 distinct orderings computed by DFT ( Fig 2a ), only 884 configurations were selected to fit the CE model Hamiltonian . The reduction of our data set is due to the high ( and expected ) mobility of Na ions in spe-cific starting configurations, which causes Na ions to move from their initial positions dur-ing the structure relaxation to final positions that are symmetrically equivalent to other ini-tial Na configurations .",
+  "relation_list": [
+   {
+    "subject": "high ( and expected ) mobility",
+    "subj_char_span": [
+     175,
+     204
+    ],
+    "object": "Na ions",
+    "obj_char_span": [
+     209,
+     215
+    ],
+    "predicate1": "Property",
+    "predicate2": "Composition",
+    "relation": "Property-Of"
+   }
+  ]
+ },
+ {
+  "text": "For example, Miyajima et al studied the partial substi-tution of Zr4 + by 3 + cations, such as In3 +, Yb3 +, Er3 +, Y3 +, Dy3 +, Tb3 +, and Gd3 + in Na1 + xZr2SixP3-xO12 leading to an increase of the Na content .",
+  "relation_list": [
+   {
+    "subject": "Dy3 +",
+    "subj_char_span": [
+     122,
+     126
+    ],
+    "object": "Na1 + xZr2SixP3-xO12",
+    "obj_char_span": [
+     149,
+     168
+    ],
+    "predicate1": "Composition",
+    "predicate2": "Composition",
+    "relation": "Component-Whole"
+   },
+   {
+    "subject": "Y3 +",
+    "subj_char_span": [
+     116,
+     119
+    ],
+    "object": "Na1 + xZr2SixP3-xO12",
+    "obj_char_span": [
+     149,
+     168
+    ],
+    "predicate1": "Composition",
+    "predicate2": "Composition",
+    "relation": "Component-Whole"
+   },
+   {
+    "subject": "Tb3 +",
+    "subj_char_span": [
+     129,
+     133
+    ],
+    "object": "Na1 + xZr2SixP3-xO12",
+    "obj_char_span": [
+     149,
+     168
+    ],
+    "predicate1": "Composition",
+    "predicate2": "Composition",
+    "relation": "Component-Whole"
+   },
+   {
+    "subject": "Yb3 +",
+    "subj_char_span": [
+     102,
+     106
+    ],
+    "object": "Na1 + xZr2SixP3-xO12",
+    "obj_char_span": [
+     149,
+     168
+    ],
+    "predicate1": "Composition",
+    "predicate2": "Composition",
+    "relation": "Component-Whole"
+   },
+   {
+    "subject": "In3 +",
+    "subj_char_span": [
+     95,
+     99
+    ],
+    "object": "Na1 + xZr2SixP3-xO12",
+    "obj_char_span": [
+     149,
+     168
+    ],
+    "predicate1": "Composition",
+    "predicate2": "Composition",
+    "relation": "Component-Whole"
+   },
+   {
+    "subject": "Gd3 +",
+    "subj_char_span": [
+     140,
+     144
+    ],
+    "object": "Na1 + xZr2SixP3-xO12",
+    "obj_char_span": [
+     149,
+     168
+    ],
+    "predicate1": "Composition",
+    "predicate2": "Composition",
+    "relation": "Component-Whole"
+   },
+   {
+    "subject": "Er3 +",
+    "subj_char_span": [
+     109,
+     113
+    ],
+    "object": "Na1 + xZr2SixP3-xO12",
+    "obj_char_span": [
+     149,
+     168
+    ],
+    "predicate1": "Composition",
+    "predicate2": "Composition",
+    "relation": "Component-Whole"
+   }
+  ]
+ },
+ {
+  "text": "Given the large number of clusters available versus the num-ber of DFT-calculated configurations, we used the compressive sensing approach to determine the absolute values of the ECIs by employing ¦Á = 1 . 5 ¡Á 10-5 to penalize the L1-norm of the ECIs and minimize overfitting .",
+  "relation_list": [
+   {
+    "subject": "DFT",
+    "subj_char_span": [
+     67,
+     69
+    ],
+    "object": "configurations",
+    "obj_char_span": [
+     82,
+     95
+    ],
+    "predicate1": "Characterization",
+    "predicate2": "Property",
+    "relation": "Used-For"
+   }
+  ]
+ },
+ {
+  "text": "Therefore, we speculated that the introduction of SiO44-into phosphate-based electrodes can inhibit kinetically phe-nomena of phase separation .",
+  "relation_list": [
+   {
+    "subject": "phase separation",
+    "subj_char_span": [
+     126,
+     141
+    ],
+    "object": "SiO44-",
+    "obj_char_span": [
+     50,
+     55
+    ],
+    "predicate1": "Property",
+    "predicate2": "Composition",
+    "relation": "Property-Of"
+   },
+   {
+    "subject": "SiO44-",
+    "subj_char_span": [
+     50,
+     55
+    ],
+    "object": "phosphate-based electrodes",
+    "obj_char_span": [
+     61,
+     86
+    ],
+    "predicate1": "Composition",
+    "predicate2": "Application",
+    "relation": "Other"
+   }
+  ]
+ },
+ {
+  "text": "For NaSiCON-electrodes with a single transition metal ( e . g ., M = Ti, V, Cr and Fe in NaxM2 ( PO4 ) 3 ), the existence of two-phase domains is also observed in electrochemical ex-periments, whereby the Na-discharge voltage profile exhibits a flat plateau as Na intercalates in the electrode ( see Fig 7 ) .",
+  "relation_list": [
+   {
+    "subject": "Na-discharge voltage",
+    "subj_char_span": [
+     205,
+     224
+    ],
+    "object": "NaSiCON-electrodes",
+    "obj_char_span": [
+     4,
+     21
+    ],
+    "predicate1": "Property",
+    "predicate2": "Composition",
+    "relation": "Property-Of"
+   },
+   {
+    "subject": "single transition metal",
+    "subj_char_span": [
+     30,
+     52
+    ],
+    "object": "NaSiCON-electrodes",
+    "obj_char_span": [
+     4,
+     21
+    ],
+    "predicate1": "Composition",
+    "predicate2": "Composition",
+    "relation": "Component-Whole"
+   }
+  ]
+ },
+ {
+  "text": "Our computed phase diagram does not ac-count for Zr off- stoichiometry, and the inclu-sion of an additional compositional axis would make this study intractable in terms of com-putational complexity .",
+  "relation_list": [
+   {
+    "subject": "phase diagram",
+    "subj_char_span": [
+     13,
+     25
+    ],
+    "object": "com-putational complexity",
+    "obj_char_span": [
+     173,
+     197
+    ],
+    "predicate1": "Characterization",
+    "predicate2": "Property",
+    "relation": "Used-For"
+   }
+  ]
+ },
+ {
+  "text": "This si-multaneous occupation and un-occupation of Na ( 2 ) and Na ( 1 ) sites results in a decrease of configurational entropy ( Fig 6c ), which eventually reaches a minima at x ~ 1 . 75 .",
+  "relation_list": [
+   {
+    "subject": "minima at x ~ 1 . 75",
+    "subj_char_span": [
+     167,
+     187
+    ],
+    "object": "configurational entropy",
+    "obj_char_span": [
+     104,
+     126
+    ],
+    "predicate1": "Property",
+    "predicate2": "Property",
+    "relation": "Property-Of"
+   },
+   {
+    "subject": "si-multaneous occupation and un-occupation",
+    "subj_char_span": [
+     5,
+     46
+    ],
+    "object": "configurational entropy",
+    "obj_char_span": [
+     104,
+     126
+    ],
+    "predicate1": "Property",
+    "predicate2": "Property",
+    "relation": "Cause-Effect"
+   }
+  ]
+ },
+ {
+  "text": "It is worth mentioning that any attempt to resolve the Si / P disorder of the rhombohedral primitive cell at x = 2 . 0 reduces the symmetry to a monoclinic arrangement ( space group C2 / c ) even prior geometry opti-misation, i . e ., ordering the Si / P sites breaks the three-fold rotational symmetry of a rhombohe-dral system .",
+  "relation_list": [
+   {
+    "subject": "primitive cell",
+    "subj_char_span": [
+     91,
+     104
+    ],
+    "object": "rhombohedral",
+    "obj_char_span": [
+     78,
+     90
+    ],
+    "predicate1": "Composition",
+    "predicate2": "Structure",
+    "relation": "Located-Of"
+   },
+   {
+    "subject": "Si / P disorder",
+    "subj_char_span": [
+     55,
+     69
+    ],
+    "object": "primitive cell",
+    "obj_char_span": [
+     91,
+     104
+    ],
+    "predicate1": "Property",
+    "predicate2": "Composition",
+    "relation": "Property-Of"
+   }
+  ]
+ },
+ {
+  "text": "For example, Deng et al reported a single phase at Na2Zr2Si1P2O12 at temperatures of 295 and 473 K, which is in the middle of the A + B two-phase re-gion ( Fig 4 ) .",
+  "relation_list": [
+   {
+    "subject": "Na2Zr2Si1P2O12",
+    "subj_char_span": [
+     51,
+     64
+    ],
+    "object": "single phase",
+    "obj_char_span": [
+     35,
+     46
+    ],
+    "predicate1": "Composition",
+    "predicate2": "Structure",
+    "relation": "Located-Of"
+   }
+  ]
+ },
+ {
+  "text": "All symmetrically distinct pairs, triplets, and quadruplets in the rhombo-hedral cell within a radius of 10 10^-10m, 6 10^-10m and 5 10^-10m, respectively, are used for constructing the CE model .",
+  "relation_list": [
+   {
+    "subject": "constru",
+    "subj_char_span": [
+     168,
+     175
+    ],
+    "object": "rhombo-hedral",
+    "obj_char_span": [
+     67,
+     79
+    ],
+    "predicate1": "Characterization",
+    "predicate2": "Structure",
+    "relation": "Used-For"
+   },
+   {
+    "subject": "10^",
+    "subj_char_span": [
+     119,
+     121
+    ],
+    "object": "rhombo-hedral",
+    "obj_char_span": [
+     67,
+     79
+    ],
+    "predicate1": "Property",
+    "predicate2": "Structure",
+    "relation": "Property-Of"
+   },
+   {
+    "subject": "-10",
+    "subj_char_span": [
+     111,
+     113
+    ],
+    "object": "rhombo-hedral",
+    "obj_char_span": [
+     67,
+     79
+    ],
+    "predicate1": "Property",
+    "predicate2": "Structure",
+    "relation": "Property-Of"
+   },
+   {
+    "subject": "10 1",
+    "subj_char_span": [
+     105,
+     108
+    ],
+    "object": "rhombo-hedral",
+    "obj_char_span": [
+     67,
+     79
+    ],
+    "predicate1": "Property",
+    "predicate2": "Structure",
+    "relation": "Property-Of"
+   }
+  ]
+ },
+ {
+  "text": "More than 40 years ago, Hong and Goodenough studied the ¡° Na-trium Superionic CONductor ¡± ( NaSiCON ), Na1 + xZr2SixP3-xO12 ( 0 ¡Ü x ¡Ü 3 ), which can achieve exceptional bulk ionic Na +-conductivity ( ~ 15 mS ¡¤ cm-1 at 298 K ) for x ~ 2 . 0-2 . 4 .",
+  "relation_list": [
+   {
+    "subject": "exceptional bulk ionic Na +-conductivity",
+    "subj_char_span": [
+     157,
+     196
+    ],
+    "object": "Na1 + xZr2SixP3-xO12",
+    "obj_char_span": [
+     103,
+     122
+    ],
+    "predicate1": "Property",
+    "predicate2": "Composition",
+    "relation": "Property-Of"
+   }
+  ]
+ },
+ {
+  "text": "Today, the super-ionic conductivity of Li + and Na +-ions in solid electrolytes can achieve record-values > 10 mS ¡¤ cm-1 at room temperature, rivalling those of commercial liquid electrolytes ( e . g ., 1 M LiPF6 in dimethyl / ethylene carbon-ates ~ 10-2 S ¡¤ cm-1 ) .",
+  "relation_list": [
+   {
+    "subject": "super-ionic conductivity",
+    "subj_char_span": [
+     11,
+     34
+    ],
+    "object": "Na +-ions",
+    "obj_char_span": [
+     48,
+     56
+    ],
+    "predicate1": "Property",
+    "predicate2": "Composition",
+    "relation": "Property-Of"
+   },
+   {
+    "subject": "super-ionic conductivity",
+    "subj_char_span": [
+     11,
+     34
+    ],
+    "object": "Li +",
+    "obj_char_span": [
+     39,
+     43
+    ],
+    "predicate1": "Property",
+    "predicate2": "Composition",
+    "relation": "Property-Of"
+   }
+  ]
+ },
+ {
+  "text": "As is well established in the literature, at low temperatures, this peculiar Na configuration seems to promote the phase transition from rhom-bohedral into monoclinic symmetry, with the rhombohedral ¡ú monoclinic transfor-mation mechanism needing more work to understand fully .",
+  "relation_list": [
+   {
+    "subject": "Na configuration",
+    "subj_char_span": [
+     77,
+     92
+    ],
+    "object": "phase transition",
+    "obj_char_span": [
+     114,
+     131
+    ],
+    "predicate1": "Property",
+    "predicate2": "Property",
+    "relation": "Cause-Effect"
+   },
+   {
+    "subject": "rhom-bohedral",
+    "subj_char_span": [
+     136,
+     149
+    ],
+    "object": "monoclinic symmetry",
+    "obj_char_span": [
+     156,
+     174
+    ],
+    "predicate1": "Structure",
+    "predicate2": "Structure",
+    "relation": "Cause-Effect"
+   },
+   {
+    "subject": "low temperatures",
+    "subj_char_span": [
+     45,
+     60
+    ],
+    "object": "Na configuration",
+    "obj_char_span": [
+     77,
+     92
+    ],
+    "predicate1": "Condition",
+    "predicate2": "Property",
+    "relation": "Cause-Effect"
+   }
+  ]
+ },
+ {
+  "text": "Note that the ground state at Na3Zr2Si2P1O12 ( x = 2 . 0 ) distorts away from rhombo-hedral symmetry upon DFT structure re-laxation, which indicates the tendency for the rhombohedral-NaSiCON to transform into the stable low-temperature monoclinic-NaSiCON .",
+  "relation_list": [
+   {
+    "subject": "DFT",
+    "subj_char_span": [
+     106,
+     108
+    ],
+    "object": "Na3Zr2Si2P1O12",
+    "obj_char_span": [
+     30,
+     43
+    ],
+    "predicate1": "Characterization",
+    "predicate2": "Composition",
+    "relation": "Used-For"
+   },
+   {
+    "subject": "rhombohedral-NaSiCON",
+    "subj_char_span": [
+     170,
+     189
+    ],
+    "object": "monoclinic-NaSiCON",
+    "obj_char_span": [
+     236,
+     253
+    ],
+    "predicate1": "Structure",
+    "predicate2": "Structure",
+    "relation": "Cause-Effect"
+   },
+   {
+    "subject": "ground state",
+    "subj_char_span": [
+     14,
+     25
+    ],
+    "object": "Na3Zr2Si2P1O12",
+    "obj_char_span": [
+     30,
+     43
+    ],
+    "predicate1": "Property",
+    "predicate2": "Composition",
+    "relation": "Property-Of"
+   }
+  ]
+ },
+ {
+  "text": "We investigated the phase stability of the high-temperature Na1 + xZr2SixP3-xO12 ionic conduc-tor using a multi-scale approach based on first-principles calculations, a cluster expansion framework, and large-size Monte Carlo simula-tions .",
+  "relation_list": [
+   {
+    "subject": "phase stability",
+    "subj_char_span": [
+     20,
+     34
+    ],
+    "object": "Na1 + xZr2SixP3-xO12",
+    "obj_char_span": [
+     60,
+     79
+    ],
+    "predicate1": "Property",
+    "predicate2": "Composition",
+    "relation": "Property-Of"
+   },
+   {
+    "subject": "large-size Monte Carlo simula-tions",
+    "subj_char_span": [
+     202,
+     236
+    ],
+    "object": "Na1 + xZr2SixP3-xO12",
+    "obj_char_span": [
+     60,
+     79
+    ],
+    "predicate1": "Characterization",
+    "predicate2": "Composition",
+    "relation": "Used-For"
+   },
+   {
+    "subject": "cluster expansion framework",
+    "subj_char_span": [
+     169,
+     195
+    ],
+    "object": "Na1 + xZr2SixP3-xO12",
+    "obj_char_span": [
+     60,
+     79
+    ],
+    "predicate1": "Characterization",
+    "predicate2": "Composition",
+    "relation": "Used-For"
+   }
+  ]
+ },
+ {
+  "text": "The GCMC data enable the analysis of relevant thermodynamic properties, e . g ., the Gibbs en-ergy ( G, orange dots and lines ) and the con-figurational entropy ( S, green dots and lines ) functions . These are shown in Fig 6, for 3 distinct temperatures, a 445 K, b 625 K, and c 905 K centered around the B + C ¡ú C ' tran-sition ( ~ 650 K ) .",
+  "relation_list": [
+   {
+    "subject": "GCMC",
+    "subj_char_span": [
+     4,
+     8
+    ],
+    "object": "Gibbs en-ergy",
+    "obj_char_span": [
+     85,
+     97
+    ],
+    "predicate1": "Characterization",
+    "predicate2": "Property",
+    "relation": "Used-For"
+   },
+   {
+    "subject": "GCMC",
+    "subj_char_span": [
+     4,
+     8
+    ],
+    "object": "con-figurational entropy",
+    "obj_char_span": [
+     136,
+     159
+    ],
+    "predicate1": "Characterization",
+    "predicate2": "Property",
+    "relation": "Used-For"
+   }
+  ]
+ },
+ {
+  "text": "Note that Zr off- stoichiometry is often observed in the rhombohedral-Na1 + xZr2SixP3-xO12, with resid-ual ZrO2 found after high-temperature synthe-sis and sintering treatments .",
+  "relation_list": [
+   {
+    "subject": "high-temperature synthe-sis",
+    "subj_char_span": [
+     124,
+     150
+    ],
+    "object": "Na1 + xZr2SixP3-xO12",
+    "obj_char_span": [
+     70,
+     89
+    ],
+    "predicate1": "Processing",
+    "predicate2": "Composition",
+    "relation": "Used-For"
+   },
+   {
+    "subject": "Na1 + xZr2SixP3-xO12",
+    "subj_char_span": [
+     70,
+     89
+    ],
+    "object": "rhombohedral",
+    "obj_char_span": [
+     57,
+     68
+    ],
+    "predicate1": "Composition",
+    "predicate2": "Structure",
+    "relation": "Located-Of"
+   },
+   {
+    "subject": "sintering treatments",
+    "subj_char_span": [
+     156,
+     175
+    ],
+    "object": "Na1 + xZr2SixP3-xO12",
+    "obj_char_span": [
+     70,
+     89
+    ],
+    "predicate1": "Processing",
+    "predicate2": "Composition",
+    "relation": "Used-For"
+   }
+  ]
+ },
+ {
+  "text": "Notably, mechanisms of phase separation in single-transition-metal NaSiCON-electrodes do not involve modifications of the structural framework since phase separation occurs across Na compositions ( i . e ., the formation of Na-rich and Na-poor domain ) and bond break-ing / reforming involving framework atoms ( e . g ., Ti, V, Cr or Fe ) is not required, as transition metals do not have to diffuse macroscopically .",
+  "relation_list": [
+   {
+    "subject": "phase separation",
+    "subj_char_span": [
+     23,
+     38
+    ],
+    "object": "NaSiCON-electrodes",
+    "obj_char_span": [
+     67,
+     84
+    ],
+    "predicate1": "Property",
+    "predicate2": "Composition",
+    "relation": "Property-Of"
+   }
+  ]
+ },
+ {
+  "text": "At temperatures above 650 K, a high-temperature disordered phase C ' appears, which encompasses both the B and C monopha-sic regions . The miscibility gap that sepa-rates the B and C monophasic regions ( blue dome in Fig 4 ), reaches its critical point at x = 2 . 5 and 650 K .",
+  "relation_list": [
+   {
+    "subject": "miscibility gap",
+    "subj_char_span": [
+     139,
+     153
+    ],
+    "object": "x = 2 . 5",
+    "obj_char_span": [
+     256,
+     264
+    ],
+    "predicate1": "Property",
+    "predicate2": "Condition",
+    "relation": "Condition-On"
+   },
+   {
+    "subject": "miscibility gap",
+    "subj_char_span": [
+     139,
+     153
+    ],
+    "object": "monophasic regions",
+    "obj_char_span": [
+     183,
+     200
+    ],
+    "predicate1": "Property",
+    "predicate2": "Structure",
+    "relation": "Cause-Effect"
+   },
+   {
+    "subject": "miscibility gap",
+    "subj_char_span": [
+     139,
+     153
+    ],
+    "object": "650 K",
+    "obj_char_span": [
+     22,
+     26
+    ],
+    "predicate1": "Property",
+    "predicate2": "Condition",
+    "relation": "Condition-On"
+   }
+  ]
+ },
+ {
+  "text": "Specifically, our CE model uses an identical notation for the occupation of Na / Si ( sigma = 0 ) and Va / P ( sigma = + 1 ) . Thus, a negative ECI on a Na / Va-Si / P pair translates to an attractive in-teraction that favors the occupation of Va ( on the Na / Va site ) and P ( on the Si / P site ) .",
+  "relation_list": [
+   {
+    "subject": "CE",
+    "subj_char_span": [
+     18,
+     19
+    ],
+    "object": "the occupation of Na / Si ( sigma = 0 ) and Va / P ( sigma = + 1 )",
+    "obj_char_span": [
+     58,
+     124
+    ],
+    "predicate1": "Characterization",
+    "predicate2": "Property",
+    "relation": "Used-For"
+   },
+   {
+    "subject": "ECI",
+    "subj_char_span": [
+     144,
+     146
+    ],
+    "object": "the occupation of Va ( on the Na / Va site ) and P ( on the Si / P site )",
+    "obj_char_span": [
+     226,
+     299
+    ],
+    "predicate1": "Characterization",
+    "predicate2": "Property",
+    "relation": "Used-For"
+   }
+  ]
+ },
+ {
+  "text": "The complete substitution of Zr4 + in NaSiCON by redox-active transition metals, e . g ., Ti, V, Cr, and Fe, in NaSiCON transforms the solid elec-trolyte into an electrode .",
+  "relation_list": [
+   {
+    "subject": "Fe",
+    "subj_char_span": [
+     105,
+     106
+    ],
+    "object": "redox-active transition metals",
+    "obj_char_span": [
+     49,
+     78
+    ],
+    "predicate1": "Composition",
+    "predicate2": "Composition",
+    "relation": "Component-Whole"
+   },
+   {
+    "subject": "V",
+    "subj_char_span": [
+     94,
+     94
+    ],
+    "object": "redox-active transition metals",
+    "obj_char_span": [
+     49,
+     78
+    ],
+    "predicate1": "Composition",
+    "predicate2": "Composition",
+    "relation": "Component-Whole"
+   },
+   {
+    "subject": "Ti",
+    "subj_char_span": [
+     90,
+     91
+    ],
+    "object": "redox-active transition metals",
+    "obj_char_span": [
+     49,
+     78
+    ],
+    "predicate1": "Composition",
+    "predicate2": "Composition",
+    "relation": "Component-Whole"
+   },
+   {
+    "subject": "Zr4 +",
+    "subj_char_span": [
+     29,
+     33
+    ],
+    "object": "NaSiCON",
+    "obj_char_span": [
+     38,
+     44
+    ],
+    "predicate1": "Composition",
+    "predicate2": "Structure",
+    "relation": "Located-Of"
+   },
+   {
+    "subject": "Cr",
+    "subj_char_span": [
+     97,
+     98
+    ],
+    "object": "redox-active transition metals",
+    "obj_char_span": [
+     49,
+     78
+    ],
+    "predicate1": "Composition",
+    "predicate2": "Composition",
+    "relation": "Component-Whole"
+   }
+  ]
+ },
+ {
+  "text": "There exists an extensive body of prior lit-erature on optimizing the Na-ion conductivity within the NaSiCON electrolyte, especially at x ~ 2 in Na1 + xZr2SixP3-xO12 .",
+  "relation_list": [
+   {
+    "subject": "Na-ion conductivity",
+    "subj_char_span": [
+     70,
+     88
+    ],
+    "object": "NaSiCON electrolyte",
+    "obj_char_span": [
+     101,
+     119
+    ],
+    "predicate1": "Property",
+    "predicate2": "Composition",
+    "relation": "Property-Of"
+   }
+  ]
+ },
+ {
+  "text": "Analogous to the kinetic impedi-ment to phase separation observed for the solid electrolyte Na1 + xZr2SixP3-xO12, par-tial replacement of SiO44-and PO43-may also kinetically limit any phase sepa-ration in mono-transition metal elec-trodes .",
+  "relation_list": [
+   {
+    "subject": "phase separation",
+    "subj_char_span": [
+     40,
+     55
+    ],
+    "object": "Na1 + xZr2SixP3-xO12",
+    "obj_char_span": [
+     92,
+     111
+    ],
+    "predicate1": "Property",
+    "predicate2": "Composition",
+    "relation": "Property-Of"
+   },
+   {
+    "subject": "Na1 + xZr2SixP3-xO12",
+    "subj_char_span": [
+     92,
+     111
+    ],
+    "object": "solid electrolyte",
+    "obj_char_span": [
+     74,
+     90
+    ],
+    "predicate1": "Composition",
+    "predicate2": "Application",
+    "relation": "Other"
+   }
+  ]
+ },
+ {
+  "text": "Fig 7 identifies that at composition x = 2 a stable phase ( or structure / configuration ) is always found and appears to be common to all NaSiCON-based electrodes, analogous to Na1 + xZr2SixP3-xO12 .",
+  "relation_list": [
+   {
+    "subject": "Na1 + xZr2SixP3-xO12",
+    "subj_char_span": [
+     178,
+     197
+    ],
+    "object": "NaSiCON-based electrodes",
+    "obj_char_span": [
+     139,
+     162
+    ],
+    "predicate1": "Composition",
+    "predicate2": "Application",
+    "relation": "Other"
+   },
+   {
+    "subject": "Na1 + xZr2SixP3-xO12",
+    "subj_char_span": [
+     178,
+     197
+    ],
+    "object": "stable phase",
+    "obj_char_span": [
+     45,
+     56
+    ],
+    "predicate1": "Composition",
+    "predicate2": "Structure",
+    "relation": "Located-Of"
+   }
+  ]
+ },
+ {
+  "text": "Interestingly, the lack of phase separation observed in mixed-transition-metal NaSiCON electrodes may be attributed to kinetic limitations, similar to the scenario in Na1 + xZr2SixP3-xO12 .",
+  "relation_list": [
+   {
+    "subject": "phase separation",
+    "subj_char_span": [
+     27,
+     42
+    ],
+    "object": "electrodes",
+    "obj_char_span": [
+     87,
+     96
+    ],
+    "predicate1": "Property",
+    "predicate2": "Composition",
+    "relation": "Property-Of"
+   },
+   {
+    "subject": "kinetic limitations",
+    "subj_char_span": [
+     119,
+     137
+    ],
+    "object": "Na1 + xZr2SixP3-xO12",
+    "obj_char_span": [
+     167,
+     186
+    ],
+    "predicate1": "Property",
+    "predicate2": "Composition",
+    "relation": "Property-Of"
+   },
+   {
+    "subject": "electrodes",
+    "subj_char_span": [
+     87,
+     96
+    ],
+    "object": "NaSiCON",
+    "obj_char_span": [
+     79,
+     85
+    ],
+    "predicate1": "Composition",
+    "predicate2": "Structure",
+    "relation": "Located-Of"
+   },
+   {
+    "subject": "mixed-transition-metal",
+    "subj_char_span": [
+     56,
+     77
+    ],
+    "object": "electrodes",
+    "obj_char_span": [
+     87,
+     96
+    ],
+    "predicate1": "Composition",
+    "predicate2": "Composition",
+    "relation": "Used-For"
+   },
+   {
+    "subject": "kinetic limitations",
+    "subj_char_span": [
+     119,
+     137
+    ],
+    "object": "electrodes",
+    "obj_char_span": [
+     87,
+     96
+    ],
+    "predicate1": "Property",
+    "predicate2": "Composition",
+    "relation": "Property-Of"
+   }
+  ]
+ },
+ {
+  "text": "In total, we computed 1192 structurally and sym-metrically distinct orderings using DFT as im-plemented in VASP .",
+  "relation_list": [
+   {
+    "subject": "DFT",
+    "subj_char_span": [
+     84,
+     86
+    ],
+    "object": "orderings",
+    "obj_char_span": [
+     68,
+     76
+    ],
+    "predicate1": "Characterization",
+    "predicate2": "Structure",
+    "relation": "Used-For"
+   },
+   {
+    "subject": "VASP",
+    "subj_char_span": [
+     107,
+     110
+    ],
+    "object": "orderings",
+    "obj_char_span": [
+     68,
+     76
+    ],
+    "predicate1": "Characterization",
+    "predicate2": "Structure",
+    "relation": "Used-For"
+   }
+  ]
+ },
+ {
+  "text": "The phase diagram of the rhombohedral Na1 + xZr2SixP3-xO12 phase is developed by grand canonical Monte-Carlo ( GCMC ) simulations based on a cluster ex-pansion ( CE ) model, which is built on density functional theory ( DFT ) calcula-tions .",
+  "relation_list": [
+   {
+    "subject": "Na1 + xZr2SixP3-xO12",
+    "subj_char_span": [
+     38,
+     57
+    ],
+    "object": "rhombohedral",
+    "obj_char_span": [
+     25,
+     37
+    ],
+    "predicate1": "Composition",
+    "predicate2": "Structure",
+    "relation": "Located-Of"
+   },
+   {
+    "subject": "DFT",
+    "subj_char_span": [
+     220,
+     223
+    ],
+    "object": "Na1 + xZr2SixP3-xO12",
+    "obj_char_span": [
+     38,
+     57
+    ],
+    "predicate1": "Characterization",
+    "predicate2": "Composition",
+    "relation": "Used-For"
+   },
+   {
+    "subject": "CE",
+    "subj_char_span": [
+     162,
+     164
+    ],
+    "object": "Na1 + xZr2SixP3-xO12",
+    "obj_char_span": [
+     38,
+     57
+    ],
+    "predicate1": "Characterization",
+    "predicate2": "Composition",
+    "relation": "Used-For"
+   },
+   {
+    "subject": "GCMC",
+    "subj_char_span": [
+     111,
+     115
+    ],
+    "object": "Na1 + xZr2SixP3-xO12",
+    "obj_char_span": [
+     38,
+     57
+    ],
+    "predicate1": "Characterization",
+    "predicate2": "Composition",
+    "relation": "Used-For"
+   },
+   {
+    "subject": "phase diagram",
+    "subj_char_span": [
+     4,
+     16
+    ],
+    "object": "Na1 + xZr2SixP3-xO12",
+    "obj_char_span": [
+     38,
+     57
+    ],
+    "predicate1": "Characterization",
+    "predicate2": "Composition",
+    "relation": "Used-For"
+   }
+  ]
+ },
+ {
+  "text": "The phase diagram also displays four monophasic regions-A, B, C and C ', with B spanning a noticeably increasing range of Na concentra-tions with increasing temperature .",
+  "relation_list": [
+   {
+    "subject": "phase diagram",
+    "subj_char_span": [
+     3,
+     16
+    ],
+    "object": "Na concentra-tions",
+    "obj_char_span": [
+     122,
+     139
+    ],
+    "predicate1": "Characterization",
+    "predicate2": "Property",
+    "relation": "Used-For"
+   }
+  ]
+ },
+ {
+  "text": "Specifically, the experimentally observed disorder and frac-tional occupancies of the Na / Vacancy ( Va ) and Si / P sites in the rhombohedral-NaSiCON structure hinder characterization at-tempts in assigning specific phases ( or ordered Na configurations ) at different temperatures and Na compositions .",
+  "relation_list": [
+   {
+    "subject": "disorder and frac-tional occupancies",
+    "subj_char_span": [
+     42,
+     77
+    ],
+    "object": "different temperatures",
+    "obj_char_span": [
+     260,
+     281
+    ],
+    "predicate1": "Property",
+    "predicate2": "Condition",
+    "relation": "Condition-On"
+   }
+  ]
+ },
+ {
+  "text": "The transition from the high-temperature disordered C ' phase to the miscibility gap ( i . e ., the B + C two phase re-gion ) represents a first-order phase transition, and marked by the dashed black line at 650 K .",
+  "relation_list": [
+   {
+    "subject": "high-temperature disordered C ' phase",
+    "subj_char_span": [
+     24,
+     60
+    ],
+    "object": "first-order phase transition",
+    "obj_char_span": [
+     139,
+     166
+    ],
+    "predicate1": "Structure",
+    "predicate2": "Property",
+    "relation": "Cause-Effect"
+   },
+   {
+    "subject": "miscibility gap",
+    "subj_char_span": [
+     69,
+     83
+    ],
+    "object": "first-order phase transition",
+    "obj_char_span": [
+     139,
+     166
+    ],
+    "predicate1": "Structure",
+    "predicate2": "Property",
+    "relation": "Cause-Effect"
+   }
+  ]
+ },
+ {
+  "text": "In Fig 3, a negative ECI indicates ¡° attrac-tive ¡± interactions between Va for clusters built on Na / Va sites and P for clusters consisting of Si / P sites .",
+  "relation_list": [
+   {
+    "subject": "ECI",
+    "subj_char_span": [
+     21,
+     23
+    ],
+    "object": "Va",
+    "obj_char_span": [
+     72,
+     73
+    ],
+    "predicate1": "Characterization",
+    "predicate2": "Composition",
+    "relation": "Used-For"
+   }
+  ]
+ },
+ {
+  "text": "We identified similarities in phase be-havior between the NaSiCON-electrolyte and mono-transition-metal NaSiCON electrodes, which typically phase separate upon Na ex-traction / insertion .",
+  "relation_list": [
+   {
+    "subject": "phase be-havior",
+    "subj_char_span": [
+     30,
+     44
+    ],
+    "object": "NaSiCON-electrolyte",
+    "obj_char_span": [
+     58,
+     76
+    ],
+    "predicate1": "Property",
+    "predicate2": "Composition",
+    "relation": "Property-Of"
+   },
+   {
+    "subject": "phase be-havior",
+    "subj_char_span": [
+     30,
+     44
+    ],
+    "object": "mono-transition-metal NaSiCON electrodes",
+    "obj_char_span": [
+     82,
+     121
+    ],
+    "predicate1": "Property",
+    "predicate2": "Composition",
+    "relation": "Property-Of"
+   }
+  ]
+ },
+ {
+  "text": "Although most of the disagreements with experimentally reported single-phase compositions lie at ( or near ) the predicted phase boundaries, the mea-sured, low temperature data point at x = 2 . 35, 300 K significantly deviates from our predic-tions .",
+  "relation_list": [
+   {
+    "subject": "single-phase compositions",
+    "subj_char_span": [
+     63,
+     88
+    ],
+    "object": "predicted phase boundaries",
+    "obj_char_span": [
+     113,
+     138
+    ],
+    "predicate1": "Composition",
+    "predicate2": "Structure",
+    "relation": "Located-Of"
+   }
+  ]
+ },
+ {
+  "text": "This requires the disordered SiO44-and PO43-ions in the high temperature C ' phase to be redistributed in order to form the stable B and C phases .",
+  "relation_list": [
+   {
+    "subject": "SiO44-",
+    "subj_char_span": [
+     29,
+     34
+    ],
+    "object": "C ' phase",
+    "obj_char_span": [
+     73,
+     81
+    ],
+    "predicate1": "Composition",
+    "predicate2": "Structure",
+    "relation": "Located-Of"
+   },
+   {
+    "subject": "PO43-ions",
+    "subj_char_span": [
+     39,
+     47
+    ],
+    "object": "C ' phase",
+    "obj_char_span": [
+     73,
+     81
+    ],
+    "predicate1": "Composition",
+    "predicate2": "Structure",
+    "relation": "Located-Of"
+   }
+  ]
+ },
+ {
+  "text": "The convex envelopes of the structures with the lowest formation ener-gies-the convex hull-as predicted by DFT and CE are depicted by solid orange and solid blue lines, respectively .",
+  "relation_list": [
+   {
+    "subject": "DFT",
+    "subj_char_span": [
+     107,
+     109
+    ],
+    "object": "formation ener-gies",
+    "obj_char_span": [
+     55,
+     73
+    ],
+    "predicate1": "Characterization",
+    "predicate2": "Property",
+    "relation": "Used-For"
+   },
+   {
+    "subject": "CE",
+    "subj_char_span": [
+     115,
+     116
+    ],
+    "object": "formation ener-gies",
+    "obj_char_span": [
+     55,
+     73
+    ],
+    "predicate1": "Characterization",
+    "predicate2": "Property",
+    "relation": "Used-For"
+   }
+  ]
+ },
+ {
+  "text": "The reduction of the c / a ratio with increasing Na concentra-tion ( Fig 5c ) captures the typical behavior of the rhombohedral-NaSiCON as the Na con-tent is varied ( stars in panel c ) .",
+  "relation_list": [
+   {
+    "subject": "Na concentra-tion",
+    "subj_char_span": [
+     49,
+     65
+    ],
+    "object": "c / a ratio",
+    "obj_char_span": [
+     21,
+     31
+    ],
+    "predicate1": "Property",
+    "predicate2": "Property",
+    "relation": "Other"
+   },
+   {
+    "subject": "c / a ratio",
+    "subj_char_span": [
+     21,
+     31
+    ],
+    "object": "rhombohedral-NaSiCON",
+    "obj_char_span": [
+     115,
+     134
+    ],
+    "predicate1": "Property",
+    "predicate2": "Composition",
+    "relation": "Property-Of"
+   }
+  ]
+ },
+ {
+  "text": "Since the NaSiCON structure has both Na / Va and Si / P sites, attractive in-teractions are also extended to other species with the same occupational variable .",
+  "relation_list": [
+   {
+    "subject": "Si / P",
+    "subj_char_span": [
+     49,
+     54
+    ],
+    "object": "NaSiCON",
+    "obj_char_span": [
+     10,
+     17
+    ],
+    "predicate1": "Composition",
+    "predicate2": "Structure",
+    "relation": "Located-Of"
+   },
+   {
+    "subject": "Na / Va",
+    "subj_char_span": [
+     37,
+     43
+    ],
+    "object": "NaSiCON",
+    "obj_char_span": [
+     10,
+     17
+    ],
+    "predicate1": "Composition",
+    "predicate2": "Structure",
+    "relation": "Located-Of"
+   }
+  ]
+ },
+ {
+  "text": "Using large simulation cells ( 172, 032 atoms ) with GCMC, we can coarse-grain76 the grand-canonical potential at any Na ( Va ) / Si ( P ) con-centration and temperature .",
+  "relation_list": [
+   {
+    "subject": "GCMC",
+    "subj_char_span": [
+     53,
+     56
+    ],
+    "object": "Na ( Va ) / Si ( P ) con-centration",
+    "obj_char_span": [
+     118,
+     152
+    ],
+    "predicate1": "Characterization",
+    "predicate2": "Property",
+    "relation": "Used-For"
+   }
+  ]
+ },
+ {
+  "text": "While Sc3 + has also been used as a common aliovalent dopant on Zr4 +, 39-41 high Na + conductivities ( ~ 3 . 7 mS ¡¤ cm-1 ) have been achieved by doping with trivalent Al3 +, Fe3 +, and Y3 +, and divalent Co2 +, Ni2 +, and Zn2 + species .",
+  "relation_list": [
+   {
+    "subject": "Sc3 +",
+    "subj_char_span": [
+     6,
+     10
+    ],
+    "object": "aliovalent dopant",
+    "obj_char_span": [
+     43,
+     59
+    ],
+    "predicate1": "Composition",
+    "predicate2": "Composition",
+    "relation": "Component-Whole"
+   },
+   {
+    "subject": "high Na + conductivities",
+    "subj_char_span": [
+     76,
+     100
+    ],
+    "object": "Sc3 +",
+    "obj_char_span": [
+     6,
+     10
+    ],
+    "predicate1": "Property",
+    "predicate2": "Composition",
+    "relation": "Property-Of"
+   }
+  ]
+ },
+ {
+  "text": "Here, we analyze the thermodynamic properties of the rhombohedral NaSiCON elec-trolyte by constructing the Na1 + xZr2SixP3-xO12 phase diagram, based on density functional the-ory calculations, a cluster expansion frame-work, and Monte Carlo simulations .",
+  "relation_list": [
+   {
+    "subject": "thermodynamic",
+    "subj_char_span": [
+     21,
+     34
+    ],
+    "object": "NaSiCON elec-trolyte",
+    "obj_char_span": [
+     66,
+     85
+    ],
+    "predicate1": "Property",
+    "predicate2": "Composition",
+    "relation": "Property-Of"
+   },
+   {
+    "subject": "a cluster expansion frame-work",
+    "subj_char_span": [
+     193,
+     222
+    ],
+    "object": "phase diagram",
+    "obj_char_span": [
+     128,
+     140
+    ],
+    "predicate1": "Characterization",
+    "predicate2": "Characterization",
+    "relation": "Used-For"
+   },
+   {
+    "subject": "Monte Carlo simulations",
+    "subj_char_span": [
+     229,
+     251
+    ],
+    "object": "phase diagram",
+    "obj_char_span": [
+     128,
+     140
+    ],
+    "predicate1": "Characterization",
+    "predicate2": "Characterization",
+    "relation": "Used-For"
+   },
+   {
+    "subject": "NaSiCON elec-trolyte",
+    "subj_char_span": [
+     66,
+     85
+    ],
+    "object": "rhombohedral",
+    "obj_char_span": [
+     53,
+     64
+    ],
+    "predicate1": "Composition",
+    "predicate2": "Structure",
+    "relation": "Located-Of"
+   },
+   {
+    "subject": "phase diagram",
+    "subj_char_span": [
+     128,
+     140
+    ],
+    "object": "Na1 + xZr2SixP3-xO12",
+    "obj_char_span": [
+     107,
+     127
+    ],
+    "predicate1": "Characterization",
+    "predicate2": "Composition",
+    "relation": "Used-For"
+   },
+   {
+    "subject": "density functional the-ory calculations",
+    "subj_char_span": [
+     152,
+     190
+    ],
+    "object": "phase diagram",
+    "obj_char_span": [
+     128,
+     140
+    ],
+    "predicate1": "Characterization",
+    "predicate2": "Characterization",
+    "relation": "Used-For"
+   }
+  ]
+ },
+ {
+  "text": "Kinetic limitations, specif-ically the macroscopic diffusion of Si4 + and P5 + ions, may inhibit the phase separation into Na + Si-rich and Va + P-rich domains in experiments .",
+  "relation_list": [
+   {
+    "subject": "Kinetic limitations",
+    "subj_char_span": [
+     0,
+     18
+    ],
+    "object": "phase separation",
+    "obj_char_span": [
+     101,
+     116
+    ],
+    "predicate1": "Property",
+    "predicate2": "Property",
+    "relation": "Cause-Effect"
+   },
+   {
+    "subject": "macroscopic diffusion",
+    "subj_char_span": [
+     39,
+     59
+    ],
+    "object": "phase separation",
+    "obj_char_span": [
+     101,
+     116
+    ],
+    "predicate1": "Property",
+    "predicate2": "Property",
+    "relation": "Cause-Effect"
+   }
+  ]
+ },
+ {
+  "text": "Based on our phase diagram, we also un-veiled the complex interplay betwen Na sites occupancy at different temperatures and elec-trostatic .",
+  "relation_list": [
+   {
+    "subject": "phase diagram",
+    "subj_char_span": [
+     13,
+     25
+    ],
+    "object": "complex interplay",
+    "obj_char_span": [
+     50,
+     66
+    ],
+    "predicate1": "Characterization",
+    "predicate2": "Property",
+    "relation": "Used-For"
+   }
+  ]
+ },
+ {
+  "text": "Interestingly, previous stud-ies have claimed that the thermodynamically favorable phase-separation was curbed in mixed transition-metal NaSiCON systems .",
+  "relation_list": [
+   {
+    "subject": "thermodynamically",
+    "subj_char_span": [
+     55,
+     71
+    ],
+    "object": "phase-separation",
+    "obj_char_span": [
+     83,
+     98
+    ],
+    "predicate1": "Condition",
+    "predicate2": "Property",
+    "relation": "Cause-Effect"
+   }
+  ]
+ },
+ {
+  "text": "Finally, the quadru-plet ECIs # 113 and # 118 are attractive, span across Na / Va and Si / P sites, and favour occu-pations of Va-Va-Va-P and Va-Va-P-P, respec-tively, which likely indicate the electrostatic at-traction between Va and P species .",
+  "relation_list": [
+   {
+    "subject": "ECIs",
+    "subj_char_span": [
+     25,
+     28
+    ],
+    "object": "electrostatic at-traction",
+    "obj_char_span": [
+     194,
+     218
+    ],
+    "predicate1": "Characterization",
+    "predicate2": "Property",
+    "relation": "Used-For"
+   }
+  ]
+ },
+ {
+  "text": "The disagreement in terms of phase stabilities at low temperatures ( < 500 K ) between the theory-predicted ther-modynamics ( suggesting phase-separation ) and experimental reports ( indicating single-phase behavior ) can be also attributed to kinetic factors .",
+  "relation_list": [
+   {
+    "subject": "theory-predicted ther-modynamics",
+    "subj_char_span": [
+     91,
+     122
+    ],
+    "object": "phase stabilities",
+    "obj_char_span": [
+     29,
+     45
+    ],
+    "predicate1": "Characterization",
+    "predicate2": "Property",
+    "relation": "Used-For"
+   },
+   {
+    "subject": "experimental reports",
+    "subj_char_span": [
+     160,
+     179
+    ],
+    "object": "phase stabilities",
+    "obj_char_span": [
+     29,
+     45
+    ],
+    "predicate1": "Characterization",
+    "predicate2": "Property",
+    "relation": "Used-For"
+   },
+   {
+    "subject": "experimental reports",
+    "subj_char_span": [
+     160,
+     179
+    ],
+    "object": "kinetic factors",
+    "obj_char_span": [
+     244,
+     258
+    ],
+    "predicate1": "Characterization",
+    "predicate2": "Property",
+    "relation": "Used-For"
+   }
+  ]
+ },
+ {
+  "text": "Occupancies of Na ( 1 ) and Na ( 2 ) sites are in turn determined by the distribution of SiO44-and PO43-groups, in order to maintain ¡° local ¡± charge-neutrality within the rhombohedral-Na1 + xZr2SixP3-xO12, an aspect that has been rarely discussed in prior exper-imental reports .",
+  "relation_list": [
+   {
+    "subject": "charge-neutrality",
+    "subj_char_span": [
+     143,
+     159
+    ],
+    "object": "Na1 + xZr2SixP3-xO12",
+    "obj_char_span": [
+     185,
+     204
+    ],
+    "predicate1": "Property",
+    "predicate2": "Composition",
+    "relation": "Property-Of"
+   },
+   {
+    "subject": "Na1 + xZr2SixP3-xO12",
+    "subj_char_span": [
+     185,
+     204
+    ],
+    "object": "rhombohedral",
+    "obj_char_span": [
+     172,
+     183
+    ],
+    "predicate1": "Composition",
+    "predicate2": "Structure",
+    "relation": "Located-Of"
+   }
+  ]
+ },
+ {
+  "text": "Other ¡° network formers ¡±, such as SiS44-and PS43-found in Li-ion con-ductors may provide similar effects .",
+  "relation_list": [
+   {
+    "subject": "SiS44-",
+    "subj_char_span": [
+     35,
+     40
+    ],
+    "object": "Li-ion con-ductors",
+    "obj_char_span": [
+     59,
+     76
+    ],
+    "predicate1": "Composition",
+    "predicate2": "Composition",
+    "relation": "Component-Whole"
+   },
+   {
+    "subject": "PS43-",
+    "subj_char_span": [
+     45,
+     49
+    ],
+    "object": "Li-ion con-ductors",
+    "obj_char_span": [
+     59,
+     76
+    ],
+    "predicate1": "Composition",
+    "predicate2": "Composition",
+    "relation": "Component-Whole"
+   }
+  ]
+ },
+ {
+  "text": "The super-ionic behavior in Na1 + xZr2SixP3-xO12 is driven by a Na-vacancy migration mechanism that re-lates directly to the occupational disorder of Na ( 1 ) and Na ( 2 ) .",
+  "relation_list": [
+   {
+    "subject": "super-ionic behavior",
+    "subj_char_span": [
+     3,
+     23
+    ],
+    "object": "Na1 + xZr2SixP3-xO12",
+    "obj_char_span": [
+     28,
+     47
+    ],
+    "predicate1": "Property",
+    "predicate2": "Composition",
+    "relation": "Property-Of"
+   },
+   {
+    "subject": "Na-vacancy migration mechanism",
+    "subj_char_span": [
+     64,
+     93
+    ],
+    "object": "super-ionic behavior",
+    "obj_char_span": [
+     3,
+     23
+    ],
+    "predicate1": "Property",
+    "predicate2": "Property",
+    "relation": "Cause-Effect"
+   }
+  ]
+ },
+ {
+  "text": "For example, Delmas et al detected phase separation of the rhom-bohedral electrode Na2Ti2 ( PO4 ) 3 when cooled, leading to the formation of Na3Ti2 ( PO4 ) 3 and Na1Ti2 ( PO4 ) 3 .",
+  "relation_list": [
+   {
+    "subject": "Na2Ti2 ( PO4 ) 3",
+    "subj_char_span": [
+     83,
+     98
+    ],
+    "object": "rhom-bohedral",
+    "obj_char_span": [
+     59,
+     71
+    ],
+    "predicate1": "Composition",
+    "predicate2": "Structure",
+    "relation": "Located-Of"
+   },
+   {
+    "subject": "Na2Ti2 ( PO4 ) 3",
+    "subj_char_span": [
+     83,
+     98
+    ],
+    "object": "Na1Ti2 ( PO4 ) 3",
+    "obj_char_span": [
+     162,
+     177
+    ],
+    "predicate1": "Composition",
+    "predicate2": "Composition",
+    "relation": "Cause-Effect"
+   },
+   {
+    "subject": "phase separation",
+    "subj_char_span": [
+     35,
+     50
+    ],
+    "object": "Na2Ti2 ( PO4 ) 3",
+    "obj_char_span": [
+     83,
+     98
+    ],
+    "predicate1": "Property",
+    "predicate2": "Composition",
+    "relation": "Property-Of"
+   },
+   {
+    "subject": "Na2Ti2 ( PO4 ) 3",
+    "subj_char_span": [
+     83,
+     98
+    ],
+    "object": "Na3Ti2 ( PO4 ) 3",
+    "obj_char_span": [
+     141,
+     156
+    ],
+    "predicate1": "Composition",
+    "predicate2": "Composition",
+    "relation": "Cause-Effect"
+   }
+  ]
+ },
+ {
+  "text": "The tempera-ture vs . Na-composition phase diagram of the rhombohedral Na1 + xZr2SixP3-xO12, as obtained via GCMC simulations, is shown in Fig 4 .",
+  "relation_list": [
+   {
+    "subject": "GCMC",
+    "subj_char_span": [
+     109,
+     112
+    ],
+    "object": "phase diagram",
+    "obj_char_span": [
+     37,
+     49
+    ],
+    "predicate1": "Characterization",
+    "predicate2": "Property",
+    "relation": "Used-For"
+   },
+   {
+    "subject": "phase diagram",
+    "subj_char_span": [
+     37,
+     49
+    ],
+    "object": "Na1 + xZr2SixP3-xO12",
+    "obj_char_span": [
+     71,
+     90
+    ],
+    "predicate1": "Property",
+    "predicate2": "Composition",
+    "relation": "Property-Of"
+   },
+   {
+    "subject": "Na1 + xZr2SixP3-xO12",
+    "subj_char_span": [
+     71,
+     90
+    ],
+    "object": "rhombohedral",
+    "obj_char_span": [
+     58,
+     69
+    ],
+    "predicate1": "Composition",
+    "predicate2": "Structure",
+    "relation": "Located-Of"
+   }
+  ]
+ },
+ {
+  "text": "Notably, NaSiCON-derived electrodes ( e . g ., Na3Ti2 ( PO4 ) 3, Na3V2 ( PO4 ) 3 and Na3Cr2 ( PO4 ) 3 ) often show phase-separation behavior upon Na intercala-tion / extraction .",
+  "relation_list": [
+   {
+    "subject": "Na3Cr2 ( PO4 ) 3",
+    "subj_char_span": [
+     85,
+     100
+    ],
+    "object": "NaSiCON-derived electrodes",
+    "obj_char_span": [
+     9,
+     34
+    ],
+    "predicate1": "Composition",
+    "predicate2": "Application",
+    "relation": "Other"
+   },
+   {
+    "subject": "Na3V2 ( PO4 ) 3",
+    "subj_char_span": [
+     65,
+     79
+    ],
+    "object": "NaSiCON-derived electrodes",
+    "obj_char_span": [
+     9,
+     34
+    ],
+    "predicate1": "Composition",
+    "predicate2": "Application",
+    "relation": "Other"
+   },
+   {
+    "subject": "phase-separation behavior",
+    "subj_char_span": [
+     115,
+     139
+    ],
+    "object": "NaSiCON-derived electrodes",
+    "obj_char_span": [
+     9,
+     34
+    ],
+    "predicate1": "Property",
+    "predicate2": "Application",
+    "relation": "Property-Of"
+   },
+   {
+    "subject": "Na3Ti2 ( PO4 ) 3",
+    "subj_char_span": [
+     47,
+     62
+    ],
+    "object": "NaSiCON-derived electrodes",
+    "obj_char_span": [
+     9,
+     34
+    ],
+    "predicate1": "Composition",
+    "predicate2": "Application",
+    "relation": "Other"
+   }
+  ]
+ },
+ {
+  "text": "Understanding the thermodynamic proper-ties of the rhombohedral Na1 + xZr2SixP3-xO12, and NaSiCON systems in general, is of im-portance for the development of inexpen-sive solid electrolytes and electrode mate-rials for novel Na-ion batteries .",
+  "relation_list": [
+   {
+    "subject": "Na1 + xZr2SixP3-xO12",
+    "subj_char_span": [
+     64,
+     83
+    ],
+    "object": "rhombohedral",
+    "obj_char_span": [
+     51,
+     63
+    ],
+    "predicate1": "Composition",
+    "predicate2": "Structure",
+    "relation": "Located-Of"
+   },
+   {
+    "subject": "thermodynamic",
+    "subj_char_span": [
+     18,
+     31
+    ],
+    "object": "Na1 + xZr2SixP3-xO12",
+    "obj_char_span": [
+     64,
+     83
+    ],
+    "predicate1": "Property",
+    "predicate2": "Composition",
+    "relation": "Property-Of"
+   },
+   {
+    "subject": "inexpen-sive solid electrolytes",
+    "subj_char_span": [
+     159,
+     189
+    ],
+    "object": "novel Na-ion batteries",
+    "obj_char_span": [
+     220,
+     241
+    ],
+    "predicate1": "Composition",
+    "predicate2": "Application",
+    "relation": "Other"
+   },
+   {
+    "subject": "inexpen-sive solid electrolytes",
+    "subj_char_span": [
+     159,
+     189
+    ],
+    "object": "NaSiCON",
+    "obj_char_span": [
+     90,
+     97
+    ],
+    "predicate1": "Composition",
+    "predicate2": "Structure",
+    "relation": "Located-Of"
+   }
+  ]
+ },
+ {
+  "text": "Importantly, the three lowest energy ( or ground state ) configurations that lie on both the DFT and CE hulls oc-cur at Na compositions of x = 0 . 0, 2 . 0, and 3 . 0, in agreement with experimental observations .",
+  "relation_list": [
+   {
+    "subject": "CE hulls",
+    "subj_char_span": [
+     101,
+     108
+    ],
+    "object": "lowest energy ( or ground state ) configurations",
+    "obj_char_span": [
+     22,
+     70
+    ],
+    "predicate1": "Characterization",
+    "predicate2": "Property",
+    "relation": "Used-For"
+   },
+   {
+    "subject": "DFT",
+    "subj_char_span": [
+     93,
+     96
+    ],
+    "object": "lowest energy ( or ground state ) configurations",
+    "obj_char_span": [
+     22,
+     70
+    ],
+    "predicate1": "Characterization",
+    "predicate2": "Property",
+    "relation": "Used-For"
+   }
+  ]
+ },
+ {
+  "text": "The transferability of the CE is assessed via the leave one-out cross-validation ( LOOCV ) score, which is ~ 24 . 9 meV / f . u . ( 1 . 18 meV / atom ) .",
+  "relation_list": [
+   {
+    "subject": "transferability",
+    "subj_char_span": [
+     4,
+     18
+    ],
+    "object": "CE",
+    "obj_char_span": [
+     27,
+     28
+    ],
+    "predicate1": "Property",
+    "predicate2": "Characterization",
+    "relation": "Property-Of"
+   },
+   {
+    "subject": "LOOCV",
+    "subj_char_span": [
+     83,
+     87
+    ],
+    "object": "transferability",
+    "obj_char_span": [
+     4,
+     18
+    ],
+    "predicate1": "Characterization",
+    "predicate2": "Property",
+    "relation": "Used-For"
+   }
+  ]
+ },
+ {
+  "text": "Nevertheless, preserving the symmetry during the DFT calculation leads to a negligible change in the energy of the ground state at x = 2 . 0 ( ~ 0 . 274 meV / f . u . ) .",
+  "relation_list": [
+   {
+    "subject": "DFT",
+    "subj_char_span": [
+     49,
+     51
+    ],
+    "object": "negligible change in the energy",
+    "obj_char_span": [
+     76,
+     106
+    ],
+    "predicate1": "Characterization",
+    "predicate2": "Property",
+    "relation": "Used-For"
+   }
+  ]
+ },
+ {
+  "text": "The bulk ionic conductivity of Na1 + xZr2SixP3-xO12 is set by the occupations of Na ( 1 ) and Na ( 2 ) sites, which enables Na + percolation along Na ( 1 )-Na ( 2 )-Na ( 1 ) paths .",
+  "relation_list": [
+   {
+    "subject": "bulk ionic conductivity",
+    "subj_char_span": [
+     4,
+     26
+    ],
+    "object": "Na1 + xZr2SixP3-xO12",
+    "obj_char_span": [
+     31,
+     50
+    ],
+    "predicate1": "Property",
+    "predicate2": "Composition",
+    "relation": "Property-Of"
+   }
+  ]
+ },
+ {
+  "text": "Notably, most of the early characterization work on rhombohedral Na1 + xZr2SixP3-xO12 used single crystal sam-ples with x ¡Ý 2, which were mostly refined according to the structural model of Hong .",
+  "relation_list": [
+   {
+    "subject": "Na1 + xZr2SixP3-xO12",
+    "subj_char_span": [
+     65,
+     85
+    ],
+    "object": "rhombohedral",
+    "obj_char_span": [
+     52,
+     64
+    ],
+    "predicate1": "Composition",
+    "predicate2": "Structure",
+    "relation": "Located-Of"
+   },
+   {
+    "subject": "x ¡Ý 2",
+    "subj_char_span": [
+     120,
+     124
+    ],
+    "object": "Na1 + xZr2SixP3-xO12",
+    "obj_char_span": [
+     65,
+     85
+    ],
+    "predicate1": "Property",
+    "predicate2": "Composition",
+    "relation": "Property-Of"
+   }
+  ]
+ },
+ {
+  "text": "However, Boilot et al confirmed that Na migration in vacant Zr sites is impeded, indicating that Zr deficiency is less relevant for optimizing the Na-conductivity of this material .",
+  "relation_list": [
+   {
+    "subject": "Zr deficiency",
+    "subj_char_span": [
+     97,
+     109
+    ],
+    "object": "Na-conductivity",
+    "obj_char_span": [
+     147,
+     161
+    ],
+    "predicate1": "Property",
+    "predicate2": "Property",
+    "relation": "Cause-Effect"
+   },
+   {
+    "subject": "Na migration",
+    "subj_char_span": [
+     37,
+     48
+    ],
+    "object": "Zr sites",
+    "obj_char_span": [
+     60,
+     67
+    ],
+    "predicate1": "Property",
+    "predicate2": "Composition",
+    "relation": "Property-Of"
+   }
+  ]
+ },
+ {
+  "text": "While single-crystal X-ray diffraction ( XRD ) experiments are undoubtedly useful in understanding the structural properties of this material, they may hinder the observation of phase separation in Na1 + xZr2SixP3-xO12, in par-ticular, across Na-rich and Na-poor composi-tion domains ( e . g ., A + B and B + C in Fig ure 4 ), resulting in the lack of identification of unique mono or biphasic domains .",
+  "relation_list": [
+   {
+    "subject": "phase separation",
+    "subj_char_span": [
+     178,
+     193
+    ],
+    "object": "Na1 + xZr2SixP3-xO12",
+    "obj_char_span": [
+     198,
+     217
+    ],
+    "predicate1": "Property",
+    "predicate2": "Composition",
+    "relation": "Property-Of"
+   },
+   {
+    "subject": "XRD",
+    "subj_char_span": [
+     41,
+     44
+    ],
+    "object": "Na1 + xZr2SixP3-xO12",
+    "obj_char_span": [
+     198,
+     217
+    ],
+    "predicate1": "Characterization",
+    "predicate2": "Composition",
+    "relation": "Used-For"
+   }
+  ]
+ },
+ {
+  "text": "We focus on the high-temperature rhombohedral-NaSiCON Na1 + xZr2SixP3-xO12 structure, which exhibits high Na-conductivity and is adopted by several Na-based positive electrodes ( e . g ., Na3Ti2 ( PO4 ) 3, Na3V2 ( PO4 ) 3, Na3Cr2 ( PO4 ) 3 and Na3Fe2 ( PO4 ) 3 ) as well at high temperature .",
+  "relation_list": [
+   {
+    "subject": "high Na-conductivity",
+    "subj_char_span": [
+     101,
+     120
+    ],
+    "object": "Na1 + xZr2SixP3-xO12",
+    "obj_char_span": [
+     54,
+     73
+    ],
+    "predicate1": "Property",
+    "predicate2": "Composition",
+    "relation": "Property-Of"
+   },
+   {
+    "subject": "Na1 + xZr2SixP3-xO12",
+    "subj_char_span": [
+     54,
+     73
+    ],
+    "object": "rhombohedral-NaSiCON",
+    "obj_char_span": [
+     33,
+     52
+    ],
+    "predicate1": "Composition",
+    "predicate2": "Structure",
+    "relation": "Located-Of"
+   }
+  ]
+ },
+ {
+  "text": "However, it remains to be seen how specific con-figurations of Na / Va and Si / P affect the micro-scopic migration barriers that govern the overall Na-transport .",
+  "relation_list": [
+   {
+    "subject": "Na / Va",
+    "subj_char_span": [
+     63,
+     69
+    ],
+    "object": "micro-scopic migration barriers",
+    "obj_char_span": [
+     92,
+     123
+    ],
+    "predicate1": "Composition",
+    "predicate2": "Property",
+    "relation": "Cause-Effect"
+   },
+   {
+    "subject": "Si / P",
+    "subj_char_span": [
+     75,
+     80
+    ],
+    "object": "micro-scopic migration barriers",
+    "obj_char_span": [
+     92,
+     123
+    ],
+    "predicate1": "Composition",
+    "predicate2": "Property",
+    "relation": "Cause-Effect"
+   }
+  ]
+ },
+ {
+  "text": "In Fig 2a, most orderings in 2 ¡Á 1 ¡Á 1 super-cells exhibit higher formation energies than configurations within the primitive cell . For exam-ple, all the configurations that exhibit Ef <-50 meV / f . u . at x = 0 . 5, 1 . 0, 1 . 5, 2 . 0 and 2 . 5 are orderings within the primitive cell .",
+  "relation_list": [
+   {
+    "subject": "higher formation energies",
+    "subj_char_span": [
+     59,
+     83
+    ],
+    "object": "super-cells",
+    "obj_char_span": [
+     39,
+     49
+    ],
+    "predicate1": "Property",
+    "predicate2": "Composition",
+    "relation": "Property-Of"
+   },
+   {
+    "subject": "super-cells",
+    "subj_char_span": [
+     39,
+     49
+    ],
+    "object": "primitive cell",
+    "obj_char_span": [
+     116,
+     129
+    ],
+    "predicate1": "Composition",
+    "predicate2": "Composition",
+    "relation": "Component-Whole"
+   }
+  ]
+ },
+ {
+  "text": "The computational investiga-tion of the monoclinic phase diagram of Na1 + xZr2SixP3-xO12 requires knowledge of the end-member structures at Na = 1 and Na = 4, which are only found experimentally in the rhombohedral arrangement .",
+  "relation_list": [
+   {
+    "subject": "monoclinic phase diagram",
+    "subj_char_span": [
+     40,
+     63
+    ],
+    "object": "Na1 + xZr2SixP3-xO12",
+    "obj_char_span": [
+     68,
+     87
+    ],
+    "predicate1": "Characterization",
+    "predicate2": "Composition",
+    "relation": "Used-For"
+   }
+  ]
+ },
+ {
+  "text": "The exchange-correlation energy in DFT was approximated by the strongly constrained and appropriately normed ( SCAN ) semi-local meta-generalized gradient approximation ( GGA ) functional .",
+  "relation_list": [
+   {
+    "subject": "SCAN",
+    "subj_char_span": [
+     111,
+     115
+    ],
+    "object": "exchange-correlation energy",
+    "obj_char_span": [
+     4,
+     30
+    ],
+    "predicate1": "Characterization",
+    "predicate2": "Property",
+    "relation": "Used-For"
+   },
+   {
+    "subject": "DFT",
+    "subj_char_span": [
+     35,
+     38
+    ],
+    "object": "exchange-correlation energy",
+    "obj_char_span": [
+     4,
+     30
+    ],
+    "predicate1": "Characterization",
+    "predicate2": "Property",
+    "relation": "Used-For"
+   },
+   {
+    "subject": "GGA",
+    "subj_char_span": [
+     171,
+     174
+    ],
+    "object": "exchange-correlation energy",
+    "obj_char_span": [
+     4,
+     30
+    ],
+    "predicate1": "Characterization",
+    "predicate2": "Property",
+    "relation": "Used-For"
+   }
+  ]
+ },
+ {
+  "text": "The GCMC data showed that the occupation of the Na ( 1 ) site decreases from x = 0 to x = 2, and increases monotonically between x = 2 and x = 3 below the B + C ¡ú C ' transition ( see Fig ure 6 ) .",
+  "relation_list": [
+   {
+    "subject": "GCMC",
+    "subj_char_span": [
+     4,
+     8
+    ],
+    "object": "occupation of the Na ( 1 ) site",
+    "obj_char_span": [
+     30,
+     60
+    ],
+    "predicate1": "Characterization",
+    "predicate2": "Property",
+    "relation": "Used-For"
+   }
+  ]
+ },
+ {
+  "text": "Note that the Gibbs ener-gies are referenced to the ground state end-member configurations, namely Na1Zr2P3O12 and Na4Zr2Si3O12 .",
+  "relation_list": [
+   {
+    "subject": "Gibbs ener-gies",
+    "subj_char_span": [
+     14,
+     28
+    ],
+    "object": "Na4Zr2Si3O12",
+    "obj_char_span": [
+     115,
+     126
+    ],
+    "predicate1": "Property",
+    "predicate2": "Composition",
+    "relation": "Property-Of"
+   },
+   {
+    "subject": "Gibbs ener-gies",
+    "subj_char_span": [
+     14,
+     28
+    ],
+    "object": "Na1Zr2P3O12",
+    "obj_char_span": [
+     99,
+     109
+    ],
+    "predicate1": "Property",
+    "predicate2": "Composition",
+    "relation": "Property-Of"
+   }
+  ]
+ },
+ {
+  "text": "In performing the GCMC simulations, every Na / Va swap must be coupled to a Si / P swap or vice versa, in order to maintain the charge neutrality of the overall simulation cell .",
+  "relation_list": [
+   {
+    "subject": "Na / Va swap",
+    "subj_char_span": [
+     42,
+     53
+    ],
+    "object": "Si / P swap",
+    "obj_char_span": [
+     76,
+     86
+    ],
+    "predicate1": "Property",
+    "predicate2": "Property",
+    "relation": "Other"
+   },
+   {
+    "subject": "GCMC",
+    "subj_char_span": [
+     18,
+     22
+    ],
+    "object": "Na / Va swap",
+    "obj_char_span": [
+     42,
+     53
+    ],
+    "predicate1": "Characterization",
+    "predicate2": "Property",
+    "relation": "Used-For"
+   },
+   {
+    "subject": "GCMC",
+    "subj_char_span": [
+     18,
+     22
+    ],
+    "object": "Si / P swap",
+    "obj_char_span": [
+     76,
+     86
+    ],
+    "predicate1": "Characterization",
+    "predicate2": "Property",
+    "relation": "Used-For"
+   }
+  ]
+ },
+ {
+  "text": "Although the low-temperature monoclinic distortion ob-served experimentally exhibits the C2 / c space group, this structure presents a rota-tional distortion of the ZrO6 octahedra in com-bination with disorder in the Si / P sites, which is not observed in our ground state structure at x = 2 . 0 ( of Figs S3 and S4 ) .",
+  "relation_list": [
+   {
+    "subject": "monoclinic",
+    "subj_char_span": [
+     29,
+     38
+    ],
+    "object": "distortion",
+    "obj_char_span": [
+     40,
+     49
+    ],
+    "predicate1": "Structure",
+    "predicate2": "Property",
+    "relation": "Cause-Effect"
+   },
+   {
+    "subject": "low-temperature",
+    "subj_char_span": [
+     13,
+     27
+    ],
+    "object": "distortion",
+    "obj_char_span": [
+     40,
+     49
+    ],
+    "predicate1": "Condition",
+    "predicate2": "Property",
+    "relation": "Cause-Effect"
+   },
+   {
+    "subject": "ZrO6",
+    "subj_char_span": [
+     165,
+     168
+    ],
+    "object": "octahedra",
+    "obj_char_span": [
+     170,
+     178
+    ],
+    "predicate1": "Composition",
+    "predicate2": "Structure",
+    "relation": "Located-Of"
+   },
+   {
+    "subject": "rota-tional distortion",
+    "subj_char_span": [
+     135,
+     156
+    ],
+    "object": "ZrO6",
+    "obj_char_span": [
+     165,
+     168
+    ],
+    "predicate1": "Property",
+    "predicate2": "Composition",
+    "relation": "Property-Of"
+   }
+  ]
+ },
+ {
+  "text": "Finally, we provide strategies for further optimizing the synthesis of NaSiCON-related materials and improving their ion-transport properties .",
+  "relation_list": [
+   {
+    "subject": "ion-transport",
+    "subj_char_span": [
+     117,
+     129
+    ],
+    "object": "NaSiCON",
+    "obj_char_span": [
+     71,
+     77
+    ],
+    "predicate1": "Property",
+    "predicate2": "Structure",
+    "relation": "Property-Of"
+   },
+   {
+    "subject": "synthesis",
+    "subj_char_span": [
+     58,
+     66
+    ],
+    "object": "NaSiCON",
+    "obj_char_span": [
+     71,
+     77
+    ],
+    "predicate1": "Processing",
+    "predicate2": "Structure",
+    "relation": "Used-For"
+   }
+  ]
+ },
+ {
+  "text": "The error in formation energies predicted by the CE expansion model are compared with the energy above the convex hull in Fig 2b, with two regions of confidences, ¡À 10 and ¡À 20 eV / f . u . ( dashed lines ) .",
+  "relation_list": [
+   {
+    "subject": "CE expansion model",
+    "subj_char_span": [
+     49,
+     66
+    ],
+    "object": "convex hull",
+    "obj_char_span": [
+     107,
+     117
+    ],
+    "predicate1": "Characterization",
+    "predicate2": "Structure",
+    "relation": "Used-For"
+   },
+   {
+    "subject": "¡À 10 and ¡À 20 eV / f . u .",
+    "subj_char_span": [
+     163,
+     189
+    ],
+    "object": "convex hull",
+    "obj_char_span": [
+     107,
+     117
+    ],
+    "predicate1": "Property",
+    "predicate2": "Structure",
+    "relation": "Property-Of"
+   }
+  ]
+ },
+ {
+  "text": "Notably, the occupation values are obtained as statistical averages from GCMC simulations .",
+  "relation_list": [
+   {
+    "subject": "GCMC",
+    "subj_char_span": [
+     73,
+     77
+    ],
+    "object": "occupation values",
+    "obj_char_span": [
+     13,
+     29
+    ],
+    "predicate1": "Characterization",
+    "predicate2": "Property",
+    "relation": "Used-For"
+   }
+  ]
+ },
+ {
+  "text": "Numerical hysteresis arising from the GCMC was removed by per-forming a free-energy integration ( see Section S4 and Fig S2 of the SI ) .",
+  "relation_list": [
+   {
+    "subject": "free-energy integration",
+    "subj_char_span": [
+     72,
+     94
+    ],
+    "object": "GCMC",
+    "obj_char_span": [
+     38,
+     41
+    ],
+    "predicate1": "Property",
+    "predicate2": "Characterization",
+    "relation": "Cause-Effect"
+   }
+  ]
+ },
+ {
+  "text": "Further, we note the similarities in the phase behavior between Na1 + xZr2SixP3-xO12 and other NaSiCON-based mono-transition metal elec-trodes and discuss the potential competition between thermodynamics and kinetics in ex-perimentally observed phase separation .",
+  "relation_list": [
+   {
+    "subject": "phase behavior",
+    "subj_char_span": [
+     41,
+     55
+    ],
+    "object": "Na1 + xZr2SixP3-xO12",
+    "obj_char_span": [
+     64,
+     83
+    ],
+    "predicate1": "Property",
+    "predicate2": "Composition",
+    "relation": "Property-Of"
+   },
+   {
+    "subject": "phase behavior",
+    "subj_char_span": [
+     41,
+     55
+    ],
+    "object": "NaSiCON-based mono-transition metal elec-trodes",
+    "obj_char_span": [
+     95,
+     141
+    ],
+    "predicate1": "Property",
+    "predicate2": "Composition",
+    "relation": "Property-Of"
+   }
+  ]
+ },
+ {
+  "text": "Importantly, the minima in entropy at x ~ 2 ( within the B monophasic region ) at 625 K and 445 K correlates with the Na occupancies of the Na ( 1 ) and Na ( 2 ) sites ( Figs 6d-f, see discus-sion below ) .",
+  "relation_list": [
+   {
+    "subject": "minima in entropy",
+    "subj_char_span": [
+     16,
+     34
+    ],
+    "object": "625 K",
+    "obj_char_span": [
+     82,
+     86
+    ],
+    "predicate1": "Property",
+    "predicate2": "Condition",
+    "relation": "Condition-On"
+   },
+   {
+    "subject": "minima in entropy",
+    "subj_char_span": [
+     16,
+     34
+    ],
+    "object": "445 K",
+    "obj_char_span": [
+     92,
+     96
+    ],
+    "predicate1": "Property",
+    "predicate2": "Condition",
+    "relation": "Condition-On"
+   }
+  ]
+ },
+ {
+  "text": "Despite the size-able share of research on Na1 + xZr2SixP3-xO12, the structural and thermodynamic properties of NaSiCON require better understanding for more efficient synthesis and optimization as a solid electrolyte, which often follows chemical intuition .",
+  "relation_list": [
+   {
+    "subject": "Na1 + xZr2SixP3-xO12",
+    "subj_char_span": [
+     43,
+     62
+    ],
+    "object": "NaSiCON",
+    "obj_char_span": [
+     112,
+     119
+    ],
+    "predicate1": "Composition",
+    "predicate2": "Structure",
+    "relation": "Component-Whole"
+   }
+  ]
+ },
+ {
+  "text": "Importantly, the redis-tribution of octahedrally coordinated cations in mixed transition-metal NaSiCONs, e . g . Ti and Fe in NaxTiFe ( PO4 ) 3, may be subject to different mechanisms than our predictions for Na1 + xZr2SixP3-xO12",
+  "relation_list": [
+   {
+    "subject": "redis-tribution",
+    "subj_char_span": [
+     17,
+     31
+    ],
+    "object": "octahedrally coordinated cations",
+    "obj_char_span": [
+     36,
+     67
+    ],
+    "predicate1": "Property",
+    "predicate2": "Composition",
+    "relation": "Property-Of"
+   },
+   {
+    "subject": "Fe",
+    "subj_char_span": [
+     120,
+     121
+    ],
+    "object": "octahedrally coordinated cations",
+    "obj_char_span": [
+     36,
+     67
+    ],
+    "predicate1": "Composition",
+    "predicate2": "Composition",
+    "relation": "Component-Whole"
+   },
+   {
+    "subject": "NaxTiFe ( PO4 ) 3",
+    "subj_char_span": [
+     126,
+     142
+    ],
+    "object": "mixed transition-metal NaSiCONs",
+    "obj_char_span": [
+     72,
+     102
+    ],
+    "predicate1": "Composition",
+    "predicate2": "Composition",
+    "relation": "Component-Whole"
+   },
+   {
+    "subject": "Ti",
+    "subj_char_span": [
+     113,
+     114
+    ],
+    "object": "octahedrally coordinated cations",
+    "obj_char_span": [
+     36,
+     67
+    ],
+    "predicate1": "Composition",
+    "predicate2": "Composition",
+    "relation": "Component-Whole"
+   }
+  ]
+ },
+ {
+  "text": "The CE Hamiltonian, based on the approach of Sanchez et al, parameterizes the forma-tion energies ( Ef in Eq . 2 ), as calculated from DFT, of various Na / Va and Si / P con-figurations, which are mapped onto a fixed Na4Zr2Si3O12 topology .",
+  "relation_list": []
+ },
+ {
+  "text": "The phase behavior-phase separation or the existence of solid solutions-has not been fully elucidated in Na1 + xZr2SixP3-xO12 .",
+  "relation_list": []
+ },
+ {
+  "text": "Our result is in stark contrast with ex-perimental literature, which indicates a single phase behavior across the whole region of ac-cessible Na compositions ( i . e ., 0 ¡Ü x ¡Ü 3 ) and temperatures ( > 450 K, beyond the region of monoclinic phase stability ) .",
+  "relation_list": []
+ },
+ {
+  "text": "Notably, the experimental literature, so far, on Na1 + xZr2SixP3-xO12 has never reported any phase separation in this system .",
+  "relation_list": []
+ }
+]

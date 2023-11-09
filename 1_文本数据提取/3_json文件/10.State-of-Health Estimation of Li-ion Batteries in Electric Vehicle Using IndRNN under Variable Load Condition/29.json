@@ -1,0 +1,1 @@
+{"content": "The Kalman ﬁlter approach is a two-stage process and uses a series of battery parameters measured over a time for accurate SOH estimation.", "records": [{"span": "Kalman ﬁlter approach", "offset": [4, 24], "tag": "Characterization"}, {"span": "SOH", "offset": [123, 125], "tag": "Property_Behavior"}]}

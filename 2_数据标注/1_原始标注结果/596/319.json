@@ -1,0 +1,1 @@
+{"content": "After cycling at 1 mA·cm−2 for about 120 h, Li(OH) begins to form and grow gradually.", "records": [{"span": "1 mA·cm−2", "offset": [17, 25], "tag": "Condition"}, {"span": "120 h", "offset": [37, 41], "tag": "Condition"}, {"span": "Li(OH)", "offset": [44, 49], "tag": "Application"}]}

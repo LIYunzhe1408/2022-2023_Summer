@@ -1,0 +1,1 @@
+{"content": "In this work, we ignore the less predictive datastreams like internal resistance and temperature and focus on developing new representations of these voltage-capacity data.", "records": [{"span": "internal resistance", "offset": [61, 79], "tag": "Condition"}, {"span": "temperature", "offset": [85, 95], "tag": "Condition"}]}

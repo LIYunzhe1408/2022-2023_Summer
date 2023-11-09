@@ -1,0 +1,1 @@
+{"content": "The IndRNN is adapted due to its ability to capture complex non-linear characteristics of batteries by eliminating the gradient problem and allowing the neural network to learn long-term dependencies among the capacity degradations.", "records": [{"span": "IndRNN", "offset": [4, 9], "tag": "Characterization"}]}

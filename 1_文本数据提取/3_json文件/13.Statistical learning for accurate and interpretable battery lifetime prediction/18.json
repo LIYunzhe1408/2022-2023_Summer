@@ -1,0 +1,1 @@
+{"content": "The deep learning models (MLP and CNN) both have the best performance on the training set; this trend is expected as, generally, the training error decreases with model complexity.", "records": [{"span": "MLP", "offset": [26, 28], "tag": "Characterization"}, {"span": "CNN", "offset": [34, 36], "tag": "Characterization"}]}

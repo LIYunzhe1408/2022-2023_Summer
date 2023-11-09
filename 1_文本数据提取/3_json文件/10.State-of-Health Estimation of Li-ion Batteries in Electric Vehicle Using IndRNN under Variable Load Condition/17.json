@@ -1,0 +1,1 @@
+{"content": "Particle ﬁlter uses Bayesian learning with important sampling to estimate SOH with acceptable computational load [28].", "records": [{"span": "Particle ﬁlter", "offset": [0, 13], "tag": "Characterization"}, {"span": " Bayesian learning", "offset": [19, 36], "tag": "Characterization"}, {"span": "SOH", "offset": [74, 76], "tag": "Property_Behavior"}]}

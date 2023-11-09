@@ -1,0 +1,1 @@
+{"content": "In principle, the relationship between voltage and capacity is continuous; in practice, this relationship is sampled at a finite rate during data acquisition.", "records": [{"span": "voltage", "offset": [39, 45], "tag": "Property_Behavior"}, {"span": "capacity", "offset": [51, 58], "tag": "Property_Behavior"}]}

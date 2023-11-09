@@ -1,0 +1,1 @@
+{"content": "RF model makes predictions using multiple decision trees that ﬁnd the partition to which the new input belongs, choos-ing between subspaces with small variations [41].", "records": [{"span": "RF", "offset": [0, 1], "tag": "Characterization"}]}

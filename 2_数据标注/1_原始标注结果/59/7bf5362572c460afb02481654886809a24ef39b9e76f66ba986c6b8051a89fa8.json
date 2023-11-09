@@ -1,0 +1,1 @@
+{"content": "Using the RF model previously obtained in Section 4.2, a permutation feature importance is computed using ELI5(one Python library).", "records": [{"span": "RF model", "offset": [10, 17], "tag": "Characterization"}]}

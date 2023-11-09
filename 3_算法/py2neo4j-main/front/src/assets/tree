@@ -1,0 +1,149 @@
+// Tree
+digraph {
+	node [color=seagreen4 fontname=Consolas fontsize=24 shape=note]
+	edge [color=royalblue4]
+	compound=True fontname=Consolas fontsize=36 nodesep=0.25 rankdir=LR ranksep=2.5 splines=polyline
+	NaSiCON -> Structure [label=predicate color=black]
+	NaSiCON -> Property [label=predicate color=black]
+	NaSiCON -> Characterization [label=predicate color=black]
+	NaSiCON -> Composition [label=predicate color=black]
+	NaSiCON -> Processing [label=predicate color=black]
+	subgraph cluster_a {
+		label=Basis labeljust=l labelloc=t pencolor=lightsalmon style=rounded
+		Structure
+		Property
+		Characterization
+		Composition
+		Processing
+	}
+	Structure -> rhombohedral [label="Located-Of" color=purple]
+	Property -> "phase separation" [label="Property-Of" color=gold]
+	Property -> "biphasic be-havior" [label="Property-Of" color=gold]
+	Property -> "monoclinic dis-tortion" [label="Property-Of" color=gold]
+	Structure -> monoclinic [label="Located-Of" color=purple]
+	Property -> thermodynamics [label="Property-Of" color=gold]
+	Characterization -> "Alio-valent doping" [label="Used-For" color=pink]
+	"Alio-valent doping" -> "Na-ion conductivity" [label="Used-For" color=pink]
+	Composition -> cationic [label="Located-Of" color=purple]
+	Property -> "P ":" Si ratio" [label="Property-Of" color=gold]
+	Composition -> anionic [label="Located-Of" color=purple]
+	Property -> "Na +-ion conductivity" [label="Property-Of" color=gold]
+	Composition -> "Na1 + xZr2SixP3-xO12" [label="Component-Whole" color=orange]
+	"Na1 + xZr2SixP3-xO12" -> "phase-separation behavior" [label="Property-Of" color=gold]
+	"Na1 + xZr2SixP3-xO12" -> "Na3Cr2 ( PO4 ) 3" [label="Component-Whole" color=orange]
+	"Na1 + xZr2SixP3-xO12" -> "Na3V2 ( PO4 ) 3" [label="Component-Whole" color=orange]
+	"Na1 + xZr2SixP3-xO12" -> "Na3Fe2 ( PO4 ) 3" [label="Component-Whole" color=orange]
+	"Na1 + xZr2SixP3-xO12" -> "Na3Ti2 ( PO4 ) 3" [label="Component-Whole" color=orange]
+	"Na1 + xZr2SixP3-xO12" -> "single phase" [label="Located-Of" color=purple]
+	"Na1 + xZr2SixP3-xO12" -> "resultant mi-gration barrier" [label="Property-Of" color=gold]
+	"Na1 + xZr2SixP3-xO12" -> "phase separate" [label="Property-Of" color=gold]
+	"Na1 + xZr2SixP3-xO12" -> "three distinct single-phase" [label="Located-Of" color=purple]
+	"Na1 + xZr2SixP3-xO12" -> "Gibbs free-energy" [label="Property-Of" color=gold]
+	"Na1 + xZr2SixP3-xO12" -> "Phase separation" [label="Property-Of" color=gold]
+	"Na1 + xZr2SixP3-xO12" -> phases [label="Located-Of" color=purple]
+	"Na1 + xZr2SixP3-xO12" -> "P5 +" [label="Component-Whole" color=orange]
+	"P5 +" -> "migration bar-rier" [label="Property-Of" color=gold]
+	"Na1 + xZr2SixP3-xO12" -> "Dy3 +" [label="Component-Whole" color=orange]
+	"Na1 + xZr2SixP3-xO12" -> "Y3 +" [label="Component-Whole" color=orange]
+	"Na1 + xZr2SixP3-xO12" -> "Tb3 +" [label="Component-Whole" color=orange]
+	"Na1 + xZr2SixP3-xO12" -> "Yb3 +" [label="Component-Whole" color=orange]
+	"Na1 + xZr2SixP3-xO12" -> "In3 +" [label="Component-Whole" color=orange]
+	"Na1 + xZr2SixP3-xO12" -> "Gd3 +" [label="Component-Whole" color=orange]
+	"Na1 + xZr2SixP3-xO12" -> "Er3 +" [label="Component-Whole" color=orange]
+	"Na1 + xZr2SixP3-xO12" -> "exceptional bulk ionic Na +-conductivity" [label="Property-Of" color=gold]
+	"Na1 + xZr2SixP3-xO12" -> "phase stability" [label="Property-Of" color=gold]
+	"Na1 + xZr2SixP3-xO12" -> "stable phase" [label="Located-Of" color=purple]
+	"Na1 + xZr2SixP3-xO12" -> "kinetic limitations" [label="Property-Of" color=gold]
+	"Na1 + xZr2SixP3-xO12" -> "charge-neutrality" [label="Property-Of" color=gold]
+	"Na1 + xZr2SixP3-xO12" -> "super-ionic behavior" [label="Property-Of" color=gold]
+	"Na1 + xZr2SixP3-xO12" -> "phase diagram" [label="Property-Of" color=gold]
+	"phase diagram" -> "rhombohe-dral" [label="Used-For" color=pink]
+	"phase diagram" -> "com-putational complexity" [label="Used-For" color=pink]
+	"phase diagram" -> "Na concentra-tions" [label="Used-For" color=pink]
+	"phase diagram" -> "complex interplay" [label="Used-For" color=pink]
+	"Na1 + xZr2SixP3-xO12" -> thermodynamic [label="Property-Of" color=gold]
+	"Na1 + xZr2SixP3-xO12" -> "bulk ionic conductivity" [label="Property-Of" color=gold]
+	"Na1 + xZr2SixP3-xO12" -> "x ≥ 2" [label="Property-Of" color=gold]
+	"Na1 + xZr2SixP3-xO12" -> "high Na-conductivity" [label="Property-Of" color=gold]
+	"Na1 + xZr2SixP3-xO12" -> "rhombohedral-NaSiCON" [label="Located-Of" color=purple]
+	"rhombohedral-NaSiCON" -> "c / a ratio" [label="Property-Of" color=gold]
+	"Na1 + xZr2SixP3-xO12" -> "phase behavior" [label="Property-Of" color=gold]
+	Property -> "phase diagram" [label="Property-Of" color=gold]
+	Property -> "Biphasic behavior" [label="Property-Of" color=gold]
+	Composition -> "Zr4 +" [label="Located-Of" color=purple]
+	"Zr4 +" -> "poor macroscopic diffu-sivity" [label="Property-Of" color=gold]
+	Composition -> electrodes [label="Located-Of" color=purple]
+	electrodes -> "kinetic limitations" [label="Property-Of" color=gold]
+	Composition -> "Si / P" [label="Located-Of" color=purple]
+	Composition -> "Na / Va" [label="Located-Of" color=purple]
+	Composition -> "inexpen-sive solid electrolytes" [label="Located-Of" color=purple]
+	Property -> "ion-transport" [label="Property-Of" color=gold]
+	Processing -> synthesis [label="Used-For" color=pink]
+	subgraph cluster_b {
+		label=Fine_grained labeljust=l labelloc=t pencolor=lightsalmon style=rounded
+		rhombohedral
+		"phase separation"
+		"biphasic be-havior"
+		"monoclinic dis-tortion"
+		monoclinic
+		rhombohedral
+		thermodynamics
+		"Alio-valent doping"
+		"Na-ion conductivity"
+		cationic
+		"P : Si ratio"
+		anionic
+		"Na +-ion conductivity"
+		"Na1 + xZr2SixP3-xO12"
+		"phase-separation behavior"
+		"Na3Cr2 ( PO4 ) 3"
+		"Na3V2 ( PO4 ) 3"
+		"Na3Fe2 ( PO4 ) 3"
+		"Na3Ti2 ( PO4 ) 3"
+		"single phase"
+		"resultant mi-gration barrier"
+		"phase separate"
+		"three distinct single-phase"
+		"Gibbs free-energy"
+		"Phase separation"
+		phases
+		"P5 +"
+		"migration bar-rier"
+		"Dy3 +"
+		"Y3 +"
+		"Tb3 +"
+		"Yb3 +"
+		"In3 +"
+		"Gd3 +"
+		"Er3 +"
+		"exceptional bulk ionic Na +-conductivity"
+		"phase stability"
+		"stable phase"
+		"kinetic limitations"
+		"charge-neutrality"
+		"super-ionic behavior"
+		"phase diagram"
+		"rhombohe-dral"
+		"com-putational complexity"
+		"Na concentra-tions"
+		"complex interplay"
+		thermodynamic
+		"bulk ionic conductivity"
+		"x ≥ 2"
+		"high Na-conductivity"
+		"rhombohedral-NaSiCON"
+		"c / a ratio"
+		"phase behavior"
+		"phase diagram"
+		"Biphasic behavior"
+		"Zr4 +"
+		"poor macroscopic diffu-sivity"
+		electrodes
+		"Si / P"
+		"Na / Va"
+		"inexpen-sive solid electrolytes"
+		"ion-transport"
+		synthesis
+		"Na1 + xZr2SixP3-xO12"
+	}
+}

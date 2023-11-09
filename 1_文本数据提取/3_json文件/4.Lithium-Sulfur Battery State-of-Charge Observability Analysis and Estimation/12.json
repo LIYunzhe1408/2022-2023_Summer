@@ -1,0 +1,1 @@
+{"content": "In this study, the parameters vector contains cell’s internal resistance and OCV. The parameters are optimized so that the least difference between measured terminal voltage (Vt ) and model’s output is achieved energy density more than 400 Wh/kg [26].", "records": [{"span": "terminal voltage", "offset": [157, 172], "tag": "Characterization"}]}

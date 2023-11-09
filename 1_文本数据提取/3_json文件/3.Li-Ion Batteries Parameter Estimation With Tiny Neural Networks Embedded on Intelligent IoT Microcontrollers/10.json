@@ -1,0 +1,1 @@
+{"content": "For example, a Convo-lutional Neural Network (CNN) was used to estimate SoH from raw battery measurements, obtaining excellent results.", "records": [{"span": "Convo-lutional Neural Network", "offset": [15, 43], "tag": "Characterization"}, {"span": "SoH", "offset": [72, 74], "tag": "Property_Behavior"}]}

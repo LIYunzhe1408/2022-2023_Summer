@@ -1,0 +1,1 @@
+{"content": "So, the original actor-critic network, which learns from a fresh battery, immediately violates the constraints since the environment has changed (aged).", "records": [{"span": "actor-critic network", "offset": [17, 36], "tag": "Characterization"}]}

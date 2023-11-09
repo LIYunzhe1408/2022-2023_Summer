@@ -1,0 +1,1 @@
+{"content": "PEO and LiTFSI were dissolved in acetonitrile in an 8:1 molar ratio before mixing with the other components.", "records": [{"span": "PEO", "offset": [0, 2], "tag": "Composition"}, {"span": "LiTFSI", "offset": [8, 13], "tag": "Composition"}, {"span": "8:1 molar ratio", "offset": [52, 66], "tag": "Condition"}]}

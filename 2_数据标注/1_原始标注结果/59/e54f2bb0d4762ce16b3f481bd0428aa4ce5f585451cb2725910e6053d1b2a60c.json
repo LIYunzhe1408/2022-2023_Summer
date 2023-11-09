@@ -1,0 +1,1 @@
+{"content": "The author developed an RF model to approximate the relationship between characteristic features extracted from the charging voltage-capacity curve and the capacity of an NMC battery. ]", "records": [{"span": "RF", "offset": [24, 25], "tag": "Characterization"}, {"span": "NMC", "offset": [171, 173], "tag": "Composition"}]}

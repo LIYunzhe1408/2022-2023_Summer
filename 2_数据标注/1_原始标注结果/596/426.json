@@ -1,0 +1,1 @@
+{"content": "For this bilayer cell, the cell voltage immediately became negative under applied current in Figure 3a, and the voltage showed an initial dip typically associated with a nucleation overpotential.", "records": [{"span": "voltage", "offset": [32, 38], "tag": "Property_Behavior"}, {"span": "initial dip", "offset": [130, 140], "tag": "Feature"}]}

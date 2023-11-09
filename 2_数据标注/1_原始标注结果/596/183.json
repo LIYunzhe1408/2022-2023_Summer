@@ -1,0 +1,1 @@
+{"content": "The experiments were conducted at a scan rate of 10 mV s-1 in a voltage range from 2.0 to 7.0 V.", "records": [{"span": "scan rate", "offset": [36, 44], "tag": "Condition"}, {"span": "10 mV s-1", "offset": [49, 57], "tag": "Condition"}, {"span": "voltage", "offset": [64, 70], "tag": "Condition"}, {"span": "2.0 to 7.0 V", "offset": [83, 94], "tag": "Condition"}]}

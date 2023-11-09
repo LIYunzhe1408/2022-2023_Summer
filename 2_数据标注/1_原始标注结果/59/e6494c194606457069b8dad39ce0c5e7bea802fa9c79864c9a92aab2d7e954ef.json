@@ -1,0 +1,1 @@
+{"content": "These indicators are based on collected data during charging (CDB-SoH) and driving (DDB-SoH) events overtime.", "records": [{"span": "CDB-SoH", "offset": [62, 68], "tag": "Property_Behavior"}, {"span": "DDB-SoH", "offset": [84, 90], "tag": "Property_Behavior"}]}

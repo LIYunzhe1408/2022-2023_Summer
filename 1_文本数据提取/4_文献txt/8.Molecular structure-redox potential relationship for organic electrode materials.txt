@@ -1,0 +1,42 @@
+In this study we develop a high-throughput screening method by employing a density functional theory(DFT) - machine learning (ML) framework for the design of novel organic electrode materials. 
+For this purpose, DFT modeling is performed to calculate basic electronic properties of various organic compounds, namely redox potential, electron affinity, highest occupied molecular orbital (HOMO) and lowest unoccupied molecular orbital (LUMO), which are used in conjunction with basic molecular descriptors to train three machine learning models (ML): artificial neural networks (ANN), gradient-boosting regression(GBR), and kernel ridge regression (KRR) through three different protocols.
+The first two pipelines utilize the original features only, while the third pipeline utilizes composite features which are screened by a least absolute shrinkage and selection operator (LASSO).
+Particularly, the second and third pipelines employ a Pearson correlation analysis in conjunction with ecursive feature elimination (RFE). From this study, the most important features to predict redox potential are identified as the electron affinity and the number of bound Li atoms. 
+After optimizing machine learning models in each pipeline, it is found that KRR predicts the redox potential with the highest accuracy.
+First, organic materials are composed of abundant and relatively inexpensive elements such as carbon, oxygen, sulfur, hydrogen and nitrogen [8]. 
+Second, redox-active organ ic molecules such as quinones offer a higher capacity compared to conventional materials [9e11]. 
+Third, organic electrode materials have higher structural degrees of freedom than their transition metal based electrode counterparts;
+Furthermore, these organic materials can be combined with carbon nanomaterials such as graphene/graphite derivatives to provide even more opportunities in material design with higher performance [12e22]. 
+In our previous studies, we have developed a DFT-based protocol to predict the redox potential of organic electrode materials with high accuracy, in which the predicted redox potentials have uncertainties of round 0.2 V [13e21]. 
+Through recent progress in machine learning (ML), a new path has been paved for capturing and learning complicated. 
+i)accurately predict the redox potential of various organic materials with a high efﬁciency, and to ii) analyze how various molecular descriptors of interest affect the redox potential. 
+Three different learning models are trained, namely artiﬁcial neural networks (ANN) [26], kernel ridge regression (KRR) [27], and gradient-boosting regression (GBR) [28,29], under three different strategies, which we call pipelines, to provide an advanced ML scheme for the accurate prediction of redox potential.
+As summarized in Fig. 1, the molecules in our data set include various derivatives of functionalized graphene ﬂakes, ketones, quinones, corannulenes, and coronenes. 
+DFT is used to prepare the data set for training the ML models in this study. 
+Recently Artiﬁcial Neural Networks (ANN) have been extensively used to uncover the structure-property relationships in a wide range of materials [12,32,33]. 
+Another highly promising learning model is Gradient Boosting Regression (GBR), which is an ensemble ML technique that minimizes a loss function across many weak learners through a process known as boosting [28,29]; 
+The third machine learning model which we consider is Kernel Ridge Regression (KRR), which is an extension of the ridge regression model that learns a space created by applying the kernel method to the input data by minimizing a squared loss term [27].
+The radial basis function (RBF) kernel is employed because of its capability to capture non-linear correlations in the data. 
+Both KRR and GBR were implemented using the Scikit-Learn package.
+This complexity can be attributed to the boosting algorithm in GBR, meaning that the ensemble method and the individual learners have their own sets of parameters. 
+The two hyperparameters for the KRR model are the kernel and alpha value. 
+DFT is used to calculate basic electronic properties including adiabatic electron affinity (EA), highest occupied molecular orbital (HOMO), lowest unoccupied molecular orbital (LUMO), and the HOMO-LUMO gap, which have been used as input features (or descriptors) to train the machine learning models [12]. 
+Additional basic structural features are also included to account for the structural variation of the molecular compounds: number of carbon, boron, oxygen, lithium and hydrogen atoms, and the number of aromatic rings, present in the molecule [12].
+This third step was accomplished by excluding features with zero regression coefﬁcients as produced from training a least absolute shrinkage and selection operator (LASSO) model [37].
+LASSO is based on the least-squares regression method, which is much less intensive in computation than the other machine learning methods used in this study [37]
+In Pipeline 1, each ML model is directly trained using the primary features, whereas Pipeline 2 employs a relative contribution analysis (RCA) and recursive feature elimination (RFE) to improve the performance of the models. 
+Please note that Pearson correlation analysis is added to Pipelines 2 and 3 to enhance the learning models by removing redundant and mutually-correlated features. 
+The recursive feature elimination (RFE) is performed by ranking the relative importance of each feature in predicting redox potential using a relative contribution analysis (RCA) and then cumulatively removing each feature in order of ascending importance.
+Please note that KRR demonstrates the best performance with an MSE of 0.025 in Pipeline 3 (vs. 0.032 and 0.045 for ANN and GRB), whereas it shows the lowest performance out of the three ML models in Pipeline 1 and 2. 
+Given the increased sophistication of ANN and GBR compared to KRR, they are able to extract the complicated correlation between the original input features and the output more effectively. 
+On the contrary, KRR is converged to an optimal model with the aid of composite feature approach and LASSO selection under Pipeline 3. 
+The purpose of performing RFE is to ﬁnd the minimal collection of input features needed to optimize the model performance. 
+The relative contribution of the original features is computed using Pipeline 2 for ANN, GBR, and KRR. All the features within each model are given a score as a proportion relative to the highest ranking feature, which is given a contribution of 100.
+Noticeably, KRR is the only algorithm where the contribution of each feature is more equally distributed.
+For instance, while ANN and GBR are fundamentally non-linear ML models, the capability of KRR to perform non-linear regression is dependent on the choice of kernel [38]. For instance, KRR would be unable to model non-linear relationships entirely using a linear kernel. 
+After the model is trained using KRR through Pipeline 3, the capability of KRR to predict the redox potential of organic molecules was tested against 17 sumanene derivatives.
+The sumanene derivatives are a class of p-conjugated fullerene fragments that consist of a central benzene ring surrounded by alternating cyclopentadiene and benzene rings [39]. 
+It is important to note that this observation is with respect to monomeric units of organic molecules, such as quinones, which were examined in this study. 
+An extrapolation of this ﬁnding beyond these limits is possible by expanding the model further to include polymerized units (i.e. with more than two carbonyl groups) which would be capable of accommodating more than 2 lithium atoms.
+We have examined multiple pathways for establishing a high-fidelity DFT-machine learning framework.
+Using basic electronic and molecular features, three learning models, namely artiﬁcial neural network, gradient boosting regression, and kernel ridge regression, were trained through three different pipelines implementing three different levels of sophistication. 

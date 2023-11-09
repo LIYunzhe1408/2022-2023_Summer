@@ -1,0 +1,47 @@
+With the aim of overcoming these limitations, in this paper we propose a fast-charging strategy subject to safety constraints which relies on a model-free reinforcement learning framework. 
+In particular, we focus on the policy gradient-based actor-critic algorithm, i.e., deep deterministic policy gradient(DDPG), in order to deal with continuous sets of actions and sets. 
+In fact, charging time reductions can be easily achieved by using aggressive current proﬁles which in turn may lead to severe battery degradation effects, such as Solid Electrolyte Interphase (SEI) growth and Lithium plating deposition. 
+Similarly, authors in [2] propose quadratic dynamic matrix control formulation to design an optimal charging strategy for real-time model predictive control. 
+In the context of aging mechanism, the authors of [3] have studied the trade-off between charging speed and degradation, based on an electro-thermal-aging model. 
+Authors in [5], [6] derive an optimal current proﬁle using a single particle model with intercalation-induced stress generation. 
+To ensure safety, a proportional–integral–derivative controller is proposed. 
+On the other hand, the authors in [7] synthesize a state estimation and model predictive control scheme for a reduced electrochemical-thermal model, in order to design health-aware fast charging strategy. 
+All these issues can be addressed by using a charging procedure based on a model-free Reinforcement Learning(RL) framework [12]. 
+An RL framework consists of an agent (the battery management system) which interacts with the environment (the battery) by taking speciﬁc actions (the applied current) according to the environment conﬁguration(a.k.a. the state). 
+Most RL algorithms can be classiﬁed in two different groups: tabular methods, e.g., Q-learning, SARSA, and approximate solutions methods which is also called “Approximate Dynamic Programming (ADP)”. 
+The recent success in several applications of RL based on deep neural networks as function approximators has greatly increased expectations in the scientiﬁc community [13], [14], [15], [16]. 
+From a control systems perspective, the design of RL algorithms involves feedback control laws for dynamical systems via optimal adaptive control methods [17]. 
+In this paper, a fast-charging strategy subject to safety constraints, using a model-free reinforcement learning framework, is proposed for the ﬁrst time to the knowledge of the authors in the context of Li-ion batteries. 
+Moreover, the exploitation of ADP-based approaches allows one to mitigate the curse of dimensionality for large-scale nonlinear optimal control problems by adopting parameterized actor/critic networks. 
+In particular, we focus on the Deep Deterministic Policy Gradient (DDPG)[19] algorithm, which is an actor-critic formulation suitable for the case of continuous actions space and includes deep neural networks as function approximators. 
+The control technique is tested by considering a Single Particle Model with Electrolyte and Thermal (SPMeT) [20] dynamics as the battery simulator.
+In this section a standard reinforcement learning setup is presented, along with the main feature of Approximate Dynamic Programming and actor-critic algorithm.
+The solution of (3) is pursued by those methods which follow the Dynamic Programming (DP) paradigm. 
+The next deﬁnition, known as the “Q-function,” plays a crucial role in model-free reinforcement learning. 
+The former store the Q-function as a table whose entrance are the states and the actions, while the latter uses parameterized Q-function using Value Function Approximation (VFA). 
+In the actor-critic approach, the actor improves the policy based on the value function that is estimated by the critic as depicted in Fig. 2.
+We speciﬁcally focus on the policy gradient-based actor-critic algorithm in this work, and, in particular, on the deep deterministic policy gradient (DDPG) [19]. 
+This algorithm is an extension of deep Q-network (DQN) [13] to continuous actions, maintaining the importance of features such as: (i) random sampling from replay buffer where tuples are saved, (ii) the presence of target networks for stabilizing the learning process. 
+The terminal voltage output is governed by a combination of electric overpotential, electrode thermodyanmics, and Butler-Volmer kinetics, yielding:
+The Single Particle Model with Electrolyte and Thermal Dynamics (SPMeT) is derived from the Doyle-Fuller-Newman (DFN) electrochemical battery model. 
+The DFN model employs a continuum of particles in both the anode and cathode of the cell. 
+The SPMeT uses a simpliﬁed representation of solid phase diffusion that employs a single spherical particle in each electrode. 
+The governing equations for SPMeT include linear and quasiliniar partial differential equations (PDEs) and a strongly nonlinear voltage output equation, given by:
+In addition, a negative penalty is also introduce at each time step in which the voltage and temperature constraints are violated.
+Our goal is to obtain a charging control policy that charges the battery from 0.3 SOC to 0.8 SOC, while the states and outputs do not violate the constraints. 
+When an electrochemical model is considered, ADP methods become a sensible choice due to the large number of states. 
+Then, we drop this assumption and consider the more realistic scenario in which only temperature and SOC can be measured/computed. 
+In this case study, we consider the minimum charging problem for an electrochemical model, whose chemistry is based on graphite anode/LiNiMnCoO2 (NMC) cathode cell.
+The actor-critic networks are based on neural network architectures [19] with different numbers of neurons. 
+The derived feedback control policy exhibits the constant current (CC), constant temperature (CT), and constant voltage (CV) shape, which can be qualitatively similar to the model-based control results in [1], [2], [3],[26], [7]. 
+In this section, we are interested in the adaptability of the actor-critic approach, which is crucial to the battery charging problem as the cell ages. 
+Perturbation of those parameters represents the battery degradation as they directly affect to battery voltage (19) and thermal state (20), which can be monitored by experimental measurement. 
+We expect that the previous actor-critic network could violate the state constraints immediately.\
+We observe that both full-sates and simpliﬁed actor-critic network are capable of adapting its policy to achieve the goal. 
+So, the original actor-critic network, which learns from a fresh battery, immediately violates the constraints since the environment has changed (aged).
+The ﬂuctuating current for the full-states actor-critic network could be mitigated by regularizing the actor-critic parameters during learning.
+In this paper, we have examined a reinforcement learning approach for the battery fast-charging problem in the presence of safety constraints. 
+Among the RL paradigms, the actor-critic paradigm, and speciﬁcally the DDPG algorithm, has been adopted due to its ability to deal with continuous state and action spaces. 
+
+
+

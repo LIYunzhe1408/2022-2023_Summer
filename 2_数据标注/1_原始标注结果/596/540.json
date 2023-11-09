@@ -1,0 +1,1 @@
+{"content": "This hot-plate temperature was elevated to 100 degree C with continued stirring for several hours to slowly evaporate all the water.", "records": [{"span": "100 degree C", "offset": [43, 54], "tag": "Condition"}, {"span": "stirring", "offset": [71, 78], "tag": "Processing"}]}

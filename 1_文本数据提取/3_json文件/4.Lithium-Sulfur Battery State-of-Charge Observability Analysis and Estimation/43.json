@@ -1,0 +1,1 @@
+{"content": "In our practical application, the BMS regulates the battery C around a set point of 25 degree C.", "records": [{"span": "BMS", "offset": [34, 36], "tag": "Characterization"}, {"span": "25 degree C", "offset": [84, 94], "tag": "Condition"}]}

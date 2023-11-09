@@ -1,0 +1,1 @@
+{"content": "These slopes (i.e., the coefficient of the linear model trained at a specific voltage) are dimensionless since they use dimensionless input data (due to standardization) to predict the dimensionless lg-transformed cycle life.", "records": [{"span": "lg-transformed cycle life", "offset": [199, 223], "tag": "Property_Behavior"}]}

@@ -1,0 +1,1 @@
+{"content": "Unlike a conventional neural network, RNN is a class of deep neural network, which has unique features referred to as internal cell state or memory to study input features and time dependencies from sequential input data to predict the future output.", "records": [{"span": "RNN", "offset": [38, 40], "tag": "Characterization"}]}

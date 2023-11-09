@@ -1,0 +1,1 @@
+{"content": "At high-plateau (from 100% SOC to the breakpoint around 75% SOC), OCV changes a bit in response to temperature variations.", "records": [{"span": "100% SOC", "offset": [22, 29], "tag": "Condition"}, {"span": "75% SOC", "offset": [56, 62], "tag": "Condition"}]}

@@ -1,0 +1,1 @@
+{"content": "The instrument used was a Zeiss Ultra60 FE-SEM with an accelerating voltage of 5 or 10 kV.", "records": [{"span": "Zeiss Ultra60 FE-SEM", "offset": [26, 45], "tag": "Characterization"}, {"span": "accelerating voltage", "offset": [55, 74], "tag": "Condition"}, {"span": "5 or 10 kV", "offset": [79, 88], "tag": "Condition"}]}

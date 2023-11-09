@@ -1,0 +1,1 @@
+{"content": "In addition to standard electrochemical data like voltage vs. capacity and capacity vs. cycle number, internal resistance was recorded every cycle number, and a thermocouple mounted to the cell can continuously recorded the can surface temperature of each cell.", "records": [{"span": "internal resistance", "offset": [102, 120], "tag": "Property_Behavior"}]}

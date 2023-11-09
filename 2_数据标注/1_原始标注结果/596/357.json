@@ -1,0 +1,1 @@
+{"content": "After five and half cycles (at discharged state), the cell was cooled to 25 degree C and the cycling was continued (Figure 4c).", "records": [{"span": "cooled", "offset": [63, 68], "tag": "Processing"}, {"span": "25 degree C", "offset": [73, 83], "tag": "Condition"}, {"span": "cycling", "offset": [93, 99], "tag": "Processing"}]}

@@ -1,0 +1,1 @@
+{"content": "LTAP shows good stability in nearly neutral aqueous solutions such as aqueous LiCl but not in strongly acidic and basic solutions.", "records": [{"span": "LTAP", "offset": [0, 3], "tag": "Composition"}, {"span": "stability", "offset": [16, 24], "tag": "Feature"}, {"span": "LiCl", "offset": [78, 81], "tag": "Composition"}]}

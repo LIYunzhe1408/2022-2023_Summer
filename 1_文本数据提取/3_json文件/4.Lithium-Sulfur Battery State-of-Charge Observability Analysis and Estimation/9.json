@@ -1,0 +1,1 @@
+{"content": "One of the drawbacks of black-box intelligent approaches like ANFIS is that they need a large quantity of training data, which is sometimes not easy to obtain.", "records": [{"span": "black-box intelligent approach", "offset": [24, 53], "tag": "Characterization"}, {"span": "ANFIS", "offset": [62, 66], "tag": "Characterization"}]}

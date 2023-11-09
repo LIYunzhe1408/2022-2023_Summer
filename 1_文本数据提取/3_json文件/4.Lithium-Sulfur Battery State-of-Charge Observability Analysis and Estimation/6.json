@@ -1,0 +1,1 @@
+{"content": "In this structure, Vt is battery’s terminal voltage, VO C is OCV, RO is internal resistance, RP and CP are equivalent polarization resistance and capacitance, respectively.", "records": [{"span": "terminal voltage", "offset": [35, 50], "tag": "Property_Behavior"}, {"span": "internal resistance", "offset": [72, 90], "tag": "Property_Behavior"}]}

@@ -1,0 +1,1 @@
+{"content": "The ﬂuctuating current for the full-states actor-critic network could be mitigated by regularizing the actor-critic parameters during learning.", "records": [{"span": "full-state", "offset": [31, 40], "tag": "Condition"}, {"span": "actor-critic network", "offset": [43, 62], "tag": "Characterization"}]}

@@ -1,0 +1,1 @@
+{"content": "In addition, a negative penalty is also introduce at each time step in which the voltage and temperature constraints are violated.", "records": [{"span": "voltage", "offset": [81, 87], "tag": "Property_Behavior"}, {"span": "temperature", "offset": [93, 103], "tag": "Condition"}]}

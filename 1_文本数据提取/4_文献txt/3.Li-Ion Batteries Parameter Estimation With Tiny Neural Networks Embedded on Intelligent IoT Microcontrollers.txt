@@ -1,0 +1,40 @@
+ABSTRACT Lithium-ion (Li-Ion) batteries are rechargeable batteries which can maximize battery lifespan
+thanks to their chemical abilities, at the same time increasing power energy density. For these reasons,
+Li-Ion batteries have earned considerable popularity, and they are widely used both in mobile computing
+devices (e.g. smartphones and smartwatches) and automotive systems (e.g. hybrid and electric vehicles).
+A fundamental parameter for battery health monitoring is the State of Health (SoH), which is computed
+from the maximum releasable capacity, and which represents battery functionality in energy storage and
+delivery. Among the most used data-driven approaches are Machine Learning (ML) algorithms, such
+as Support Vector Machines (SVMs), Random Forest (RF) regressions, and Artiﬁcial Neural Networks
+(ANNs). This article presents a comparison of different ML algorithms for estimating maximum releasable
+capacity of Li-Ion batteries, with a special focus on the implementation of both Forward and Recurrent
+ANNs (FNNs and RNNs, respectively), using prognostic Li-Ion battery data sets provided by the National
+Aeronautics and Space Administration (NASA). After an evaluation of models performances in terms of
+RMSE and MAE, STM32Cube.AI tool was used to convert pre-trained ANNs to optimized ANSI C code for
+STM32 microcontrollers (MCUs), and to proﬁle their complexity automatically. Finally, in order to decrease
+models size with minimal accuracy loss, the implemented ANNs were quantized via STM32Cube.AI,
+converting weights and activations from 32-bit ﬂoating-point to 8-bit integer precision. TensorFlow Lite
+for Microcontrollers (TFLM) was used as benchmark in the analysis and validation of both non-quantized
+and quantized models, and the performances obtained via STM32Cube.AI and TFLM were compared.
+Lithium-Ion (Li-Ion) batteries are increasingly used to power many systems, including portable devices, such as smart-phones, and automotive systems, such as Hybrid ElectricVehicles (HEV) and Electric Vehicles (EV) [1]. 
+in which the State of Health (SoH) is a fundamental parameter. In fact, SoH represents a measure of the battery remaining capacity, compared to the nominal one [5]:
+The maximal releasable capacity can be computed by inte-grating the discharge current of the fully charged battery overtime [6]:
+Measurable battery parameters such as terminal voltage, current and temperature, can be extracted via the Controller Area Network (CAN) bus [12], and can be used for capacity fading and SoH estimation. Weng et al. [13] developed a model based on Support Vector Regression (SVR), using partially charging data of a single Li-Ion cell to estimate capacity fading of other 7 cells..
+Wei et al. [14] proposed a SVR-based model for batteries capacity fading prediction, based on one of the Li-Ion battery datasets made available by National Aeronautics and Space Administration (NASA) [15]. 
+In the study of Li et al. [16] random forest regression was used to estimate online the capacity of Li-Ion batteries, again using complete charge/discharge cycles as model input. A random decision forest was proposed by Xu et al. [17] for battery health estimation, using one of the Li-Ion battery prognostic datasets made available by NASA [15]. 
+For example, a Convo-lutional Neural Network (CNN) was used to estimate SoH from raw battery measurements, obtaining excellent results.
+Then partial charge proﬁles were used for State of Charge (SoC) generation, which was given as input to the model together with voltage, current and temperature. 
+However, since SoC is not directly observ-able and estimable, further errors are introduced a priori in the model [19]. 
+Choi et al. [7] developed a Feedforward Neural Network (FNN), a CNN and a Long Short-Term Memory (LSTM) network to estimate the capacity of Li-Ion batteries from their voltage, current and temperature charge proﬁles. 
+Another research work [20] pro-poses an Independently Recurrent Neural Network (IndRNN) for SOH estimation which uses randomized battery usagedata collected from Li-Ion batteries adopting dynamic load proﬁles [15], obtaining a Root Mean Squared Error (RMSE) of 0.0133 and a Mean Absolute Error (MAE) of 0.0114.
+Moreover, leveraging tem-poral and spatial structure of a CNN allows to learn com-plex input features [27]. Among Recurrent Neural Networks(RNNs), the LSTM architecture has been very successful with time series, and in particular with their long-term depen- dencies [28], [29]. Moreover, LSTM networks overcome the vanishing gradient problem, experienced by standard RNNs [30]. 
+The Adaptive Moment Estimation (Adam) optimization algorithm was used to train to networks due to its efﬁciency in terms of adaptive learning rate method and its suitability to non-stationary problems [40]. 
+Thus, a Random Forest (RF) model and an SVR model were evaluated using the aforementioned dataset, and then were used as a baseline for the developed architectures.
+RF model makes predictions using multiple decision trees that ﬁnd the partition to which the new input belongs, choos-ing between subspaces with small variations [41]. 
+The num-ber of model trees has been set to 4 to make it comparable in size to the developed neural networks. SVR applies Support Vector Machine (SVM) theory to regression tasks. 
+In SVMs, kernel functions map input data to a higher dimensional feature space, and a separating hyperplane maximizes the margin [42]. The kernel chosen for the model was the linear one, since its results were better than ones obtained with the Polynomial and Radial Basis Function (RBF) kernels. 
+In particular, battery output current, terminal voltage, time difference between samples and temperature are the four features selected for each discharge cycle. The target of the estimation is the capacity of the considered cycle
+Figure 10 shows prediction residuals r = y − ˆy for each developed model, where y represents the true capacity values, and ˆy the predicted ones. It can be noticed that the models prediction error of cycles from 167 to 194 is larger than in the rest of the test set, meaning that in this interval the models are not able to capture relationships well enough. 
+NNs energy consumption is crucial in battery constrained embedded applications [48], and the use of a quantized model can be very convenient in reducing energy costs. In order to compare the energy cost of the non-quantized CNN model with the quantized one, the inference energy consumption was modeled according to Horowitz [49], considering a typ- ical processing hardware platform for CNNs [48], [50]. 
+
+

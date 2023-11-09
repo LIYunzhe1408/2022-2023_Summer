@@ -1,0 +1,1 @@
+{"content": "Perturbation of those parameters represents the battery degradation as they directly affect to battery voltage (19) and thermal state (20), which can be monitored by experimental measurement.", "records": [{"span": "voltage", "offset": [103, 109], "tag": "Property_Behavior"}, {"span": "thermal state", "offset": [120, 132], "tag": "Property_Behavior"}]}

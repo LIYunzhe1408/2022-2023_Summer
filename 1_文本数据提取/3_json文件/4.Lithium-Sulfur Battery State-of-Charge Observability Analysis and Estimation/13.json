@@ -1,0 +1,1 @@
+{"content": "Another problem is that the battery capacity (Ct ) might change under various conditions, which can lead to errors when using coulomb-counting.", "records": [{"span": "battery capacity", "offset": [28, 43], "tag": "Property_Behavior"}, {"span": "coulomb-counting", "offset": [126, 141], "tag": "Characterization"}]}

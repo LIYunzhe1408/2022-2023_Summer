@@ -1,0 +1,1 @@
+{"content": "At around 200 degree C, one endothermic peak which stands for the decomposition of NH4H2(PO4)3 and accompanied weight loss was observed.", "records": [{"span": "200 degree C", "offset": [10, 21], "tag": "Condition"}, {"span": "decomposition", "offset": [66, 78], "tag": "Processing"}, {"span": "NH4H2(PO4)3", "offset": [83, 93], "tag": "Composition"}]}

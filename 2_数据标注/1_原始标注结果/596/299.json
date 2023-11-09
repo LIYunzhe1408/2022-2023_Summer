@@ -1,0 +1,1 @@
+{"content": "The resulting powder was pelletized and placed on the Pt mesh for sintering at 850 degree C for 6h.", "records": [{"span": "Pt", "offset": [54, 55], "tag": "Composition"}, {"span": "sintering", "offset": [66, 74], "tag": "Processing"}, {"span": "850 degree C", "offset": [79, 90], "tag": "Condition"}, {"span": "6h", "offset": [96, 97], "tag": "Condition"}]}

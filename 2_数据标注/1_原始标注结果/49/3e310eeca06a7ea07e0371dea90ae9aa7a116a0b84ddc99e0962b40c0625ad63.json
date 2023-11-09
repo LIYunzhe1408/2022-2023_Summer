@@ -1,0 +1,1 @@
+{"content": "The time taken to complete the constant voltage (CV) phase (Tcv) of charging is also a useful feature for ISC detection.", "records": [{"span": "constant voltage", "offset": [31, 46], "tag": "Property_Behavior"}, {"span": "CV", "offset": [49, 50], "tag": "Property_Behavior"}, {"span": "ISC detection", "offset": [106, 118], "tag": "Characterization"}]}

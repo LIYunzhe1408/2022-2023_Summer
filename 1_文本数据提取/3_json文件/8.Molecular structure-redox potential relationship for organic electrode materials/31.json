@@ -1,0 +1,1 @@
+{"content": "This complexity can be attributed to the boosting algorithm in GBR, meaning that the ensemble method and the individual learners have their own sets of parameters.", "records": [{"span": "GBR", "offset": [63, 65], "tag": "Characterization"}]}

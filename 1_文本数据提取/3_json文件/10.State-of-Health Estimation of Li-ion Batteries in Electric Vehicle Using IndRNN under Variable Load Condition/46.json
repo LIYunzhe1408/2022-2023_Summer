@@ -1,0 +1,1 @@
+{"content": "This battery model uses a Monte Carlo sampling method to characterize any probability density function to estimate battery SOC.", "records": [{"span": "Monte Carlo sampling method", "offset": [26, 52], "tag": "Characterization"}, {"span": "SOC", "offset": [123, 125], "tag": "Property_Behavior"}]}

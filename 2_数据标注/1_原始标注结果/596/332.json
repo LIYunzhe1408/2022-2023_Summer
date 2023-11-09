@@ -1,0 +1,1 @@
+{"content": "As shown, the peak intensity of the white line decreased after cycling, and the Ge K-edge shifted to a lower energy.", "records": [{"span": "intensity", "offset": [19, 27], "tag": "Feature"}, {"span": "cycling", "offset": [63, 69], "tag": "Processing"}, {"span": "Ge", "offset": [80, 81], "tag": "Composition"}]}

@@ -1,0 +1,1 @@
+{"content": "Different observers, such as extended Kalman filter (EKF), Luenberger observer, etc. have been employed to generate the residual sig-nal from the measured data for the ISC detection.", "records": [{"span": "extended Kalman filter", "offset": [29, 50], "tag": "Characterization"}, {"span": "Luenberger observer", "offset": [59, 77], "tag": "Characterization"}]}

@@ -1,0 +1,1 @@
+{"content": "For the cell with only Cr, the cell voltage remained above 0 V during the initial stages of the discharge and gradually fell below 0 V after 0.2 h.", "records": [{"span": "Cr", "offset": [23, 24], "tag": "Composition"}, {"span": "cell voltage", "offset": [31, 42], "tag": "Property_Behavior"}, {"span": "after 0.2 h", "offset": [135, 145], "tag": "Condition"}]}

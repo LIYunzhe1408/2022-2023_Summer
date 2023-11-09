@@ -1,0 +1,1 @@
+{"content": "Even though these parameters depend on the cell SOC, temperature, aging in reality, only their function of concentration𝑙 has been considered in this work in order to reduce computational complexity of the system.", "records": [{"span": "SOC", "offset": [48, 50], "tag": "Condition"}, {"span": "temperature", "offset": [53, 63], "tag": "Condition"}]}

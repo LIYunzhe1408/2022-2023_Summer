@@ -1,0 +1,1 @@
+{"content": "The spectra were collected at an ac voltage of 10 mV with the frequency range from 0.01 Hz to 913 KHz.", "records": [{"span": "spectra", "offset": [4, 10], "tag": "Characterization"}, {"span": "ac voltage of 10 mV", "offset": [33, 51], "tag": "Condition"}, {"span": "range from 0.01 Hz to 913 KHz", "offset": [72, 100], "tag": "Condition"}]}

@@ -1,0 +1,1 @@
+{"content": "Fig.7 shows the scatter plots of both training and test data between the resistances calculated by the simplified Physico-chemical models and the values predicted by various ANN models.", "records": [{"span": "Physico-chemical model", "offset": [114, 135], "tag": "Characterization"}, {"span": "ANN model", "offset": [174, 182], "tag": "Characterization"}]}

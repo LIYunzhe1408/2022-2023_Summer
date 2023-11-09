@@ -1,0 +1,1 @@
+{"content": "An observability analysis demonstrated that the Li-S cell’s ECN model is not observable unlike Li-ion or NiMH battery types.", "records": [{"span": "ECN", "offset": [60, 62], "tag": "Characterization"}, {"span": "Li-ion", "offset": [95, 100], "tag": "Composition"}, {"span": "NiMH", "offset": [105, 108], "tag": "Composition"}]}

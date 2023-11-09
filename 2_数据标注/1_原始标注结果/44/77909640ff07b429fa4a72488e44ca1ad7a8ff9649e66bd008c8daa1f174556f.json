@@ -1,0 +1,1 @@
+{"content": "Our goal is to obtain a charging control policy that charges the battery from 0.3 SOC to 0.8 SOC, while the states and outputs do not violate the constraints.", "records": [{"span": "0.3 SOC", "offset": [78, 84], "tag": "Condition"}, {"span": "0.8 SOC", "offset": [89, 95], "tag": "Condition"}]}

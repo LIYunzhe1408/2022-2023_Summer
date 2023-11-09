@@ -1,0 +1,1 @@
+{"content": "The capacity retention at 117 mA g−1 was 83.5% of that at 11.7 mA g−1 at 75 degree C.", "records": [{"span": "capacity retention", "offset": [4, 21], "tag": "Feature"}, {"span": "117 mA g−1", "offset": [26, 35], "tag": "Condition"}, {"span": "75 degree C", "offset": [73, 83], "tag": "Condition"}]}

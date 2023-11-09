@@ -1,0 +1,1 @@
+{"content": "Coulomb counting (CC) is another approach to estimate SOH by monitoring the amount of current charged/discharged into/from LIB (Ah counting).", "records": [{"span": "Coulomb counting", "offset": [0, 15], "tag": "Characterization"}, {"span": "CC", "offset": [18, 19], "tag": "Characterization"}, {"span": "SOH", "offset": [54, 56], "tag": "Property_Behavior"}]}

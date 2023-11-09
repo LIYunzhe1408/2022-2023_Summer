@@ -1,0 +1,1 @@
+{"content": "In the case of ISC fault, the actual SOC will be lower than the estimated user SOC from the terminal current because of the presence of the leakage current Isc.", "records": [{"span": "terminal current", "offset": [92, 107], "tag": "Property_Behavior"}, {"span": "leakage current", "offset": [140, 154], "tag": "Property_Behavior"}]}

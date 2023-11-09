@@ -1,0 +1,1 @@
+{"content": "This signiﬁes that each neuron in IndRNN deals with one type of spatial-temporal pattern independently whereas neurons in the simple RNN are connected over time by the recurrent weight connection.", "records": [{"span": "IndRNN", "offset": [34, 39], "tag": "Characterization"}, {"span": "RNN", "offset": [133, 135], "tag": "Characterization"}]}

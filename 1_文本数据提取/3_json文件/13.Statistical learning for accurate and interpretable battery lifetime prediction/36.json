@@ -1,0 +1,1 @@
+{"content": "Note that linear interpolation is an alternative approach that also avoids the small additional error from the spline fit, but here we use the spline fits for consistency with Severson et al.", "records": [{"span": "spline fit", "offset": [143, 152], "tag": "Characterization"}]}

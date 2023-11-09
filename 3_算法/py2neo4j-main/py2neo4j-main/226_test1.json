@@ -1,0 +1,415 @@
+[
+    {
+        "text": "The investigation on Ru improving the creep resistance of alloy indicates that the Ru atom dissolving into the gamma'-Ni3Al phase may occupy the position of Al atom.",
+        "relation_list": [
+            {
+                "subject": "Ru",
+                "subj_char_span": [
+                    83,
+                    85
+                ],
+                "object": "gamma¡¯-Ni3Al phase",
+                "obj_char_span": [
+                    111,
+                    129
+                ],
+                "predicate": "Composition/Structure/composition_of"
+            },
+            {
+                "subject": "Ru",
+                "subj_char_span": [
+                    21,
+                    23
+                ],
+                "object": "creep resistance",
+                "obj_char_span": [
+                    38,
+                    54
+                ],
+                "predicate": "Composition/Property/cause_effect"
+            },
+            {
+                "subject": "dissolving",
+                "subj_char_span": [
+                    91,
+                    101
+                ],
+                "object": "Ru",
+                "obj_char_span": [
+                    83,
+                    85
+                ],
+                "predicate": "Property/Composition/property_of"
+            },
+            {
+                "subject": "creep resistance",
+                "subj_char_span": [
+                    38,
+                    54
+                ],
+                "object": "alloy",
+                "obj_char_span": [
+                    58,
+                    63
+                ],
+                "predicate": "Property/Feature/property_of"
+            }
+        ],
+        "id": "226"
+    },
+    {
+        "text": "Added Re may delay the diffusion of other elements due to the one having a small diffusion coefficient.",
+        "relation_list": [
+            {
+                "subject": "Re",
+                "subj_char_span": [
+                    6,
+                    8
+                ],
+                "object": "diffusion",
+                "obj_char_span": [
+                    23,
+                    32
+                ],
+                "predicate": "Composition/Property/cause_effect"
+            },
+            {
+                "subject": "small diffusion coefficient",
+                "subj_char_span": [
+                    75,
+                    102
+                ],
+                "object": "Re",
+                "obj_char_span": [
+                    6,
+                    8
+                ],
+                "predicate": "Property/Composition/property_of"
+            }
+        ],
+        "id": "226"
+    },
+    {
+        "text": "Deformation and damage features of a Re / Ru-containing single crystal nickel base superalloy during creep at elevated temperature",
+        "relation_list": [
+            {
+                "subject": "Deformation",
+                "subj_char_span": [
+                    0,
+                    11
+                ],
+                "object": "creep",
+                "obj_char_span": [
+                    101,
+                    106
+                ],
+                "predicate": "Property/Property/condition_on"
+            },
+            {
+                "subject": "creep",
+                "subj_char_span": [
+                    101,
+                    106
+                ],
+                "object": "elevated temperature",
+                "obj_char_span": [
+                    110,
+                    130
+                ],
+                "predicate": "Property/Condition/condition_on"
+            },
+            {
+                "subject": "damage features",
+                "subj_char_span": [
+                    16,
+                    31
+                ],
+                "object": "Re / Ru-containing single crystal nickel base superalloy",
+                "obj_char_span": [
+                    37,
+                    93
+                ],
+                "predicate": "Property/Feature/property_of"
+            },
+            {
+                "subject": "damage features",
+                "subj_char_span": [
+                    16,
+                    31
+                ],
+                "object": "creep",
+                "obj_char_span": [
+                    101,
+                    106
+                ],
+                "predicate": "Property/Property/condition_on"
+            },
+            {
+                "subject": "Deformation",
+                "subj_char_span": [
+                    0,
+                    11
+                ],
+                "object": "Re / Ru-containing single crystal nickel base superalloy",
+                "obj_char_span": [
+                    37,
+                    93
+                ],
+                "predicate": "Property/Feature/property_of"
+            }
+        ],
+        "id": "226"
+    },
+    {
+        "text": "It is indicated from Fig 4(a) that only some of gamma' phase in the alloy were connected each other to form the rafted structure due to short creep time, as shown in the region A, while another some of gamma' precipitates were transformed into the bunch-like structure, as shown in the region B.",
+        "relation_list": [
+            {
+                "subject": "transformed",
+                "subj_char_span": [
+                    227,
+                    238
+                ],
+                "object": "bunch-like structure",
+                "obj_char_span": [
+                    248,
+                    268
+                ],
+                "predicate": "Property/Structure/cause_effect"
+            },
+            {
+                "subject": "gamma¡¯ phase",
+                "subj_char_span": [
+                    48,
+                    60
+                ],
+                "object": "short creep time",
+                "obj_char_span": [
+                    136,
+                    152
+                ],
+                "predicate": "Structure/Property/condition_on"
+            },
+            {
+                "subject": "transformed",
+                "subj_char_span": [
+                    227,
+                    238
+                ],
+                "object": "gamma¡¯ precipitates",
+                "obj_char_span": [
+                    202,
+                    221
+                ],
+                "predicate": "Property/Structure/property_of"
+            },
+            {
+                "subject": "gamma¡¯ phase",
+                "subj_char_span": [
+                    48,
+                    60
+                ],
+                "object": "alloy",
+                "obj_char_span": [
+                    68,
+                    73
+                ],
+                "predicate": "Structure/Feature/component_whole"
+            }
+        ],
+        "id": "226"
+    },
+    {
+        "text": "It is considered that the anomalous yield strength of alloys is attributed to the crossslipping of super-dislocation from {111} to {100} planes for forming the K-W locks, which may hinder the slipping and cross-slipping of dislocations on {111} planes.",
+        "relation_list": [
+            {
+                "subject": "K-W locks",
+                "subj_char_span": [
+                    160,
+                    169
+                ],
+                "object": "slipping",
+                "obj_char_span": [
+                    192,
+                    200
+                ],
+                "predicate": "Structure/Property/cause_effect"
+            },
+            {
+                "subject": "slipping",
+                "subj_char_span": [
+                    192,
+                    200
+                ],
+                "object": "dislocations on {111} planes",
+                "obj_char_span": [
+                    223,
+                    251
+                ],
+                "predicate": "Property/Structure/property_of"
+            },
+            {
+                "subject": "K-W locks",
+                "subj_char_span": [
+                    160,
+                    169
+                ],
+                "object": "cross-slipping",
+                "obj_char_span": [
+                    205,
+                    219
+                ],
+                "predicate": "Structure/Property/cause_effect"
+            },
+            {
+                "subject": "cross-slipping",
+                "subj_char_span": [
+                    205,
+                    219
+                ],
+                "object": "dislocations on {111} planes",
+                "obj_char_span": [
+                    223,
+                    251
+                ],
+                "predicate": "Property/Structure/property_of"
+            },
+            {
+                "subject": "anomalous yield strength",
+                "subj_char_span": [
+                    26,
+                    50
+                ],
+                "object": "alloys",
+                "obj_char_span": [
+                    54,
+                    60
+                ],
+                "predicate": "Property/Feature/property_of"
+            },
+            {
+                "subject": "super-dislocation",
+                "subj_char_span": [
+                    99,
+                    116
+                ],
+                "object": "{111}",
+                "obj_char_span": [
+                    122,
+                    127
+                ],
+                "predicate": "Structure/Structure/condition_on"
+            },
+            {
+                "subject": "crossslipping",
+                "subj_char_span": [
+                    82,
+                    95
+                ],
+                "object": "anomalous yield strength",
+                "obj_char_span": [
+                    26,
+                    50
+                ],
+                "predicate": "Property/Property/cause_effect"
+            },
+            {
+                "subject": "crossslipping",
+                "subj_char_span": [
+                    82,
+                    95
+                ],
+                "object": "super-dislocation",
+                "obj_char_span": [
+                    99,
+                    116
+                ],
+                "predicate": "Property/Structure/property_of"
+            },
+            {
+                "subject": "super-dislocation",
+                "subj_char_span": [
+                    99,
+                    116
+                ],
+                "object": "{100} planes",
+                "obj_char_span": [
+                    131,
+                    143
+                ],
+                "predicate": "Structure/Structure/condition_on"
+            }
+        ],
+        "id": "226"
+    },
+    {
+        "text": "In the present paper, a 4.5%Re / 3.0%Ru single crystal nickel-based superalloy has been prepared, combined with the creep properties measurement microstructure observation, the deformation and damage features of the alloy during creep at elevated temperature are investigated.",
+        "relation_list": [
+            {
+                "subject": "deformation",
+                "subj_char_span": [
+                    177,
+                    188
+                ],
+                "object": "alloy",
+                "obj_char_span": [
+                    216,
+                    221
+                ],
+                "predicate": "Property/Feature/property_of"
+            },
+            {
+                "subject": "deformation",
+                "subj_char_span": [
+                    177,
+                    188
+                ],
+                "object": "creep",
+                "obj_char_span": [
+                    229,
+                    234
+                ],
+                "predicate": "Property/Property/property_of"
+            },
+            {
+                "subject": "creep properties measurement microstructure observation",
+                "subj_char_span": [
+                    116,
+                    171
+                ],
+                "object": "damage features",
+                "obj_char_span": [
+                    193,
+                    208
+                ],
+                "predicate": "Characterization/Property/used_for"
+            },
+            {
+                "subject": "creep properties measurement microstructure observation",
+                "subj_char_span": [
+                    116,
+                    171
+                ],
+                "object": "deformation",
+                "obj_char_span": [
+                    177,
+                    188
+                ],
+                "predicate": "Characterization/Property/used_for"
+            },
+            {
+                "subject": "creep",
+                "subj_char_span": [
+                    229,
+                    234
+                ],
+                "object": "elevated temperature",
+                "obj_char_span": [
+                    238,
+                    258
+                ],
+                "predicate": "Property/Condition/condition_on"
+            }
+        ],
+        "id": "226"
+    }
+]

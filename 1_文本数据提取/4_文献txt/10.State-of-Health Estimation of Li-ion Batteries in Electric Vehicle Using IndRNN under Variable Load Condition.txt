@@ -1,0 +1,74 @@
+In electric vehicles (EVs), battery management systems (BMS) carry out various functions for eﬀective utilization of stored energy in lithium-ion batteries (LIBs). 
+Among numerous functions performed by the BMS, estimating the state of health (SOH) is an essential and challenging task to be accomplished at regular intervals. 
+However, such patterns and assumptions fail to reﬂect the real world operating condition of EV batteries, which is not appropriate for BMS of EVs. 
+In contrast, this research work proposes a unique SOH estimation approach, using an independently recurrent neural network (IndRNN) in a more realistic manner by adopting the dynamic load proﬁle condition of EVs. 
+The IndRNN is adapted due to its ability to capture complex non-linear characteristics of batteries by eliminating the gradient problem and allowing the neural network to learn long-term dependencies among the capacity degradations. 
+Experimental results indicate that the IndRNN based model is able to predict a battery's SOH accurately with root mean square error (RMSE) reduced to 1.33% and mean absolute error (MAE) reduced to 1.14%. 
+In addition, to demonstrate eﬀectiveness of the IndRNN attained results are compared with other well-known recurrent neural network (RNN) architectures such as long short-term memory (LSTM) and gated recurrent unit (GRU). 
+From the comparison of results, it is clearly evident that IndRNN outperformed other RNN architectures with the highest SOH accuracy rate.
+Presently, most EVs on the road use LIBs including GM Chevy-Volt, BMW Mini E, Tesla Model S, Renault Zoe, Nissan Leaf EV, Chrysler 200C EV and Mitsubishi iMi EV [4,5]. 
+In general, EVs employ a dedicated module called the battery management systems (BMS) to enable safe and eﬃcient operation of the battery. 
+Among various BMS operations, accurate estimation of battery's state-of-health (SOH) is a crucial operation. This ensures safe and reliable operation of LIBs by computing remaining lifetime and forecasting its failure condition. 
+This is due to exponential degradation of the battery capacity exhibited below 80% cut-oﬀ.
+The external factors are operating temperature, uncertain driving condition, overcharging/discharging, high charge/discharge rate and improper charge/discharge cycling [8,9]. 
+The calendar ageing accelerates ageing while in storage condition due to increase in internal resistance and self-discharge rate. 
+This type of ageing primarily based on external environmental factors including temperature under storage condition. 
+In contrast to calendar ageing, cycle ageing takes place during charging or discharging conditions. 
+Most of the existing approaches utilize a capacity fading and electrochemical (EC) model to measure SOH because as battery age capacity decreases, EC parameters are modiﬁed. 
+To eliminate such limitations, this research work proposes a data-driven technique to predict SOH based on vital data such as voltage (V), current (I) and temperature (T) collected from LIBs under variable load conditions. 
+An artiﬁcial neural network(ANN) framework is developed to establish the non-linear relationship among battery parameters (V, I, T) and SOH. 
+A data-driven based SOH estimation using an independently recurrent neural network (IndRNN) is developed with the help of vital battery parameters collected from LIBs;
+The eﬀectiveness of the proposed IndRNN based SOH estimation approach is veriﬁed by comparing it with similar RNN architectures, and the IndRNN resulted in having a much lower mean square error (RMSE) rate of 1.33%.
+Direct measurement is a well-known method to estimate the battery SOH by directly measuring its key attributes such as internal resistance, impedance, open-circuit voltage (OCV) and charge/discharge current. 
+This relationship is basis for many researchers [13–15] to recommend many SOH estimation methods based on the battery degradation process by measuring a battery’s internal resistance using Ohm’s law. 
+Electrochemical impedance spectroscopy [EIS] is another method to estimate SOH by measuring battery impedance, since battery impedance increases as battery ages. 
+Coulomb counting (CC) is another approach to estimate SOH by monitoring the amount of current charged/discharged into/from LIB (Ah counting). 
+Two most commonly employed battery models for SOH estimation are the electrochemical model (EChM) and equivalent circuit model (ECM). 
+Basic electrical elements such as resistor, capacitor and voltage source are used to construct the ECM model and many methods have been proposed [21–23] to determine model parameters such as V, I, T and impedance. 
+Although the ECM method can be implemented easily in BMS, it involves time-consuming experimental tests to generate diverse datasets. 
+The EChM model aimed to replicate the exact chemical behavior of a battery such as electrolyte concentration, corrosion, electrolyte volume, density and porosity of the active materials etc., for better accuracy [24]. 
+However, implementing this model in a real EV's BMS is doubtful due to its complexity and high computational cost.
+The Kalman ﬁlter, particle ﬁlter and least square are some of the commonly existing adaptive methods to estimate SOH.
+The Kalman ﬁlter approach is a two-stage process and uses a series of battery parameters measured over a time for accurate SOH estimation. 
+Particle ﬁlter uses Bayesian learning with important sampling to estimate SOH with acceptable computational load [28]. 
+This battery model uses a Monte Carlo sampling method to characterize any probability density function to estimate battery SOC. 
+In particular, fuzzy logic (FL), support vector machine (SVM), artiﬁcial neural network (ANN), and deep learning methods are some of few data-driven approaches accepted by researchers for battery SOH estimation.
+Based on the measured battery temperature and current, coefficients associated with SOH determined by fuzzy logic system. 
+A similar approach is followed to predict SOH using fuzzy logic with temperature, current, voltage and time as battery coefficients to determine battery internal resistance and its maximum capacity, which in turn is employed for SOH estimation [32].
+A large volume of data is collected from LIB under various battery ageing conditions and applied to the SVM algorithm to predict SOH at diﬀerent environmental and load conditions [33]. 
+The main limitation of the SVM model is a large amount of data is required for better accuracy and fine-tuning of the required battery parameters which is a time-consuming process.
+An artiﬁcial neural network (ANN) is a well-known approach to model a complex and non-linear system by processing a large amount of data. 
+ANN is an appropriate method to estimate battery SOH because it is not essential to understand electrochemical reactions occurring inside the battery. 
+A simple back propagation neural network model is developed to compute maximum available capacity to indicate battery SOH by employing a hybrid pulse power characterization (HPPC) test to extract battery parameters from the ﬁrst order ECM model [7]. 
+A probabilistic neural network (PNN) adopted to estimate SOH by performing constant current/voltage recharging and constant current discharging has been performed on 110 Li-Co batteries. 
+This method considers instantaneous voltage drop, current charging time, and open circuit voltage as the essential battery parameters to estimate SOH [35]. 
+A multi-layer perception-based neural network model was developed to estimate SOH of a battery by extracting their parameters using ECM. 
+Some of the deep learning approaches are, the convolutional neural network (CNN), deep neural network (DNN), recurrent neural network (RNN) and their variants long short-term memory network (LSTM) and gated recurrent unit (GRU). 
+The proposed method highlights its ability to capture a battery's non-linearity characteristics effectively by evaluating experimentally on two battery chemistries LiFePO4 and LTO under dynamic charge and discharge current proﬁle with different ambient temperature conditions. 
+Therefore, the main motive of this research work is to develop a robust SOH estimation battery model with high accuracy using an advanced deep learning neural network called an independently recurrent neural network (IndRNN) to capture the non-linear characteristics of Li-ion batteries.
+This dataset comprises of test results of battery ageing experiment conducted at room temperature condition on four commercially available LIBs identiﬁed as RW9, RW10, RW11 and RW12. 
+This RW proﬁle comprises of randomized sequence of current ranging between −4.5 A and 4.5 A. A randomly selected charging or discharging current from the set (−4.5 A, −3.75 A, −3 A, −2.25 A, −1.5 A, −0.75 A, 0.75 A, 1.5 A, 2.25 A, 3 A, 3.75 A, 4.5 A) is applied to a battery for every ﬁve-minute which is speciﬁed as a step in the dataset. 
+There are many factors that inﬂuence battery ageing, which includes load enforced, operating temperature, humidity and their electrochemical eﬀects. 
+Instead, this research work presents a SOH estimation method based on three battery parameters V, I and T acquired through BMS of EV in relation with battery capacity degradation. 
+Unlike a conventional neural network, RNN is a class of deep neural network, which has unique features referred to as internal cell state or memory to study input features and time dependencies from sequential input data to predict the future output. 
+RNN has been extensively useful in natural language processing, speech recognition and machine translation by providing words or characters as input parameters. 
+In addition, RNN can be more suitable for time-series forecasting applications like SOC and SOH estimation, which predict their present output based on a history of previous output and present input over a time. 
+But, RNN and its variants LSTM and GRU are easily prone to long-range dependency problem, which either vanishes or explode the gradient during backpropagation operation. 
+To overcome such issues a new RNN architecture known as IndRNN is proposed [43]. The proposed IndRNN is an enhanced version of simple RNN where neurons in the same layer are independent of each other and they are connected across layers. 
+This signiﬁes that each neuron in IndRNN deals with one type of spatial-temporal pattern independently whereas neurons in the simple RNN are connected over time by the recurrent weight connection. 
+Furthermore, IndRNN delivers its robustness by using a non-saturated activation function like rectiﬁed linear unit (ReLU). 
+The simulation result in [43] exhibits the ability of IndRNN under a long sequence of time steps, IndRNN provides better performance compared with LSTM.
+After conﬁguring the network with speciﬁed hyperparameters and loss function, the network is trained using Adam optimizer. 
+During the training process, Adam optimizer is capable of reducing the error rate variation between actual and predicted value for every iteration. 
+All 18 input features extracted from three battery sets are provided as an input to the IndRNN network to establish the relationship with battery capacity. 
+The main objective of this experiment is to apply and analyze the performance of the IndRNN network for SOH estimation under diﬀerent time-step sizes. 
+Figure 14 presents the results of the IndRNN network model for SOH estimation under each time step size along with true SOH value obtained from battery dataset. As discussed earlier, true SOH value is calculated using Equations (1) and (2). 
+The results from Figure 14 show that the IndRNN model make its best eﬀort to track and predict near true SOH values for all time step sizes. 
+As deﬁned by battery manufacturers, if any battery capacity drops below 80% (SOH) from its rated capacity then a battery reaches its end of life (EOL) and it is not useful for any applications.
+This research work proposed an IndRNN based SOH estimation model to estimate the SOH of LIBs used in EV applications. 
+To emulate the dynamic driving behavior of a real-world EVs with non-uniform variable load requirement, NASA’s randomized battery usage datasets were chosen. 
+From the RW cycle and reference discharge cycle, a set of 18 input features (including V, I and T) which aﬀects battery capacity are identiﬁed and extracted to develop the IndRNN model. 
+To verify the capability of the proposed IndRNN based SOH estimation approach, four diﬀerent experimental analyses were carried out.
+Results obtained from each test reveals IndRNN with a time-step size of 15 is optimal time step size for accurate SOH estimation with 80% of SOH is considered as end of battery life (EOL). 
+In addition, IndRNN outperforms other similar RNN models such as GRU and LSTM with much less RMSE and MAE error values of 1.33% and 1.14%, respectively. 
+Due to the lower error rate provided by this approach, this is more appropriate for BMS of EV applications. 

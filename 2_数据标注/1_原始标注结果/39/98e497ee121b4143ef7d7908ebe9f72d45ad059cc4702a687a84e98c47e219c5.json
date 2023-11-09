@@ -1,0 +1,1 @@
+{"content": "LASSO is based on the least-squares regression method, which is much less intensive in computation than the other machine learning methods used in this study [37]", "records": [{"span": "LASSO", "offset": [0, 4], "tag": "Characterization"}, {"span": "least-squares regression method", "offset": [22, 52], "tag": "Characterization"}]}

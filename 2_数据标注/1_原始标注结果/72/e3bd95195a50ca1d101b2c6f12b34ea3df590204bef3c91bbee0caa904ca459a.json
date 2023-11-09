@@ -1,0 +1,1 @@
+{"content": "From the RW cycle and reference discharge cycle, a set of 18 input features (including V, I and T) which aﬀects battery capacity are identiﬁed and extracted to develop the IndRNN model.", "records": [{"span": "battery capacity", "offset": [112, 127], "tag": "Property_Behavior"}, {"span": "IndRNN model", "offset": [172, 183], "tag": "Characterization"}]}

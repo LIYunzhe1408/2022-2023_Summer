@@ -1,0 +1,59 @@
+A novel method that can detect the Internal short circuit in real time based on an advanced machine leaning approach, is proposed. 
+Based on an equivalent electric circuit model,
+The training feature set is generated with and without an external short-circuit resistance across the battery terminals.
+To emulate a real user scenario, internal short is induced by mechanical abuse.
+A random forest classifier is trained with the training feature set.
+The fault detection accuracy for the testing dataset is found to be more than 97%. 
+Due to their high energy density, long cycle life and extended calendar life. Due to the wide spread applicability
+Mechanical abuse to the battery may lead to internal short circuit (ISC)
+Thermal runaway of the battery is a serious threat to user safety.
+The models have been developed by combining the mechanical, electrochemical, and thermal behaviour of the LiBs under various types of mechanical abuses. 
+Mechanical abuse tests studied by several researchers are indentation test, punch test, nail penetration test, 
+pinch-torsion test, compressive test, drop test or impact test, etc. 
+Fracturing of the separator due to the ground impact of an electric vehicle battery which leads to ISC formation has been modelled using global finite element. 
+The crush test has been performed on the whole battery pack of four cells and the short circuit current has been measured. 
+The short circuit resistance has been estimated from the measured current. 
+A mechanical model of cylindrical LiB has been developed for the vehicle crash simulation. 
+The stress-strain distribution under abusive conditions and the relationship with the ISC formation have been reported.
+Experiments have been performed using dummy pouch cells to determine the short circuit resistance value under different compressive loads.
+The effect of state of charge (SOC) levels on the consequence of the mechanical abuse has been researched using simulation and experimentation. 
+The researchers also suggested few thermal run away detection strategies based on force-displacement, voltage-temperature, stress-strain, SOC, over-discharge etc. 
+A quantitative definition of the state of safety (SOS) has been provided as the inverse of safety.
+Many effective methods have been reported in the literature for ISC detection using a range of statistical measures, estimation techniques, observer designs, etc.
+The correla-tions between the different voltage curves of various cells present in a battery pack have been used to detect the short circuits. 
+The external short circuit has been identified in using the Gaussian classifier on the features extracted by maximum likelihood estimator from the battery current and voltage data. 
+Different observers, such as extended Kalman filter (EKF), Luenberger observer, etc. have been employed to generate the residual sig-nal from the measured data for the ISC detection. 
+The researchers have estimated various informative parameters from the measured battery current, voltage, and temperature data and compared them with their normal values for the ISC detection in. 
+The methodologies reported in the patents check for the battery temperature level, voltage values at dif-ferent SOC levels, instantaneous change in battery voltage and current, battery resting voltage change over a long period of time, etc.
+This may be due to the non-uniform deformation of electrode layers of jelly rolled pouch cell. 
+Therefore, in this work we have developed a robust supervised learning method for robust classification of healthy and faulty batteries using random forest (RF) based classifier。
+Compared to other classifiers like Artificial Neural Networks (ANN), nearest neighbour, Support Vector Machine (SVM), RF is a linear classifier and showed better results in our analysis. 
+The computational complexity of RF is low compare to few other popular classifiers and it serves as a lightweight online algorithm that does not interfere with normal usage. 
+RF has been applied successfully to various classification problems such as sleep stages classifications from the electroencephalography (EEG) data, bearing faults identification from the vibration data, facial expression detection from video data, crops type classification from the hyper spectral images, lung vessel segmentation55 from computed tomography (CT) image, etc.The literature is rich with the methods of ISC detection in the LiBs. 
+Some of the reported methods are only applicable to the battery packs where multiple cells of similar speci-fication are present.
+In the smart phones, the battery temperature at the appropriate spot may not be available. In addi-tion, the temperature rise happens just before the thermal runaway, therefore early warning may not be possible.
+In case of the smart phones, the normal device operation cannot be hampered by any special charge-dis-charge profiles.
+The following equivalent circuit models (ECM) are used for healthy and faulty(ISC)LiBs.
+Vt and It are the terminal voltage and current respectively. 
+Vocv is the open circuit voltage (OCV) of the battery. 
+Ri is the internal resistance of the battery which is a function of SOC. 
+Rsc is the short circuit resistance and Isc is the leakage current or the short circuit current. 
+where Ts is the sampling time, and Cmax is the maximum capacity of the battery.
+In the case of ISC, SOC at the end of charging will be more than the normal case because of the leakage current (Isc).
+In the case of ISC fault, the actual SOC will be lower than the estimated user SOC from the terminal current because of the presence of the leakage current Isc. 
+Typically, battery charging is performed using the protocol of constant current (CC) or constant power (CP) charging followed by constant voltage (CV) charging61,62. 
+The time taken to complete the constant voltage (CV) phase (Tcv) of charging is also a useful feature for ISC detection. 
+the faulty battery takes more time to complete the CV phase.
+The CC or CP charging time also increases under ISC fault. 
+However, the percentage of charging cur-rent flowing is much smaller compared to the CV phase. 
+The difference between the charging time for the healthy and faulty cases is more in the CV phase then in the CC phase. 
+energy loss (EL). 
+Battery internal resistance (Ri) is an important parameter to detect ISC. 
+Instead the estimation of Ri was done using a Kalman Filter and did not require the estimation of Rsc.
+A novel methodology with high accuracy is proposed for online detection of mechanical abused induced ISCs in the smart phone batteries.
+Advanced super-vised machine learning is applied to learn about the healthy and faulty feature spaces from the healthy and pure short data.  
+Then the trained model will be transferred to the smart phones in the form of APK or as embedded code for the power management integrated circuit (PMIC) for online detection of ISC. 
+The proposed methodology can also be applied after certain modifications to detect ISCs in the Li-ion batteries used in the various systems such as EVs, aircrafts, etc. induced by mechanical abuses or other factors. 
+Random forest classifier. 
+
+

@@ -1,0 +1,1 @@
+{"content": "Voltage, current, and temperature data are saved for 100 ms to detect transient phenomena.", "records": [{"span": "Voltage", "offset": [0, 6], "tag": "Condition"}, {"span": "current", "offset": [9, 15], "tag": "Condition"}, {"span": "temperature", "offset": [22, 32], "tag": "Condition"}]}

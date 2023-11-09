@@ -1,0 +1,1 @@
+{"content": "Increasing temperature causes faster electrochemical reactions and smaller internal resistances.", "records": [{"span": "temperature", "offset": [11, 21], "tag": "Condition"}, {"span": "electrochemical reaction", "offset": [37, 60], "tag": "Property_Behavior"}, {"span": "internal resistance", "offset": [75, 93], "tag": "Property_Behavior"}]}

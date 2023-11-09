@@ -1,0 +1,1 @@
+{"content": "The data are comprised of variables such as distance, speed, temperature, charging power, and more.", "records": [{"span": "distance", "offset": [44, 51], "tag": "Condition"}, {"span": "speed", "offset": [54, 58], "tag": "Condition"}, {"span": "temperature", "offset": [61, 71], "tag": "Condition"}, {"span": "charging power", "offset": [74, 87], "tag": "Condition"}]}

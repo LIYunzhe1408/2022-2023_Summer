@@ -1,0 +1,1 @@
+{"content": "A large volume of test data is needed to cover all the possible variables such as SOC, temperature, ageing, current demand, and so on.", "records": [{"span": "SOC", "offset": [82, 84], "tag": "Condition"}, {"span": "temperature", "offset": [87, 97], "tag": "Condition"}, {"span": "current", "offset": [108, 114], "tag": "Condition"}]}

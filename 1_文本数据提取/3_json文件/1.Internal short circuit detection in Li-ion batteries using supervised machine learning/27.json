@@ -1,0 +1,1 @@
+{"content": "where Ts is the sampling time, and Cmax is the maximum capacity of the battery.", "records": [{"span": "sampling time", "offset": [16, 28], "tag": "Condition"}, {"span": "capacity", "offset": [55, 62], "tag": "Property_Behavior"}]}

@@ -1,0 +1,1 @@
+{"content": "Measurements. The battery used in the experiment is a LiNiMnCoO2 cell with 3.7V and 2600mAh capacity (Samsung ICR18650 26F).", "records": [{"span": "LiNiMnCoO2", "offset": [54, 63], "tag": "Composition"}, {"span": "3.7V", "offset": [75, 78], "tag": "Condition"}, {"span": "2600mAh", "offset": [84, 90], "tag": "Condition"}]}

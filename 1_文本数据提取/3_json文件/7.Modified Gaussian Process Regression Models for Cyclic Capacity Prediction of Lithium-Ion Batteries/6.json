@@ -1,0 +1,1 @@
+{"content": "To achieve this, a model structure is first proposed with the considerations of battery ageing tendency and the corresponding operational temperature and depth-of-discharge.", "records": [{"span": "temperature", "offset": [138, 148], "tag": "Condition"}, {"span": "depth-of-discharge", "offset": [154, 171], "tag": "Condition"}]}

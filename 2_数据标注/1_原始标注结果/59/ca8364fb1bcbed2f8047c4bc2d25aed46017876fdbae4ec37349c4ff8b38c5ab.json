@@ -1,0 +1,1 @@
+{"content": "The SoC and temperature are taken into account via a ”driving matrix” and a ”driving matrix”.", "records": [{"span": "SoC", "offset": [4, 6], "tag": "Property_Behavior"}, {"span": "temperature", "offset": [12, 22], "tag": "Condition"}]}

@@ -1,0 +1,1 @@
+{"content": "Figure 4 is equivalent to Figure 3 but uses the observed cycle life instead of the lg-transformed cycle life as the prediction objective.", "records": [{"span": "observed cycle life", "offset": [48, 66], "tag": "Property_Behavior"}, {"span": "lg-transformed cycle life", "offset": [83, 107], "tag": "Property_Behavior"}]}

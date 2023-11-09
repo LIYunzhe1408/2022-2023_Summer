@@ -1,0 +1,1 @@
+{"content": "He conﬁrmed that huge SoC variations and high currents increase SEI growth. Prada used this approach in [19] on an LFP type of LIB to identify a capacity loss law.", "records": [{"span": "SoC", "offset": [22, 24], "tag": "Property_Behavior"}, {"span": "SEI", "offset": [64, 66], "tag": "Feature"}, {"span": "LFP", "offset": [115, 117], "tag": "Composition"}]}
